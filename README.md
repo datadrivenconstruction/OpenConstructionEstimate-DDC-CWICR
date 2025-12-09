@@ -36,9 +36,9 @@
 
 ## About
 
-**DDC CWICR** (Construction Work Items, Components & Resources) is an open database for construction cost estimation, covering the full spectrum of construction work — from earthworks and concrete to specialized MEP operations.
+**DDC CWICR** (Construction Work Items, Components & Resources) is an open database for construction cost estimation, covering the full spectrum of construction work — from earthworks and concrete to specialized MEP operations. The modern construction industry in Eurasia and the Asia-Pacific region relies on a unified ecosystem of technical standardization that serves as a common engineering language for more than 10 dynamically developing economies.
 
-The database harmonizes construction standards across multiple regions, creating a unified regulatory framework for capital project management. Built on official cost estimation standards from Eurasian countries, it has been systematized into a unified structure and presented in **9 language versions** with regional pricing variants.
+The DDC CWICR database (Construction Work Items, Components & Resources) is an attempt to harmonize standards, creating a seamless regulatory space for capital project management across multiple languages. The database covers the full spectrum of construction work: from earthworks and concrete to specialized installation operations.
 
 ```mermaid
 flowchart TB
@@ -81,11 +81,10 @@ flowchart TB
 
 ### Historical Context
 
-The methodology of resource-based standardization of construction work has been continuously developing and improving since the 1920s — from the first production norms to modern digital reference books.
-
-Over a century, the system has evolved from manual calculations to machine-readable databases while preserving the fundamental principle: accurate recording of physical resources per unit of construction output.
+The methodology of resource-based standardization of construction work has been continuously developing and improving since the 1920s — from the first production norms to modern digital reference books. Over a century, the system has evolved from manual calculations to machine-readable databases while preserving the fundamental principle: accurate recording of physical resources per unit of construction output.
 
 The modern version integrates historical data with current market prices. In local markets, similar systems are adapted and known under national codes: ENIR, GESN, FER, NRR, ESN, AzDTN, ShNQK, MKS ChT, SNT, BNbD, Dinh Muc, Ding'e.
+
 ## Data Schema
 
 The database contains **85 fields** organized into logical groups. Each record represents either a work item (rate) or a resource with full cost breakdown.
@@ -400,7 +399,9 @@ Automate construction data processing with ready-made n8n workflows:
 
 ### Consulting & Training
 
-We work with construction, engineering, and technology firms to implement open data principles — workshops, strategic consulting, prototype development, and ETL pipeline integration.
+We work with leading construction, engineering, consulting agencies, and technology firms around the world to help them implement open data principles, automate CAD/BIM processing, and build robust ETL pipelines. We actively support organizations seeking practical solutions for digital transformation and interoperability, focusing on data quality and classification challenges while driving the adoption of open and automated workflows.
+
+If you would like to test this solution with your own data or are interested in adapting the workflow to real project tasks, feel free to contact us. Our team delivers hands-on workshops, provides strategic consulting, and develops prototypes tailored to real project processes.
 
 <a href="mailto:info@datadrivenconstruction.io">
   <img src="https://img.shields.io/badge/📧_Contact_Us-info@datadrivenconstruction.io-2563eb?style=for-the-badge" alt="Contact">
@@ -408,11 +409,12 @@ We work with construction, engineering, and technology firms to implement open d
 
 ### Contributing
 
-We're looking for enthusiasts who share our mission to make construction more efficient and transparent. Submit workflows, report issues, suggest improvements, help with translations, or star the repository.
+DDC CWICR is a free and open project dedicated to making the construction industry more efficient, transparent, and technologically advanced. We are actively looking for like-minded enthusiasts who share this mission. If you create useful solutions and are ready to share them with the community, we are here to help you be heard.
 
-<a href="https://github.com/datadrivenconstruction/OpenConstructionEstimate-DDC-CWICR">
-  <img src="https://img.shields.io/badge/⭐_Star_on_GitHub-datadrivenconstruction-181717?style=for-the-badge&logo=github" alt="GitHub">
-</a>
+We invite you to submit your open source workflows, pipelines, and integrations based on DDC CWICR—tools that anyone can freely use in their work. The top solutions will be published with full author attribution on GitHub and announced through our newsletter and social media channels, reaching tens of thousands of professional subscribers. This places your name directly in front of an international community of estimators, BIM specialists, and project managers.
+
+Together we are changing the industry. You can send your solution to info@datadrivenconstruction.io with the subject "DDC Open Workflow" or submit a Pull Request directly to our GitHub repositories.
+
 
 ## License
 
