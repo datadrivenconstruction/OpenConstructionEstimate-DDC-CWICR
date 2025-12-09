@@ -81,10 +81,11 @@ flowchart TB
 
 ### Historical Context
 
-The resource-based methodology for construction work standardization has been continuously evolving since the **1920s** — from early production norms to modern digital reference books. Over a century, the system has progressed from manual calculations to machine-readable databases while preserving its fundamental principle: precise recording of physical resources per unit of construction output.
+The methodology of resource-based standardization of construction work has been continuously developing and improving since the 1920s — from the first production norms to modern digital reference books.
 
-Regional standard codes include: **ENIR, GESN, FER** (Russia & CIS), **AzDTN** (Azerbaijan), **ShNQK** (Uzbekistan), **MKS ChT** (Tajikistan), **SNT** (Turkmenistan), **BNbD** (Mongolia), **Định Mức** (Vietnam), **定额** (China).
+Over a century, the system has evolved from manual calculations to machine-readable databases while preserving the fundamental principle: accurate recording of physical resources per unit of construction output.
 
+The modern version integrates historical data with current market prices. In local markets, similar systems are adapted and known under national codes: ENIR, GESN, FER, NRR, ESN, AzDTN, ShNQK, MKS ChT, SNT, BNbD, Dinh Muc, Ding'e.
 ## Data Schema
 
 The database contains **85 fields** organized into logical groups. Each record represents either a work item (rate) or a resource with full cost breakdown.
