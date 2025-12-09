@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://openconstructionestimate.com/assets/logo_app_expert_1763236513795-B8WsUpWq.png" alt="OpenConstructionEstimate" width="600">
+  <img src="https://github.com/datadrivenconstruction/cad2data-Revit-IFC-DWG-DGN-pipeline-with-conversion-validation-qto/blob/main/DDC_in_additon/DDC_readme_content/OpenConstructionEstimate.jpg" alt="OpenConstructionEstimate" width="600">
 </p>
 
 <h1 align="center">OpenConstructionEstimate</h1>
@@ -9,6 +9,7 @@
   <a href="#about">About</a> •
   <a href="#data-schema">Schema</a> •
   <a href="#methodology">Methodology</a> •
+  <a href="#releases">Releases</a> •
   <a href="#vector-database">Qdrant</a> •
   <a href="#quick-start">Quick Start</a> •
   <a href="#integration">Integration</a>
@@ -23,7 +24,7 @@
 
 <p align="center">
   <img src="https://img.shields.io/badge/License-CC_BY_4.0-green?style=flat-square" alt="License">
-  <img src="https://img.shields.io/badge/Version-2025.1-blue?style=flat-square" alt="Version">
+  <img src="https://img.shields.io/badge/Version-v0.1.0-blue?style=flat-square" alt="Version">
   <img src="https://img.shields.io/badge/Embeddings-OpenAI_3072d-412991?style=flat-square" alt="Embeddings">
   <img src="https://img.shields.io/badge/Vector_DB-Qdrant-dc382d?style=flat-square" alt="Qdrant">
   <img src="https://img.shields.io/badge/Automation-n8n-ea4b71?style=flat-square" alt="n8n">
@@ -208,6 +209,32 @@ flowchart LR
 | **CSV** | `.csv` | ~1.3 GB | Database import, legacy systems | Universal compatibility |
 | **Qdrant** | `.snapshot` | ~1 GB | Semantic search, RAG, AI assistants | Pre-computed OpenAI embeddings (3072d) |
 
+## Releases
+
+Download datasets from [GitHub Releases](https://github.com/datadrivenconstruction/OpenConstructionEstimate-DDC-CWICR/releases).
+
+### v0.1.0 — First Public Release
+
+| Language | Region | CSV Files | Qdrant Snapshot |
+|----------|--------|-----------|-----------------|
+| 🇸🇦 Arabic | Dubai | `AR_DUBAI_*.csv` | `AR_DUBAI_*_EMBEDDINGS_3072_DDC.snapshot` |
+| 🇨🇳 Chinese | Shanghai | `ZH_SHANGHAI_*.csv` | `ZH_SHANGHAI_*_EMBEDDINGS_3072_DDC.snapshot` |
+| 🇩🇪 German | Berlin | `DE_BERLIN_*.csv` | `DE_BERLIN_*_EMBEDDINGS_3072_DDC.snapshot` |
+| 🇬🇧 English | Toronto | `EN_TORONTO_*.csv` | `EN_TORONTO_*_EMBEDDINGS_3072_DDC.snapshot` |
+| 🇪🇸 Spanish | Barcelona | `ES_BARCELONA_*.csv` | `ES_BARCELONA_*_EMBEDDINGS_3072_DDC.snapshot` |
+| 🇫🇷 French | Paris | `FR_PARIS_*.csv` | `FR_PARIS_*_EMBEDDINGS_3072_DDC.snapshot` |
+| 🇮🇳 Hindi | Mumbai | `HI_MUMBAI_*.csv` | `HI_MUMBAI_*_EMBEDDINGS_3072_DDC.snapshot` |
+| 🇧🇷 Portuguese | São Paulo | `PT_SAOPAULO_*.csv` | `PT_SAOPAULO_*_EMBEDDINGS_3072_DDC.snapshot` |
+| 🇷🇺 Russian | St. Petersburg | `RU_SPB_*.csv` | `RU_SPB_*_EMBEDDINGS_3072_DDC.snapshot` |
+
+**File naming convention:**
+- CSV: `{LANG}_{CITY}_DDC_CWICR_WORK_ITEMS.csv`, `{LANG}_{CITY}_DDC_CWICR_RESOURCES.csv`
+- Qdrant: `{LANG}_{CITY}_DDC_CWICR_EMBEDDINGS_3072_DDC.snapshot`
+
+<a href="https://github.com/datadrivenconstruction/OpenConstructionEstimate-DDC-CWICR/releases/tag/v0.1.0">
+  <img src="https://img.shields.io/badge/📥_Download_v0.1.0-GitHub_Releases-181717?style=for-the-badge&logo=github" alt="Download v0.1.0">
+</a>
+
 ## Vector Database
 
 Ready-to-use Qdrant collections with OpenAI `text-embedding-3-large` embeddings for semantic search across construction work items.
@@ -362,13 +389,13 @@ Automate construction data processing with ready-made n8n workflows:
 
 ## Resources & Community
 
-[![Website](https://img.shields.io/badge/🌐_Website-datadrivenconstruction.io-2563eb?style=flat-square)](https://datadrivenconstruction.io)
-[![Demo](https://img.shields.io/badge/🎯_Demo-openconstructionestimate.com-059669?style=flat-square)](https://openconstructionestimate.com)
-[![GitHub](https://img.shields.io/badge/💻_GitHub-datadrivenconstruction-181717?style=flat-square)](https://github.com/datadrivenconstruction)
+[![Website](https://img.shields.io/badge/🌐_Website-datadrivenconstruction.io-2563eb?style=for-the-badge)](https://datadrivenconstruction.io)
+[![Demo](https://img.shields.io/badge/🎯_Demo-openconstructionestimate.com-059669?style=for-the-badge)](https://openconstructionestimate.com)
+[![GitHub](https://img.shields.io/badge/💻_GitHub-datadrivenconstruction-181717?style=for-the-badge&logo=github)](https://github.com/datadrivenconstruction)
 
-[![YouTube](https://img.shields.io/badge/📺_YouTube-@datadrivenconstruction-FF0000?style=flat-square)](https://youtube.com/@datadrivenconstruction)
-[![LinkedIn](https://img.shields.io/badge/💼_LinkedIn-datadrivenconstruction-0A66C2?style=flat-square)](https://linkedin.com/company/datadrivenconstruction)
-[![Telegram](https://img.shields.io/badge/💬_Telegram-datadrivenconstruction-26A5E4?style=flat-square)](https://t.me/datadrivenconstruction)
+[![YouTube](https://img.shields.io/badge/📺_YouTube-@datadrivenconstruction-FF0000?style=for-the-badge&logo=youtube)](https://youtube.com/@datadrivenconstruction)
+[![LinkedIn](https://img.shields.io/badge/💼_LinkedIn-datadrivenconstruction-0A66C2?style=for-the-badge&logo=linkedin)](https://linkedin.com/company/datadrivenconstruction)
+[![Telegram](https://img.shields.io/badge/💬_Telegram-datadrivenconstruction-26A5E4?style=for-the-badge&logo=telegram)](https://t.me/datadrivenconstruction)
 
 ### Consulting & Training
 
