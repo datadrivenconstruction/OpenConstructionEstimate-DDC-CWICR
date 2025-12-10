@@ -37,9 +37,12 @@
 ## About
 
 **DDC CWICR** (Construction Work Items, Components & Resources) is an open database for construction cost estimation, covering the full spectrum of construction activities—from earthworks and concrete placement to specialized installation work.
+
 The database draws on sources describing modern construction practices across Eurasia and the Asia-Pacific region, where a unified technical standardization ecosystem serves as a common engineering language for more than ten dynamically developing economies. DDC CWICR represents an effort to harmonize open standards by establishing a single regulatory framework for capital project management in multiple languages.
+
 The structured data can be accessed through tabular formats (XLSX, CSV, Parquet) or queried conversationally via LLM, enabling specialists to integrate construction work descriptions into automated pipelines and workflows using plain language or concise queries.
-A live demo is available at openconstructionestimate.com, where you can explore the data and see the vector database in action for semantic search.
+
+A live demo is available at [openconstructionestimate.com](https://openconstructionestimate.com/), where you can explore the data in tabular form and see the vector database in action for semantic search.Retry
 
 <p align="center">
   <img src="https://github.com/datadrivenconstruction/cad2data-Revit-IFC-DWG-DGN-pipeline-with-conversion-validation-qto/blob/main/DDC_in_additon/DDC_readme_content/DDC%20CWICR%20Resource-based%20Work%20Cost%20Norms.jpg" alt="OpenConstructionEstimate" width="1000">
