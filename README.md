@@ -283,6 +283,7 @@ flowchart LR
 
 CAD-BIM-to-Cost Estimation Pipeline
 Automated cost estimation from Revit/BIM models using AI-driven work decomposition and vector search against DDC CWICR pricing database.
+
 ## Pipeline Flow
 
 ```mermaid
