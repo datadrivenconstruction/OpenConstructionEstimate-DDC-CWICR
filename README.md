@@ -247,9 +247,152 @@ Download QDRANT and CSV datasets (files larger than 1 gigabyte) from [GitHub Rel
   <img src="https://img.shields.io/badge/📥_Download_v0.1.0-GitHub_Releases-181717?style=for-the-badge&logo=github" alt="Download v0.1.0">
 </a>
 
+
+## Integration
+
+```mermaid
+flowchart LR
+    subgraph BIM["🏗️ BIM/CAD"]
+        REVIT[Revit] & IFC[IFC] & DWG[DWG]
+    end
+
+    subgraph Pipeline["📊 cad2data"]
+        QTO[Quantity Takeoff] --> MATCH[DDC CWICR Match]
+    end
+
+    subgraph Output["📋 Results"]
+        EST[Cost Estimate] & CO2[CO₂] & REPORT[Reports]
+    end
+
+    BIM --> Pipeline --> Output
+
+    style BIM fill:#e0e7ff,stroke:#4f46e5
+    style Pipeline fill:#fef3c7,stroke:#d97706
+    style Output fill:#d1fae5,stroke:#059669
+```
+
+### Use Cases
+
+**Entry Level** - Cost Benchmarking, Price Indexation, Tender Estimation
+
+**Intermediate** - Localization, ETL/BI Pipelines, CO₂ Calculation
+
+**Advanced** - AI/ML Training, CAD (BIM) 5D, Deep-Dive Investment Audit
+
+### n8n Workflows
+
+CAD-BIM-to-Cost Estimation Pipeline
+Automated cost estimation from Revit/BIM models using AI-driven work decomposition and vector search against DDC CWICR pricing database.
+## Pipeline Flow
+
+```mermaid
+flowchart TB
+    subgraph INPUT["📁 INPUT"]
+        RVT["🏠 .RVT File<br/>(Revit Model)"]
+    end
+
+    subgraph EXTRACT["⚙️ EXTRACTION"]
+        CONV["RvtExporter.exe"]
+        XLSX["📊 .XLSX<br/>(Raw Elements)"]
+    end
+
+    subgraph PREP["🔧 DATA PREPARATION"]
+        AI_HDR["🤖 AI: Analyze Headers<br/><i>sum/first/mean rules</i>"]
+        GROUP["Group by Type Name"]
+        AI_CAT["🤖 AI: Classify Categories<br/><i>building vs annotation</i>"]
+    end
+
+    subgraph STAGE1["🏗️ STAGE 1: Project Detection"]
+        S1["🤖 Detect Project Type<br/><i>new/renovation/demolition</i><br/><i>small/medium/large</i>"]
+    end
+
+    subgraph STAGE2["📋 STAGE 2: Phase Planning"]
+        S2["🤖 Generate Construction Phases<br/><i>PREP→FOUND→FRAME→WALLS→MEP→FINISH</i>"]
+    end
+
+    subgraph STAGE3["🔗 STAGE 3: Assignment"]
+        S3["🤖 Assign Types to Phases<br/><i>element → phase mapping</i>"]
+    end
+
+    subgraph STAGE4["🔨 STAGE 4: Decomposition"]
+        LOOP1[["🔄 Loop: Each Type"]]
+        S4["🤖 Decompose Type to Works<br/><i>'Brick Wall 240mm' →</i><br/><i>1. Masonry work</i><br/><i>2. Mortar preparation</i><br/><i>3. Wall plastering</i>"]
+    end
+
+    subgraph STAGE5["💰 STAGE 5: Pricing"]
+        LOOP2[["🔄 Loop: Each Work"]]
+        S51["🔢 OpenAI Embeddings<br/><i>text-embedding-3-large</i><br/><i>3072 dimensions</i>"]
+        QDRANT[("🔍 Qdrant Vector DB<br/><b>DDC CWICR</b><br/><i>9 languages</i>")]
+        S52["📊 Parse Results<br/><i>rate_code, unit_cost</i><br/><i>resources, labor_hours</i>"]
+    end
+
+    subgraph STAGE75["✅ STAGE 7.5: Validation"]
+        S75["🤖 CTO Review<br/><i>completeness check</i><br/><i>duplications</i><br/><i>missing works</i>"]
+    end
+
+    subgraph OUTPUT["📤 OUTPUT"]
+        HTML["📄 HTML Report"]
+        XLS["📊 XLS Report"]
+    end
+
+    RVT --> CONV --> XLSX
+    XLSX --> AI_HDR --> GROUP --> AI_CAT
+    AI_CAT --> S1 --> S2 --> S3
+    S3 --> LOOP1 --> S4
+    S4 --> LOOP2 --> S51 --> QDRANT --> S52
+    S52 --> S75
+    S75 --> HTML & XLS
+
+    style INPUT fill:#e1f5fe
+    style EXTRACT fill:#fff3e0
+    style PREP fill:#f3e5f5
+    style STAGE1 fill:#e8f5e9
+    style STAGE2 fill:#e8f5e9
+    style STAGE3 fill:#e8f5e9
+    style STAGE4 fill:#fff8e1
+    style STAGE5 fill:#fce4ec
+    style STAGE75 fill:#e0f2f1
+    style OUTPUT fill:#e8eaf6
+```
+
+    
+<p align="left">
+  <a href="https://datadrivenconstruction.io">
+    <img src="https://github.com/datadrivenconstruction/cad2data-Revit-IFC-DWG-DGN-pipeline-with-conversion-validation-qto/blob/main/DDC_in_additon/DDC_readme_content/n8n%20Estimates%20workflow.jpg" alt="DataDrivenConstruction">
+  </a>
+</p>
+
+We are gradually expanding a library of ready-to-use n8n workflows for automated construction cost estimation:
+
+1. **Phase 1 – Image-based cost calculation**  
+   Upload drawings, details or site photos, and the workflow will automatically extract structured data and match it with work items and resources from the DDC database.
+
+2. **Phase 2 – Text-to-estimate (project description → cost breakdown)**  
+   Provide a short natural-language description of the project, and the workflow will generate a structured cost estimate with work items, quantities and resource groups.
+
+3. **Phase 3 – Anything related to data-driven construction workflows**  
+   From file conversion and validation to syncing estimates with other systems, notifications, dashboards and custom integrations – any repetitive task in your cost and project data pipeline can become an n8n workflow.
+
+If you want to see more workflows, follow our official channels, star this repository, and feel free to share your ideas or your own n8n solutions with the community.
+
+
+Automate construction data processing with ready-made CAD-BIM n8n workflows:
+
+<a href="https://github.com/datadrivenconstruction/cad2data-Revit-IFC-DWG-DGN-pipeline-with-conversion-validation-qto">
+  <img src="https://img.shields.io/badge/cad2data_Pipeline-GitHub-181717?style=for-the-badge&logo=github" alt="cad2data Pipeline">
+</a>
+
+
 ## Vector Database
 
 Ready-to-use Qdrant collections with OpenAI `text-embedding-3-large` embeddings for semantic search across construction work items.
+
+Vector databases allow you to “talk” to your data in natural language – using simple sentences or short phrases instead of code or complex filters. This dramatically speeds up finding the right work item or cost line, even in very large datasets.
+
+These Qdrant collections can be connected to application via modern automation and integration workflows (for example, low-code/no-code Workflow and Pipeline tools). You can build assistants that search, filter and explain construction work items, or integrate semantic search directly into your existing estimation and project-control tools.
+
+If you would like to learn more about vector databases, their practical use in construction, and how to build Workflows and Pipelines on top of them, please star this repository and subscribe to our updates.
+
 
 ### Collections
 
@@ -360,237 +503,8 @@ results = client.search(
 )
 ```
 
-## Integration
-
-```mermaid
-flowchart LR
-    subgraph BIM["🏗️ BIM/CAD"]
-        REVIT[Revit] & IFC[IFC] & DWG[DWG]
-    end
-
-    subgraph Pipeline["📊 cad2data"]
-        QTO[Quantity Takeoff] --> MATCH[DDC CWICR Match]
-    end
-
-    subgraph Output["📋 Results"]
-        EST[Cost Estimate] & CO2[CO₂] & REPORT[Reports]
-    end
-
-    BIM --> Pipeline --> Output
-
-    style BIM fill:#e0e7ff,stroke:#4f46e5
-    style Pipeline fill:#fef3c7,stroke:#d97706
-    style Output fill:#d1fae5,stroke:#059669
-```
-
-### Use Cases
-
-**Entry Level** - Cost Benchmarking, Price Indexation, Tender Estimation
-
-**Intermediate** - Localization, ETL/BI Pipelines, CO₂ Calculation
-
-**Advanced** - AI/ML Training, CAD (BIM) 5D, Deep-Dive Investment Audit
-
-### n8n Workflows
-
-CAD-BIM-to-Cost Estimation Pipeline
-Automated cost estimation from Revit/BIM models using AI-driven work decomposition and vector search against DDC CWICR pricing database.
-## Pipeline Flow
-
-```mermaid
-flowchart TB
-    subgraph INPUT["📥 INPUT"]
-        RVT[".RVT File"]
-    end
-
-    subgraph CONVERT["⚙️ CONVERSION"]
-        CONV["RvtExporter.exe"]
-        XLSX[".XLSX Elements"]
-    end
-
-    subgraph PREP["🔧 PHASE 1: DATA PREPARATION"]
-        HEADERS["Extract Headers"]
-        AI_HEADERS["🤖 AI: Analyze Headers"]
-        GROUP["Group by Type Name"]
-        AI_CLASSIFY["🤖 AI: Classify Categories"]
-        FILTER["Filter Building Elements"]
-    end
-
-    subgraph ANALYSIS["🏗️ PHASE 2: PROJECT ANALYSIS"]
-        STAGE1["🤖 STAGE 1<br/>Detect Project Type"]
-        STAGE2["🤖 STAGE 2<br/>Generate Construction Phases"]
-        STAGE3["🤖 STAGE 3<br/>Assign Types to Phases"]
-    end
-
-    subgraph DECOMP["🔨 PHASE 3: WORK DECOMPOSITION"]
-        LOOP1["Loop: Each Type"]
-        STAGE4["🤖 STAGE 4<br/>Decompose Type to Works"]
-    end
-
-    subgraph PRICING["💰 PHASE 4: PRICING"]
-        LOOP2["Loop: Each Work Item"]
-        STAGE51["STAGE 5.1<br/>OpenAI Embeddings"]
-        QDRANT["🔍 Qdrant Vector Search<br/>DDC CWICR Database"]
-        STAGE52["STAGE 5.2<br/>Parse Results & Costs"]
-    end
-
-    subgraph VALIDATE["✅ PHASE 5: VALIDATION"]
-        STAGE75["🤖 STAGE 7.5<br/>Validate Type Works"]
-    end
-
-    subgraph OUTPUT["📤 OUTPUT"]
-        HTML["HTML Report"]
-        XLS["XLS Report"]
-    end
-
-    RVT --> CONV --> XLSX
-    XLSX --> HEADERS --> AI_HEADERS --> GROUP
-    GROUP --> AI_CLASSIFY --> FILTER
-    FILTER --> STAGE1 --> STAGE2 --> STAGE3
-    STAGE3 --> LOOP1 --> STAGE4
-    STAGE4 --> LOOP2 --> STAGE51 --> QDRANT --> STAGE52
-    STAGE52 --> STAGE75
-    STAGE75 --> HTML
-    STAGE75 --> XLS
-```
-
----
-
-## AI Nodes Relationship
-
-```mermaid
-erDiagram
-    BIM_ELEMENT ||--o{ WORK_ITEM : "decomposed into"
-    WORK_ITEM ||--o| RATE_INFO : "matched to"
-    RATE_INFO ||--o{ RESOURCE : "contains"
-    
-    PROJECT ||--o{ PHASE : "has"
-    PHASE ||--o{ BIM_ELEMENT : "contains"
-    
-    BIM_ELEMENT {
-        string type_name
-        string category
-        float volume
-        float area
-        int element_count
-    }
-    
-    WORK_ITEM {
-        string work_id
-        string work_name
-        string search_query
-        string expected_unit
-        int work_sequence
-    }
-    
-    RATE_INFO {
-        string rate_code
-        string rate_name
-        string rate_unit
-        float total_cost_position
-        float worker_labor_hours
-    }
-    
-    RESOURCE {
-        string resource_code
-        string resource_name
-        float quantity
-        string unit
-        float cost
-        string category
-    }
-    
-    PROJECT {
-        string project_type
-        string project_scale
-    }
-    
-    PHASE {
-        int phase_id
-        string phase_code
-        string phase_name
-        int sequence_order
-    }
-```
-
----
-
-## AI Processing Stages
-
-```mermaid
-flowchart LR
-    subgraph STAGE1["STAGE 1"]
-        S1_IN["Grouped Elements"]
-        S1_AI["🤖 Detect Project Type"]
-        S1_OUT["project_type<br/>project_scale"]
-        S1_IN --> S1_AI --> S1_OUT
-    end
-    
-    subgraph STAGE2["STAGE 2"]
-        S2_IN["Project Type"]
-        S2_AI["🤖 Generate Phases"]
-        S2_OUT["construction_phases[]"]
-        S2_IN --> S2_AI --> S2_OUT
-    end
-    
-    subgraph STAGE3["STAGE 3"]
-        S3_IN["Phases + Types"]
-        S3_AI["🤖 Assign to Phases"]
-        S3_OUT["types_with_phases[]"]
-        S3_IN --> S3_AI --> S3_OUT
-    end
-    
-    subgraph STAGE4["STAGE 4"]
-        S4_IN["Single Type"]
-        S4_AI["🤖 Decompose to Works"]
-        S4_OUT["work_items[]"]
-        S4_IN --> S4_AI --> S4_OUT
-    end
-    
-    subgraph STAGE5["STAGE 5"]
-        S5_IN["Work search_query"]
-        S5_EMB["OpenAI Embeddings"]
-        S5_VEC["Qdrant Search"]
-        S5_OUT["rateInfo + resources"]
-        S5_IN --> S5_EMB --> S5_VEC --> S5_OUT
-    end
-    
-    subgraph STAGE75["STAGE 7.5"]
-        S75_IN["All Works"]
-        S75_AI["🤖 CTO Validation"]
-        S75_OUT["Validated Estimate"]
-        S75_IN --> S75_AI --> S75_OUT
-    end
-    
-    STAGE1 --> STAGE2 --> STAGE3 --> STAGE4 --> STAGE5 --> STAGE75
-```
-
-    
-<p align="left">
-  <a href="https://datadrivenconstruction.io">
-    <img src="https://github.com/datadrivenconstruction/cad2data-Revit-IFC-DWG-DGN-pipeline-with-conversion-validation-qto/blob/main/DDC_in_additon/DDC_readme_content/n8n%20Estimates%20workflow.jpg" alt="DataDrivenConstruction" width="180">
-  </a>
-</p>
-
-We are gradually expanding a library of ready-to-use n8n workflows for automated construction cost estimation:
-
-1. **Phase 1 – Image-based cost calculation**  
-   Upload drawings, details or site photos, and the workflow will automatically extract structured data and match it with work items and resources from the DDC database.
-
-2. **Phase 2 – Text-to-estimate (project description → cost breakdown)**  
-   Provide a short natural-language description of the project, and the workflow will generate a structured cost estimate with work items, quantities and resource groups.
-
-3. **Phase 3 – Anything related to data-driven construction workflows**  
-   From file conversion and validation to syncing estimates with other systems, notifications, dashboards and custom integrations – any repetitive task in your cost and project data pipeline can become an n8n workflow.
-
-If you want to see more workflows, follow our official channels, star this repository, and feel free to share your ideas or your own n8n solutions with the community.
 
 
-Automate construction data processing with ready-made CAD-BIM n8n workflows:
-
-<a href="https://github.com/datadrivenconstruction/cad2data-Revit-IFC-DWG-DGN-pipeline-with-conversion-validation-qto">
-  <img src="https://img.shields.io/badge/cad2data_Pipeline-GitHub-181717?style=for-the-badge&logo=github" alt="cad2data Pipeline">
-</a>
 
 ## Resources & Community
 
