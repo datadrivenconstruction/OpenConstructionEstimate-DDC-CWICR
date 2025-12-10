@@ -262,27 +262,6 @@ Download QDRANT and CSV datasets (files larger than 1 gigabyte) from [GitHub Rel
 
 ## Integration
 
-```mermaid
-flowchart LR
-    subgraph BIM["🏗️ BIM/CAD"]
-        REVIT[Revit] & IFC[IFC] & DWG[DWG]
-    end
-
-    subgraph Pipeline["📊 cad2data"]
-        QTO[Quantity Takeoff] --> MATCH[DDC CWICR Match]
-    end
-
-    subgraph Output["📋 Results"]
-        EST[Cost Estimate] & CO2[CO₂] & REPORT[Reports]
-    end
-
-    BIM --> Pipeline --> Output
-
-    style BIM fill:#e0e7ff,stroke:#4f46e5
-    style Pipeline fill:#fef3c7,stroke:#d97706
-    style Output fill:#d1fae5,stroke:#059669
-```
-
 ### Use Cases
 
 **Entry Level** - Cost Benchmarking, Price Indexation, Tender Estimation
