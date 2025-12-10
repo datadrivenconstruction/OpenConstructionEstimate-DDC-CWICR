@@ -289,7 +289,7 @@ Automated cost estimation from Revit/BIM models using AI-driven work decompositi
 ```mermaid
 flowchart TB
     subgraph INPUT["📁 INPUT"]
-        RVT-DWG-IFC ["🏠 CAD File<br/>"]
+        RVT_DWG_IFC["🏠 CAD File<br/>"]
     end
 
     subgraph EXTRACT["⚙️ EXTRACTION"]
