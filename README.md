@@ -393,6 +393,118 @@ flowchart LR
 
 ### n8n Workflows
 
+CAD-BIM-to-Cost Estimation Pipeline
+Automated cost estimation from Revit/BIM models using AI-driven work decomposition and vector search against DDC CWICR pricing database.
+#### Pipeline flow
+flowchart TB
+    subgraph INPUT["📥 INPUT"]
+        RVT[".RVT File"]
+    end
+
+    subgraph CONVERT["⚙️ CONVERSION"]
+        CONV["RvtExporter.exe"]
+        XLSX[".XLSX Elements"]
+    end
+
+    subgraph PREP["🔧 PHASE 1: DATA PREPARATION"]
+        HEADERS["Extract Headers"]
+        AI_HEADERS["🤖 AI: Analyze Headers"]
+        GROUP["Group by Type Name"]
+        AI_CLASSIFY["🤖 AI: Classify Categories"]
+        FILTER["Filter Building Elements"]
+    end
+
+    subgraph ANALYSIS["🏗️ PHASE 2: PROJECT ANALYSIS"]
+        STAGE1["🤖 STAGE 1<br/>Detect Project Type"]
+        STAGE2["🤖 STAGE 2<br/>Generate Construction Phases"]
+        STAGE3["🤖 STAGE 3<br/>Assign Types to Phases"]
+    end
+
+    subgraph DECOMP["🔨 PHASE 3: WORK DECOMPOSITION"]
+        LOOP1["Loop: Each Type"]
+        STAGE4["🤖 STAGE 4<br/>Decompose Type to Works"]
+    end
+
+    subgraph PRICING["💰 PHASE 4: PRICING"]
+        LOOP2["Loop: Each Work Item"]
+        STAGE51["STAGE 5.1<br/>OpenAI Embeddings"]
+        QDRANT["🔍 Qdrant Vector Search<br/>DDC CWICR Database"]
+        STAGE52["STAGE 5.2<br/>Parse Results & Costs"]
+    end
+
+    subgraph VALIDATE["✅ PHASE 5: VALIDATION"]
+        STAGE75["🤖 STAGE 7.5<br/>Validate Type Works"]
+    end
+
+    subgraph OUTPUT["📤 OUTPUT"]
+        HTML["HTML Report"]
+        XLS["XLS Report"]
+    end
+
+    RVT --> CONV --> XLSX
+    XLSX --> HEADERS --> AI_HEADERS --> GROUP
+    GROUP --> AI_CLASSIFY --> FILTER
+    FILTER --> STAGE1 --> STAGE2 --> STAGE3
+    STAGE3 --> LOOP1 --> STAGE4
+    STAGE4 --> LOOP2 --> STAGE51 --> QDRANT --> STAGE52
+    STAGE52 --> STAGE75
+    STAGE75 --> HTML
+    STAGE75 --> XLS
+
+#### AI Nodes Relationship
+erDiagram
+    BIM_ELEMENT ||--o{ WORK_ITEM : "decomposed into"
+    WORK_ITEM ||--o| RATE_INFO : "matched to"
+    RATE_INFO ||--o{ RESOURCE : "contains"
+    
+    PROJECT ||--o{ PHASE : "has"
+    PHASE ||--o{ BIM_ELEMENT : "contains"
+    
+    BIM_ELEMENT {
+        string type_name
+        string category
+        float volume
+        float area
+        int element_count
+    }
+    
+    WORK_ITEM {
+        string work_id
+        string work_name
+        string search_query
+        string expected_unit
+        int work_sequence
+    }
+    
+    RATE_INFO {
+        string rate_code
+        string rate_name
+        string rate_unit
+        float total_cost_position
+        float worker_labor_hours
+    }
+    
+    RESOURCE {
+        string resource_code
+        string resource_name
+        float quantity
+        string unit
+        float cost
+        string category
+    }
+    
+    PROJECT {
+        string project_type
+        string project_scale
+    }
+    
+    PHASE {
+        int phase_id
+        string phase_code
+        string phase_name
+        int sequence_order
+    }
+    
 <p align="left">
   <a href="https://datadrivenconstruction.io">
     <img src="https://github.com/datadrivenconstruction/cad2data-Revit-IFC-DWG-DGN-pipeline-with-conversion-validation-qto/blob/main/DDC_in_additon/DDC_readme_content/n8n%20Estimates%20workflow.jpg" alt="DataDrivenConstruction" width="180">
