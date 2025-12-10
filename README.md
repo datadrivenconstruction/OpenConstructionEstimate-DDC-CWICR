@@ -395,7 +395,9 @@ flowchart LR
 
 CAD-BIM-to-Cost Estimation Pipeline
 Automated cost estimation from Revit/BIM models using AI-driven work decomposition and vector search against DDC CWICR pricing database.
-#### Pipeline flow
+## Pipeline Flow
+
+```mermaid
 flowchart TB
     subgraph INPUT["📥 INPUT"]
         RVT[".RVT File"]
@@ -450,8 +452,13 @@ flowchart TB
     STAGE52 --> STAGE75
     STAGE75 --> HTML
     STAGE75 --> XLS
+```
 
-#### AI Nodes Relationship
+---
+
+## AI Nodes Relationship
+
+```mermaid
 erDiagram
     BIM_ELEMENT ||--o{ WORK_ITEM : "decomposed into"
     WORK_ITEM ||--o| RATE_INFO : "matched to"
@@ -504,6 +511,60 @@ erDiagram
         string phase_name
         int sequence_order
     }
+```
+
+---
+
+## AI Processing Stages
+
+```mermaid
+flowchart LR
+    subgraph STAGE1["STAGE 1"]
+        S1_IN["Grouped Elements"]
+        S1_AI["🤖 Detect Project Type"]
+        S1_OUT["project_type<br/>project_scale"]
+        S1_IN --> S1_AI --> S1_OUT
+    end
+    
+    subgraph STAGE2["STAGE 2"]
+        S2_IN["Project Type"]
+        S2_AI["🤖 Generate Phases"]
+        S2_OUT["construction_phases[]"]
+        S2_IN --> S2_AI --> S2_OUT
+    end
+    
+    subgraph STAGE3["STAGE 3"]
+        S3_IN["Phases + Types"]
+        S3_AI["🤖 Assign to Phases"]
+        S3_OUT["types_with_phases[]"]
+        S3_IN --> S3_AI --> S3_OUT
+    end
+    
+    subgraph STAGE4["STAGE 4"]
+        S4_IN["Single Type"]
+        S4_AI["🤖 Decompose to Works"]
+        S4_OUT["work_items[]"]
+        S4_IN --> S4_AI --> S4_OUT
+    end
+    
+    subgraph STAGE5["STAGE 5"]
+        S5_IN["Work search_query"]
+        S5_EMB["OpenAI Embeddings"]
+        S5_VEC["Qdrant Search"]
+        S5_OUT["rateInfo + resources"]
+        S5_IN --> S5_EMB --> S5_VEC --> S5_OUT
+    end
+    
+    subgraph STAGE75["STAGE 7.5"]
+        S75_IN["All Works"]
+        S75_AI["🤖 CTO Validation"]
+        S75_OUT["Validated Estimate"]
+        S75_IN --> S75_AI --> S75_OUT
+    end
+    
+    STAGE1 --> STAGE2 --> STAGE3 --> STAGE4 --> STAGE5 --> STAGE75
+```
+
     
 <p align="left">
   <a href="https://datadrivenconstruction.io">
