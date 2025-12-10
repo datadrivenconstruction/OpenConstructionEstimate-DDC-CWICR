@@ -51,9 +51,9 @@ A live demo is available at [openconstructionestimate.com](https://openconstruct
 
 ### Historical Context
 
-The database of construction work descriptions is based on the methodology of standardization of construction work. The methodology for standardizing construction work based on resources ranges from the first production standards to modern digital reference books. The methodology has been continuously developed and improved since the 1920s in different parts of the world and has undergone particular development in the Eurasian region. Over the course of a century, the system has evolved from manual calculations to machine-readable databases, while retaining its fundamental principle: accurate recording of physical resources per unit of construction output. Modern versions integrate historical data with current market prices. 
-
-In local markets, similar systems are adapted and known under national codes: ENIR, GESN, FER, NRR, ESN, AzDTN, ShNQK, MKS ChT, SNT, BNbD, Dinh Muc, Ding'e.
+The construction work descriptions in this database are grounded in a resource-based standardization methodology with roots stretching from early 20th-century production norms to today's digital reference systems. Developed and refined continuously since the 1920s, this approach has seen especially robust evolution across the Eurasian region.
+Throughout a hundred years of development, the system has transitioned from manual computations to machine-readable formats—yet its foundational principle remains intact: the precise measurement of physical resources required per unit of construction output. Modern implementations bridge historical normative data with real-time market pricing.
+Regional adaptations of this methodology operate under various national designations: ENIR, GESN, FER, NRR, ESN, AzDTN, ShNQK, MKS ChT, SNT, BNbD, Dinh Muc, Ding'e.
 
 <p align="center">
   <img src="https://github.com/datadrivenconstruction/cad2data-Revit-IFC-DWG-DGN-pipeline-with-conversion-validation-qto/blob/main/DDC_in_additon/DDC_readme_content/DDC%20CWICR%20SPREAD%20OF%20METHODOLOGY%20FROM%20THE%201920s.jpg" alt="OpenConstructionEstimate" width="1000">
