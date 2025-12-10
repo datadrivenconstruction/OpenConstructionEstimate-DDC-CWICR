@@ -3,7 +3,7 @@
 </p>
 <h3 align="center">DDC CWICR — Construction Work Items, Components & Resources</h3>
 
-<div align="center">
+<p align="center">
   <a href="#about">About</a> •
   <a href="#data-schema">Schema</a> •
   <a href="#methodology">Methodology</a> •
@@ -11,22 +11,22 @@
   <a href="#vector-database">Qdrant</a> •
   <a href="#quick-start">Quick Start</a> •
   <a href="#integration">Integration</a>
-</div>
+</p>
 
-<p align="center">
+<div align="center">
   <img src="https://img.shields.io/badge/Work_Items-55,719-2563eb?style=for-the-badge" alt="Work Items">
   <img src="https://img.shields.io/badge/Resources-27,672-059669?style=for-the-badge" alt="Resources">
   <img src="https://img.shields.io/badge/Languages-9-d97706?style=for-the-badge" alt="Languages">
   <img src="https://img.shields.io/badge/Countries-10+-dc2626?style=for-the-badge" alt="Countries">
-</p>
+</div>
 
-<p align="center">
+<div align="center">
   <img src="https://img.shields.io/badge/License-CC_BY_4.0-green?style=flat-square" alt="License">
   <img src="https://img.shields.io/badge/Version-v0.1.0-blue?style=flat-square" alt="Version">
   <img src="https://img.shields.io/badge/Embeddings-OpenAI_3072d-412991?style=flat-square" alt="Embeddings">
   <img src="https://img.shields.io/badge/Vector_DB-Qdrant-dc382d?style=flat-square" alt="Qdrant">
   <img src="https://img.shields.io/badge/Automation-n8n-ea4b71?style=flat-square" alt="n8n">
-</p>
+</div>
 
 <p align="center">
   <a href="https://openconstructionestimate.com">
