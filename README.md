@@ -289,11 +289,11 @@ Automated cost estimation from Revit/BIM models using AI-driven work decompositi
 ```mermaid
 flowchart TB
     subgraph INPUT["📁 INPUT"]
-        RVT["🏠 .RVT File<br/>(Revit Model)"]
+        RVT, DWG, IFC ["🏠 .RVT, .IFC, .DWG File<br/>(Revit Model)"]
     end
 
     subgraph EXTRACT["⚙️ EXTRACTION"]
-        CONV["RvtExporter.exe"]
+        CONV["RvtExporter.exe, IfcExporter.exe, DwgExporter.exe"]
         XLSX["📊 .XLSX<br/>(Raw Elements)"]
     end
 
