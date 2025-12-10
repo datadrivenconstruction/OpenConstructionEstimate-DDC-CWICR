@@ -3,7 +3,7 @@
 </p>
 <h3 align="center">DDC CWICR — Construction Work Items, Components & Resources</h3>
 
-<p align="center">
+<br align="center">
   <a href="#about">About</a> •
   <a href="#data-schema">Schema</a> •
   <a href="#methodology">Methodology</a> •
@@ -11,7 +11,7 @@
   <a href="#vector-database">Qdrant</a> •
   <a href="#quick-start">Quick Start</a> •
   <a href="#integration">Integration</a>
-</p>
+</br>
 
 <p align="center">
   <img src="https://img.shields.io/badge/Work_Items-55,719-2563eb?style=for-the-badge" alt="Work Items">
