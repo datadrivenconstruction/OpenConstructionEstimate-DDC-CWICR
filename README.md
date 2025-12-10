@@ -395,11 +395,25 @@ flowchart LR
 
 <p align="left">
   <a href="https://datadrivenconstruction.io">
-    <img src="https://datadrivenconstruction.io/wp-content/uploads/2023/07/DataDrivenConstruction-1-1.png.webp" alt="DataDrivenConstruction" width="180">
+    <img src="https://github.com/datadrivenconstruction/cad2data-Revit-IFC-DWG-DGN-pipeline-with-conversion-validation-qto/blob/main/DDC_in_additon/DDC_readme_content/n8n%20Estimates%20workflow.jpg" alt="DataDrivenConstruction" width="180">
   </a>
 </p>
 
-Automate construction data processing with ready-made n8n workflows:
+We are gradually expanding a library of ready-to-use n8n workflows for automated construction cost estimation:
+
+1. **Phase 1 – Image-based cost calculation**  
+   Upload drawings, details or site photos, and the workflow will automatically extract structured data and match it with work items and resources from the DDC database.
+
+2. **Phase 2 – Text-to-estimate (project description → cost breakdown)**  
+   Provide a short natural-language description of the project, and the workflow will generate a structured cost estimate with work items, quantities and resource groups.
+
+3. **Phase 3 – Anything related to data-driven construction workflows**  
+   From file conversion and validation to syncing estimates with other systems, notifications, dashboards and custom integrations – any repetitive task in your cost and project data pipeline can become an n8n workflow.
+
+If you want to see more workflows, follow our official channels, star this repository, and feel free to share your ideas or your own n8n solutions with the community.
+
+
+Automate construction data processing with ready-made CAD-BIM n8n workflows:
 
 <a href="https://github.com/datadrivenconstruction/cad2data-Revit-IFC-DWG-DGN-pipeline-with-conversion-validation-qto">
   <img src="https://img.shields.io/badge/cad2data_Pipeline-GitHub-181717?style=for-the-badge&logo=github" alt="cad2data Pipeline">
