@@ -166,6 +166,36 @@ The 85 database fields are organized into logical groups that reflect the resour
 **Mass & Services** - `mass_name`, `mass_value`, `mass_unit`, `service_category`, `service_type`, `parameter_service_code`, `parameter_service_unit`, `parameter_service_name`, `parameter_service_quantity`, `service_cost_sum`
 
 ```mermaid
+flowchart LR
+    subgraph Tech["📐 Technology Norms"]
+        L["👷 Labor<br/>172 hrs/100m²"]
+        M["🧱 Materials<br/>632 m²/100m²"]
+        E["🚜 Equipment<br/>1.67 hrs/100m²"]
+    end
+    
+    subgraph Prices["💰 VARIABLE - Regional Prices"]
+        LP["€17.95/hr"]
+        MP["€5.02/m²"]
+        EP["€38.42/hr"]
+    end
+    
+    subgraph Result["📊 RESULT"]
+        COST["🧾 €7,725.91<br/>per 100m²"]
+    end
+    
+    Tech -->|"×"| Prices --> Result
+    
+    style Tech fill:#dbeafe,stroke:#2563eb,stroke-width:2px
+    style Prices fill:#fef3c7,stroke:#d97706,stroke-width:2px
+    style Result fill:#d1fae5,stroke:#059669,stroke-width:2px
+```
+
+
+## Methodology
+
+The key value of **Resource-Based Costing** is the separation of unchanging production technology from the volatile financial component. It is based on the physical "first principles" of construction:
+
+```mermaid
 flowchart TB
     subgraph Source["📦 Data Source"]
         CWICR[(DDC CWICR<br/>────────────<br/>55,719 Work Items<br/>27,672 Resources<br/>85 Fields per Record)]
@@ -204,34 +234,6 @@ flowchart TB
     style Apps fill:#fce7f3,stroke:#db2777,stroke-width:2px
 ```
 
-## Methodology
-
-The key value of **Resource-Based Costing** is the separation of unchanging production technology from the volatile financial component. It is based on the physical "first principles" of construction:
-
-```mermaid
-flowchart LR
-    subgraph Tech["📐 FIXED - Technology Norms"]
-        L["👷 Labor<br/>172 hrs/100m²"]
-        M["🧱 Materials<br/>632 m²/100m²"]
-        E["🚜 Equipment<br/>1.67 hrs/100m²"]
-    end
-    
-    subgraph Prices["💰 VARIABLE - Regional Prices"]
-        LP["€17.95/hr"]
-        MP["€5.02/m²"]
-        EP["€38.42/hr"]
-    end
-    
-    subgraph Result["📊 RESULT"]
-        COST["🧾 €7,725.91<br/>per 100m²"]
-    end
-    
-    Tech -->|"×"| Prices --> Result
-    
-    style Tech fill:#dbeafe,stroke:#2563eb,stroke-width:2px
-    style Prices fill:#fef3c7,stroke:#d97706,stroke-width:2px
-    style Result fill:#d1fae5,stroke:#059669,stroke-width:2px
-```
 
 **Why it matters:**
 
@@ -255,8 +257,8 @@ flowchart LR
 
 ### n8n Workflows
 
-CAD-BIM-to-Cost Estimation Pipeline
-Automated cost estimation from Revit/BIM models using AI-driven work decomposition and vector search against DDC CWICR pricing database.
+Text-Photo-CAD-BIM-to-Cost Estimation Pipeline
+Automatic cost estimation based on Revit/IFC/DWG models or simply using a description or photo of the volume, using artificial intelligence to break down the work and perform a vector search of the DDC CWICR price database.
 
 **Pipeline Flow**
 
