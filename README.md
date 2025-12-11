@@ -36,63 +36,48 @@
 
 ## About
 
-**DDC CWICR** (Construction Work Items, Components & Resources) is an open database for construction cost estimation, covering the full spectrum of construction work - from earthworks and concrete to specialized MEP operations. The modern construction industry in Eurasia and the Asia-Pacific region relies on a unified ecosystem of technical standardization that serves as a common engineering language for more than 10 dynamically developing economies.
+**DDC CWICR** (Construction Work Items, Components & Resources) is an open database for construction cost estimation, covering the full spectrum of construction activities - from earthworks and concrete placement to specialized installation work.
 
-The DDC CWICR database (Construction Work Items, Components & Resources) is an attempt to harmonize standards, creating a seamless regulatory space for capital project management across multiple languages. The database covers the full spectrum of construction work: from earthworks and concrete to specialized installation operations.
+The database draws on sources describing modern construction practices across Eurasia and the Asia-Pacific region, where a unified technical standardization ecosystem serves as a common engineering language for more than ten dynamically developing economies. DDC CWICR represents an effort to harmonize open standards by establishing a single regulatory framework for capital project management in multiple languages.
+
+The structured data can be accessed through tabular formats (XLSX, CSV, Parquet) or queried conversationally via LLM, enabling specialists to integrate construction work descriptions (QDRANT vector database) into automated pipelines and workflows using plain language or concise queries.
+
+### Available Formats
+
+| Format | Extension | Size | Best For | Features |
+|--------|-----------|------|----------|----------|
+| **Excel** | `.xlsx` | ~150–400 MB | Manual analysis, filtering, pivot tables | Human-readable, full formatting |
+| **Parquet** | `.parquet` | ~55 MB | ETL pipelines, ML training, Big Data | Columnar, excellent compression |
+| **CSV** | `.csv` | ~1.3 GB | Database import, legacy systems | Universal compatibility |
+| **Qdrant** | `.snapshot` | ~1 GB | Semantic search, RAG, AI assistants | Pre-computed OpenAI embeddings (3072d) |
+
+
+A live demo is available at [openconstructionestimate.com](https://openconstructionestimate.com/), where you can explore the data and see the vector database in action for semantic search.
 
 <p align="center">
   <img src="https://github.com/datadrivenconstruction/cad2data-Revit-IFC-DWG-DGN-pipeline-with-conversion-validation-qto/blob/main/DDC_in_additon/DDC_readme_content/DDC%20CWICR%20Resource-based%20Work%20Cost%20Norms.jpg" alt="OpenConstructionEstimate" width="1000">
 </p>
 
-```mermaid
-flowchart TB
-    subgraph Source["📦 Data Source"]
-        CWICR[(DDC CWICR<br/>────────────<br/>55,719 Work Items<br/>27,672 Resources<br/>85 Fields per Record)]
-    end
-
-    subgraph Processing["⚙️ Processing Pipeline"]
-        direction LR
-        ETL[["🔄 ETL<br/>Extraction &<br/>Transformation"]]
-        TRANS[["🌐 Translation<br/>9 Languages"]]
-        EMBED[["🧠 Vectorization<br/>OpenAI 3072d"]]
-        ETL --> TRANS --> EMBED
-    end
-
-    subgraph Outputs["📤 Output Formats"]
-        XLSX[("📊 Excel<br/>.xlsx")]
-        PARQUET[("⚡ Parquet<br/>.parquet")]
-        CSV[("📄 CSV<br/>.csv")]
-        QDRANT[("🔍 Qdrant<br/>.snapshot")]
-    end
-
-    subgraph Apps["🎯 Applications"]
-        SEARCH["🔎 Semantic<br/>Search"]
-        BIM["🏗️ BIM 5D<br/>Integration"]
-        RAG["🤖 RAG<br/>Systems"]
-        BI["📈 BI<br/>Analytics"]
-    end
-
-    Source --> Processing
-    Processing --> XLSX & PARQUET & CSV & QDRANT
-    XLSX & PARQUET & CSV --> BI & BIM
-    QDRANT --> SEARCH & RAG & BIM
-
-    style Source fill:#dbeafe,stroke:#2563eb,stroke-width:2px
-    style Processing fill:#fef3c7,stroke:#d97706,stroke-width:2px
-    style Outputs fill:#d1fae5,stroke:#059669,stroke-width:2px
-    style Apps fill:#fce7f3,stroke:#db2777,stroke-width:2px
-```
 
 ### Historical Context
 
-The methodology of resource-based standardization of construction work has been continuously developing and improving since the 1920s - from the first production norms to modern digital reference books. Over a century, the system has evolved from manual calculations to machine-readable databases while preserving the fundamental principle: accurate recording of physical resources per unit of construction output.
+The construction work descriptions in this database are grounded in a resource-based standardization methodology with roots stretching from early 20th-century production norms to today's digital reference systems. Developed and refined continuously since the 1920s, this approach has seen especially robust evolution across the Eurasian region.
 
-The modern version integrates historical data with current market prices. In local markets, similar systems are adapted and known under national codes: ENIR, GESN, FER, NRR, ESN, AzDTN, ShNQK, MKS ChT, SNT, BNbD, Dinh Muc, Ding'e.
+Throughout a hundred years of development, the system has transitioned from manual computations to machine-readable formats - yet its foundational principle remains intact: the precise measurement of physical resources required per unit of construction output. Modern implementations bridge historical normative data with real-time market pricing.
+
+Regional adaptations of this methodology operate under various national designations: ENIR, GESN, FER, NRR, ESN, AzDTN, ShNQK, MKS ChT, SNT, BNbD, Dinh Muc, Ding'e.
 
 <p align="center">
   <img src="https://github.com/datadrivenconstruction/cad2data-Revit-IFC-DWG-DGN-pipeline-with-conversion-validation-qto/blob/main/DDC_in_additon/DDC_readme_content/DDC%20CWICR%20SPREAD%20OF%20METHODOLOGY%20FROM%20THE%201920s.jpg" alt="OpenConstructionEstimate" width="1000">
 </p>
 
+⭐ <b>If you want to see new updates and database versions and if you find our tools useful please give our repositories a star to see more similar applications for the construction industry.</b>
+Star DDC workflow on GitHub and be instantly notified of new releases.
+<p align="center">
+  <br>
+  <img src="https://github.com/datadrivenconstruction/cad2data-Revit-IFC-DWG-DGN-pipeline-with-conversion-validation-qto/blob/main/DDC_in_additon/DDC_readme_content/GitHub%20Star%20DDC.gif" width="100%"/>
+  <br></br>
+</p>
 
 ## Data Schema
 
@@ -154,6 +139,15 @@ erDiagram
 ```
 
 ### Field Groups
+The 85 database fields are organized into logical groups that reflect the resource-based cost estimation methodology. Each group serves a specific function in the cost breakdown structure: from hierarchical classification and work item identification to detailed resource consumption, labor requirements, machinery costs, and aggregated totals. This modular structure allows users to query only the relevant fields for their task - whether generating a bill of materials, analyzing labor productivity, or building a complete cost estimate.
+
+<p align="center">
+  <br>
+  <img src="https://github.com/datadrivenconstruction/cad2data-Revit-IFC-DWG-DGN-pipeline-with-conversion-validation-qto/blob/main/DDC_in_additon/DDC_readme_content/Resource-based%20Work%20Cost%20Norms%20table.jpg" width="100%"/>
+  <br></br>
+</p>
+
+
 
 **Classification** - `category_type`, `collection_code`, `collection_name`, `department_code`, `department_name`, `department_type`, `section_name`, `section_type`, `subsection_code`, `subsection_name`
 
@@ -171,13 +165,9 @@ erDiagram
 
 **Mass & Services** - `mass_name`, `mass_value`, `mass_unit`, `service_category`, `service_type`, `parameter_service_code`, `parameter_service_unit`, `parameter_service_name`, `parameter_service_quantity`, `service_cost_sum`
 
-## Methodology
-
-The key value of **Resource-Based Costing** is the separation of unchanging production technology from the volatile financial component. It is based on the physical "first principles" of construction:
-
 ```mermaid
 flowchart LR
-    subgraph Tech["📐 FIXED - Technology Norms"]
+    subgraph Tech["📐 Technology Norms"]
         L["👷 Labor<br/>172 hrs/100m²"]
         M["🧱 Materials<br/>632 m²/100m²"]
         E["🚜 Equipment<br/>1.67 hrs/100m²"]
@@ -200,6 +190,14 @@ flowchart LR
     style Result fill:#d1fae5,stroke:#059669,stroke-width:2px
 ```
 
+
+## Methodology
+
+The key value of **Resource-Based Costing** is the separation of unchanging production technology from the volatile financial component. It is based on the physical "first principles" of construction:
+- Labor hours required for specific work
+- Material quantities per unit of work  
+- Equipment time needed
+  
 **Why it matters:**
 
 - **Transparency** - Pricing without hidden markups, full resource breakdown
@@ -207,20 +205,158 @@ flowchart LR
 - **Portability** - Region-independent norms applicable across markets
 - **Proven** - Industry standard methodology established over 100+ years
 
-## Available Formats
+```mermaid
+flowchart TB
+    subgraph Source["📦 Data Source"]
+        CWICR[(DDC CWICR<br/>────────────<br/>55,719 Work Items<br/>27,672 Resources<br/>85 Fields per Record)]
+    end
 
-| Format | Extension | Size | Best For | Features |
-|--------|-----------|------|----------|----------|
-| **Excel** | `.xlsx` | ~150–400 MB | Manual analysis, filtering, pivot tables | Human-readable, full formatting |
-| **Parquet** | `.parquet` | ~55 MB | ETL pipelines, ML training, Big Data | Columnar, excellent compression |
-| **CSV** | `.csv` | ~1.3 GB | Database import, legacy systems | Universal compatibility |
-| **Qdrant** | `.snapshot` | ~1 GB | Semantic search, RAG, AI assistants | Pre-computed OpenAI embeddings (3072d) |
+    subgraph Processing["⚙️ Processing Pipeline"]
+        direction LR
+        ETL[["🔄 ETL<br/>Extraction &<br/>Transformation"]]
+        TRANS[["🌐 Translation<br/>9 Languages"]]
+        EMBED[["🧠 Vectorization<br/>OpenAI 3072d"]]
+        ETL --> TRANS --> EMBED
+    end
 
-## Releases
+    subgraph Outputs["📤 Output Formats"]
+        XLSX[("📊 Excel<br/>.xlsx")]
+        PARQUET[("⚡ Parquet<br/>.parquet")]
+        CSV[("📄 CSV<br/>.csv")]
+        QDRANT[("🔍 Qdrant<br/>.snapshot")]
+    end
+
+    subgraph Apps["🎯 Applications"]
+        SEARCH["🔎 Semantic<br/>Search"]
+        BIM["🏗️ BIM 5D<br/>Integration"]
+        RAG["🤖 RAG<br/>Systems"]
+        BI["📈 BI<br/>Analytics"]
+    end
+
+    Source --> Processing
+    Processing --> XLSX & PARQUET & CSV & QDRANT
+    XLSX & PARQUET & CSV --> BI & BIM
+    QDRANT --> SEARCH & RAG & BIM
+
+    style Source fill:#dbeafe,stroke:#2563eb,stroke-width:2px
+    style Processing fill:#fef3c7,stroke:#d97706,stroke-width:2px
+    style Outputs fill:#d1fae5,stroke:#059669,stroke-width:2px
+    style Apps fill:#fce7f3,stroke:#db2777,stroke-width:2px
+```
+
+
+
+
+
+
+## Integration
+
+### Use Cases
+
+- **Entry Level** - Cost Benchmarking, Price Indexation, Tender Estimation
+  
+- **Intermediate** - Localization, ETL/BI Pipelines, CO₂ Calculation
+  
+- **Advanced** - AI/ML Training, CAD (BIM) 5D, Deep-Dive Investment Audit
+
+### n8n Workflows
+
+Text-Photo-CAD-BIM-to-Cost Estimation Pipeline
+Automatic cost estimation based on Revit/IFC/DWG models or simply using a description or photograph of the scope allows the use of modern pipeline and workflow tools (n8n, dify, or sim ai) to apply artificial intelligence and vector search in the DDC CWICR price database to compile complete estimates and a technological description of the project.
+
+**Pipeline Flow**
+
+```mermaid
+flowchart TB
+    subgraph INPUT["📁 INPUT<br/><i>CAD • photos • text description</i>"]
+        CAD["📐 Project Input<br/>(text • photos • RVT / IFC / DWG)"]
+    end
+
+    subgraph EXTRACT["⚙️ EXTRACTION"]
+        CONV["RvtExporter.exe / CAD Export  / ETL"]
+        XLSX["📊 .XLSX<br/>(Raw Elements)"]
+    end
+
+    subgraph PREP["🔧 DATA PREPARATION"]
+        PREP_AI["🤖 AI: Clean & Classify<br/><i>headers • types • categories</i>"]
+    end
+
+    subgraph STAGE_PLAN["📋 STAGES 1–3: Planning"]
+        PLAN["🤖 Detect Project & Phases<br/><i>new / renovation / demolition</i><br/><i>small / medium / large</i><br/><i>elements → construction phases</i>"]
+    end
+
+    subgraph STAGE4["🔨 STAGE 4: Decomposition"]
+        S4["🤖 Decompose Types to Works<br/><i>'Brick Wall 240mm' → masonry, mortar, plaster</i>"]
+    end
+
+    subgraph STAGE5["💰 STAGE 5: Pricing"]
+        S5["🤖 Price via Vector DB<br/><i>OpenAI embeddings + Qdrant</i><br/><i>rate_code, unit_cost, resources</i>"]
+    end
+
+    subgraph STAGE75["✅ STAGE 7.5: Validation"]
+        S75["🤖 CTO Review<br/><i>completeness • duplicates • missing works</i>"]
+    end
+
+    subgraph OUTPUT["📤 OUTPUT"]
+        HTML["📄 HTML Report"]
+        XLS["📊 XLS Report"]
+    end
+
+    CAD --> CONV --> XLSX
+    XLSX --> PREP_AI --> PLAN --> S4 --> S5 --> S75
+    S75 --> HTML & XLS
+
+    style INPUT fill:#f4f4f5,stroke:#d4d4d8,color:#18181b
+    style EXTRACT fill:#e0f2fe,stroke:#bae6fd,color:#0f172a
+    style PREP fill:#ede9fe,stroke:#ddd6fe,color:#1e1b4b
+    style STAGE_PLAN fill:#ecfdf5,stroke:#bbf7d0,color:#064e3b
+    style STAGE4 fill:#fef9c3,stroke:#fef3c7,color:#78350f
+    style STAGE5 fill:#fee2e2,stroke:#fecaca,color:#7f1d1d
+    style STAGE75 fill:#e0f2f1,stroke:#bae5e1,color:#134e4a
+    style OUTPUT fill:#eef2ff,stroke:#e0e7ff,color:#111827
+```
+
+    
+<p align="left">
+  <a href="https://datadrivenconstruction.io">
+    <img src="https://github.com/datadrivenconstruction/cad2data-Revit-IFC-DWG-DGN-pipeline-with-conversion-validation-qto/blob/main/DDC_in_additon/DDC_readme_content/n8n%20Estimates%20workflow.jpg" alt="DataDrivenConstruction">
+  </a>
+</p>
+
+We are gradually expanding a library of ready-to-use n8n workflows for automated construction cost estimation:
+
+- **Image-based cost calculation**  
+   Upload drawings, details or site photos, and the workflow will automatically extract structured data and match it with work items and resources from the DDC database.
+
+-  **Text-to-estimate (project description → cost breakdown)**  
+   Provide a short natural-language description of the project, and the workflow will generate a structured cost estimate with work items, quantities and resource groups.
+
+-  **Anything related to data-driven construction workflows**  
+   From file conversion and validation to syncing estimates with other systems, notifications, dashboards and custom integrations – any repetitive task in your cost and project data pipeline can become an n8n workflow.
+
+If you want to see more workflows, follow our official channels, star this repository, and feel free to share your ideas or your own n8n solutions with the community.
+
+
+Automate construction data processing with ready-made CAD-BIM n8n workflows:
+
+<a href="https://github.com/datadrivenconstruction/cad2data-Revit-IFC-DWG-DGN-pipeline-with-conversion-validation-qto">
+  <img src="https://img.shields.io/badge/cad2data_Pipeline-GitHub-181717?style=for-the-badge&logo=github" alt="cad2data Pipeline">
+</a>
+
+
+## Vector Database
+
+Ready-to-use Qdrant collections with OpenAI `text-embedding-3-large` embeddings for semantic search across construction work items.
+
+Vector databases allow you to “talk” to your data in natural language – using simple sentences or short phrases instead of code or complex filters. This dramatically speeds up finding the right work item or cost line, even in very large datasets.
+
+These Qdrant collections can be connected to application via modern automation and integration workflows (for example, low-code/no-code Workflow and Pipeline tools). You can build assistants that search, filter and explain construction work items, or integrate semantic search directly into your existing estimation and project-control tools.
+
+If you would like to learn more about vector databases, their practical use in construction, and how to build Workflows and Pipelines on top of them, please star this repository and subscribe to our updates.
+
+### Releases
 
 Download QDRANT and CSV datasets (files larger than 1 gigabyte) from [GitHub Releases](https://github.com/datadrivenconstruction/OpenConstructionEstimate-DDC-CWICR/releases).
-
-### v0.1.0 - First Public Release
 
 | Language | Region | CSV Files | Qdrant Snapshot |
 |----------|--------|-----------|-----------------|
@@ -234,17 +370,9 @@ Download QDRANT and CSV datasets (files larger than 1 gigabyte) from [GitHub Rel
 | 🇧🇷 Portuguese | São Paulo | `PT_SAOPAULO_*.csv` | `PT_SAOPAULO_*_EMBEDDINGS_3072_DDC.snapshot` |
 | 🇷🇺 Russian | St. Petersburg | `RU_SPB_*.csv` | `RU_SPB_*_EMBEDDINGS_3072_DDC.snapshot` |
 
-**File naming convention:**
-- CSV: `{LANG}_{CITY}_DDC_CWICR_WORK_ITEMS.csv`, `{LANG}_{CITY}_DDC_CWICR_RESOURCES.csv`
-- Qdrant: `{LANG}_{CITY}_DDC_CWICR_EMBEDDINGS_3072_DDC.snapshot`
-
 <a href="https://github.com/datadrivenconstruction/OpenConstructionEstimate-DDC-CWICR/releases/tag/v0.1.0">
   <img src="https://img.shields.io/badge/📥_Download_v0.1.0-GitHub_Releases-181717?style=for-the-badge&logo=github" alt="Download v0.1.0">
 </a>
-
-## Vector Database
-
-Ready-to-use Qdrant collections with OpenAI `text-embedding-3-large` embeddings for semantic search across construction work items.
 
 ### Collections
 
@@ -355,50 +483,8 @@ results = client.search(
 )
 ```
 
-## Integration
 
-```mermaid
-flowchart LR
-    subgraph BIM["🏗️ BIM/CAD"]
-        REVIT[Revit] & IFC[IFC] & DWG[DWG]
-    end
 
-    subgraph Pipeline["📊 cad2data"]
-        QTO[Quantity Takeoff] --> MATCH[DDC CWICR Match]
-    end
-
-    subgraph Output["📋 Results"]
-        EST[Cost Estimate] & CO2[CO₂] & REPORT[Reports]
-    end
-
-    BIM --> Pipeline --> Output
-
-    style BIM fill:#e0e7ff,stroke:#4f46e5
-    style Pipeline fill:#fef3c7,stroke:#d97706
-    style Output fill:#d1fae5,stroke:#059669
-```
-
-### Use Cases
-
-**Entry Level** - Cost Benchmarking, Price Indexation, Tender Estimation
-
-**Intermediate** - Localization, ETL/BI Pipelines, CO₂ Calculation
-
-**Advanced** - AI/ML Training, CAD (BIM) 5D, Deep-Dive Investment Audit
-
-### n8n Workflows
-
-<p align="left">
-  <a href="https://datadrivenconstruction.io">
-    <img src="https://datadrivenconstruction.io/wp-content/uploads/2023/07/DataDrivenConstruction-1-1.png.webp" alt="DataDrivenConstruction" width="180">
-  </a>
-</p>
-
-Automate construction data processing with ready-made n8n workflows:
-
-<a href="https://github.com/datadrivenconstruction/cad2data-Revit-IFC-DWG-DGN-pipeline-with-conversion-validation-qto">
-  <img src="https://img.shields.io/badge/cad2data_Pipeline-GitHub-181717?style=for-the-badge&logo=github" alt="cad2data Pipeline">
-</a>
 
 ## Resources & Community
 
@@ -433,6 +519,14 @@ Together we are changing the industry. You can send your solution to info@datadr
 **Database** (DDC CWICR) - [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/). Free to use, share, and adapt commercially. Attribution: "DDC CWICR by DataDrivenConstruction"
 
 **Code** (workflows, scripts) - [MIT](https://opensource.org/licenses/MIT). Free to use, modify, and distribute without restrictions.
+
+## Support the Project
+
+If you find this useful, please consider supporting:
+
+[![GitHub Sponsors](https://img.shields.io/badge/Sponsor%20on-GitHub-ea4aaa?style=for-the-badge&logo=github)](https://github.com/sponsors/datadrivenconstruction)
+[![Buy Me A Coffee](https://img.shields.io/badge/Buy%20Me%20A%20Coffee-ffdd00?style=for-the-badge&logo=buy-me-a-coffee&logoColor=black)](https://buymeacoffee.com/boikoartem)
+
 
 <p align="left">
   <br/>
