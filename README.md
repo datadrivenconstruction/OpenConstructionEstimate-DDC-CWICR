@@ -42,6 +42,16 @@ The database draws on sources describing modern construction practices across Eu
 
 The structured data can be accessed through tabular formats (XLSX, CSV, Parquet) or queried conversationally via LLM, enabling specialists to integrate construction work descriptions (QDRANT vector database) into automated pipelines and workflows using plain language or concise queries.
 
+### Available Formats
+
+| Format | Extension | Size | Best For | Features |
+|--------|-----------|------|----------|----------|
+| **Excel** | `.xlsx` | ~150–400 MB | Manual analysis, filtering, pivot tables | Human-readable, full formatting |
+| **Parquet** | `.parquet` | ~55 MB | ETL pipelines, ML training, Big Data | Columnar, excellent compression |
+| **CSV** | `.csv` | ~1.3 GB | Database import, legacy systems | Universal compatibility |
+| **Qdrant** | `.snapshot` | ~1 GB | Semantic search, RAG, AI assistants | Pre-computed OpenAI embeddings (3072d) |
+
+
 A live demo is available at [openconstructionestimate.com](https://openconstructionestimate.com/), where you can explore the data and see the vector database in action for semantic search.
 
 <p align="center">
@@ -230,14 +240,6 @@ flowchart LR
 - **Portability** - Region-independent norms applicable across markets
 - **Proven** - Industry standard methodology established over 100+ years
 
-## Available Formats
-
-| Format | Extension | Size | Best For | Features |
-|--------|-----------|------|----------|----------|
-| **Excel** | `.xlsx` | ~150–400 MB | Manual analysis, filtering, pivot tables | Human-readable, full formatting |
-| **Parquet** | `.parquet` | ~55 MB | ETL pipelines, ML training, Big Data | Columnar, excellent compression |
-| **CSV** | `.csv` | ~1.3 GB | Database import, legacy systems | Universal compatibility |
-| **Qdrant** | `.snapshot` | ~1 GB | Semantic search, RAG, AI assistants | Pre-computed OpenAI embeddings (3072d) |
 
 
 
@@ -256,7 +258,7 @@ flowchart LR
 CAD-BIM-to-Cost Estimation Pipeline
 Automated cost estimation from Revit/BIM models using AI-driven work decomposition and vector search against DDC CWICR pricing database.
 
-** Pipeline Flow**
+**Pipeline Flow**
 
 ```mermaid
 flowchart TB
