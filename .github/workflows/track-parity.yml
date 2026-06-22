@@ -57,7 +57,7 @@ jobs:
           - NG_LAGOS
           - ZA_JOHANNESBURG
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v7
         with:
           lfs: false   # parquet is not LFS-tracked; xlsx pointers don't need pulling
       - uses: actions/setup-python@v5
