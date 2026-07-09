@@ -1,4 +1,0 @@
-region: NG_LAGOS
-location_factor: 1.20    # Lagos significantly above national average (CBN regional cost)
-add_us_metadata: false
-translate: false         # English source -> English target

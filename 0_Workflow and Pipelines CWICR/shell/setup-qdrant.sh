@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 #
-# setup-qdrant.sh — Download snapshot, start Qdrant in Docker, import, verify.
+# setup-qdrant.sh - Download snapshot, start Qdrant in Docker, import, verify.
 #
 # This script:
 #   1. Downloads the CWICR Qdrant snapshot from the GitHub release
@@ -13,11 +13,11 @@
 #   ./setup-qdrant.sh
 #
 # Environment variables:
-#   QDRANT_PORT        — Qdrant HTTP port (default: 6333)
-#   QDRANT_GRPC_PORT   — Qdrant gRPC port (default: 6334)
-#   QDRANT_STORAGE     — Local directory for Qdrant storage (default: ./qdrant_storage)
-#   SNAPSHOT_URL       — URL to download the snapshot (will be prompted if not set)
-#   COLLECTION_NAME    — Collection name to create (default: ddc_en_toronto)
+#   QDRANT_PORT        - Qdrant HTTP port (default: 6333)
+#   QDRANT_GRPC_PORT   - Qdrant gRPC port (default: 6334)
+#   QDRANT_STORAGE     - Local directory for Qdrant storage (default: ./qdrant_storage)
+#   SNAPSHOT_URL       - URL to download the snapshot (will be prompted if not set)
+#   COLLECTION_NAME    - Collection name to create (default: ddc_en_toronto)
 
 set -euo pipefail
 

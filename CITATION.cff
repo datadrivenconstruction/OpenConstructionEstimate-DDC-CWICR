@@ -2,16 +2,21 @@ cff-version: 1.2.0
 message: "If you use DDC CWICR data or code, please cite it as below."
 title: "DDC CWICR - Construction Work Items, Costs & Resources"
 abstract: >-
-  A multilingual construction cost and resource database containing
-  tens of thousands of work items and resources across 11 language
-  and regional tracks (Arabic, German, English - Toronto, Spanish,
-  French, Hindi, Portuguese, Russian, Ukrainian, English - US,
-  Chinese), together with pre-built vector embeddings for semantic
-  search. Compiled, translated, and harmonised for cross-regional
-  and cross-language comparability in AEC cost estimation, Bill of
-  Quantities preparation, and AI agent workflows. Distributed under
-  a dual licence: the datasets under CC BY 4.0 and the
-  accompanying workflows / adapter scripts under Apache-2.0.
+  A multilingual construction cost and resource database that
+  harmonises nine national and regional cost bases into one
+  95-column schema: the CIS resource-based norm system (GESN /
+  FER / TER) in 30 language and market editions, plus eight
+  national bases from Turkey, China, Brazil, Spain, Italy,
+  Vietnam, Indonesia and Greece. Each base ships in its native
+  language and English, with compact resource catalogs repriced
+  by World Bank PPP and translated for 48 target markets, and
+  pre-built vector embeddings for semantic search over the CIS
+  editions. Compiled, translated, and harmonised for
+  cross-regional and cross-language comparability in AEC cost
+  estimation, Bill of Quantities preparation, and AI agent
+  workflows. Distributed under a dual licence: the datasets under
+  CC BY-NC 4.0 and the accompanying workflows / adapter scripts
+  under Apache-2.0.
 type: dataset
 authors:
   - family-names: Boiko
@@ -20,8 +25,8 @@ authors:
     website: "https://datadrivenconstruction.io"
 repository-code: "https://github.com/datadrivenconstruction/OpenConstructionEstimate-DDC-CWICR"
 url: "https://datadrivenconstruction.io"
-license: CC-BY-4.0
-license-url: "https://creativecommons.org/licenses/by/4.0/legalcode"
+license: CC-BY-NC-4.0
+license-url: "https://creativecommons.org/licenses/by-nc/4.0/legalcode"
 keywords:
   - construction
   - cost estimation

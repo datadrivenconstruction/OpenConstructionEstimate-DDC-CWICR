@@ -1,6 +1,6 @@
 # Patent Non-Assertion Policy
 
-**Version 1.0 — Effective April 2026**
+**Version 1.0 - Effective April 2026**
 
 Artem Boiko / DataDrivenConstruction.io ("Licensor") makes the
 following unilateral patent non-assertion commitment in respect
@@ -14,7 +14,7 @@ of this repository.
   Apache License, Version 2.0 in this repository.
 - **"Data"** means the dataset files (CSV, XLSX, Parquet,
   Qdrant snapshots) distributed under the Creative Commons
-  Attribution 4.0 International licence in this repository.
+  Attribution-NonCommercial 4.0 International licence in this repository.
 - **"Patent Claim"** means any claim of a patent now owned,
   controlled, or licensable by Licensor anywhere in the world.
 
@@ -28,7 +28,7 @@ that:
     on the structure / compilation of the Data as distributed
     by Licensor;
 (b) the User's use is consistent with the applicable licence
-    (Apache-2.0 for Software; CC BY 4.0 for Data - see
+    (Apache-2.0 for Software; CC BY-NC 4.0 for Data - see
     [LICENSE](./LICENSE), [LICENSE-CODE.txt](./LICENSE-CODE.txt),
     [LICENSE-DATA.txt](./LICENSE-DATA.txt), and
     [NOTICE](./NOTICE)).
@@ -48,7 +48,7 @@ compiled Data (Directive 96/9/EC; §§ 87a-87e UrhG) is treated
 as equivalent to a patent-like exclusive right under any
 jurisdiction's law, the Non-Assertion Commitment in Section 2
 applies to that right as well, subject to the same conditions.
-The CC BY 4.0 grant in clause 2(a)(1)(B) of that licence
+The CC BY-NC 4.0 grant in clause 2(a)(1)(B) of that licence
 already licences the sui generis right to Users; this policy
 makes that position defensively explicit.
 

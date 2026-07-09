@@ -1,4 +1,0 @@
-region: RO_BUCHAREST
-location_factor: 1.10    # Bucharest top of INS regional construction PPI
-add_us_metadata: false
-translate: true          # German -> Romanian

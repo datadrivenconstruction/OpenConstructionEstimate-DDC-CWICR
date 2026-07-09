@@ -4,7 +4,7 @@
 
 Demonstrates how to search the DDC-CWICR vector database by making raw HTTP
 requests to the Qdrant REST API using the built-in `fetch()` API. No Qdrant
-client library is needed — just plain HTTP.
+client library is needed - just plain HTTP.
 
 The script embeds a query string with the OpenAI Embeddings API and then posts
 the resulting vector to the Qdrant `/points/search` endpoint.

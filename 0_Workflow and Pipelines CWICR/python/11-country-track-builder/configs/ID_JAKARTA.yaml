@@ -1,4 +1,0 @@
-region: ID_JAKARTA
-location_factor: 1.20    # Jakarta well above national avg (BPS construction price index)
-add_us_metadata: false
-translate: true          # English -> Indonesian

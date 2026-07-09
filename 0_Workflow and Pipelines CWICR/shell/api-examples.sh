@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 #
-# api-examples.sh — cURL examples for the Qdrant REST API.
+# api-examples.sh - cURL examples for the Qdrant REST API.
 #
 # Demonstrates common API operations against the DDC-CWICR Qdrant database:
 #   1. List collections
@@ -14,8 +14,8 @@
 #   ./api-examples.sh
 #
 # Environment variables:
-#   QDRANT_URL  — Qdrant HTTP endpoint (default: http://localhost:6333)
-#   QDRANT_KEY  — Optional API key
+#   QDRANT_URL  - Qdrant HTTP endpoint (default: http://localhost:6333)
+#   QDRANT_KEY  - Optional API key
 
 set -euo pipefail
 
@@ -54,7 +54,7 @@ curl -s ${AUTH_HEADER} "${QDRANT_URL}/collections/${COLLECTION}" | python3 -m js
 curl -s ${AUTH_HEADER} "${QDRANT_URL}/collections/${COLLECTION}"
 
 # ---------------------------------------------------------------------------
-# 3. Scroll (paginate) points — first 3 points with payload
+# 3. Scroll (paginate) points - first 3 points with payload
 # ---------------------------------------------------------------------------
 
 info "3. Scroll Points (first 3)"
@@ -78,7 +78,7 @@ curl -s -X POST ${AUTH_HEADER} \
     -d '{"limit": 3, "with_payload": true, "with_vector": false}'
 
 # ---------------------------------------------------------------------------
-# 4. Search by vector (sample vector — first 10 dims shown, rest zeros)
+# 4. Search by vector (sample vector - first 10 dims shown, rest zeros)
 # ---------------------------------------------------------------------------
 
 info "4. Search by Vector"

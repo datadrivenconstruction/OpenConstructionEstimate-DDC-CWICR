@@ -136,7 +136,7 @@ def plot_comparison(
     ax.set_yticks(list(x))
     ax.set_yticklabels(labels, fontsize=8)
     ax.set_xlabel(f"{cost_col} (EUR)")
-    ax.set_title(f"Top {top_n} Work Items — Cost Comparison by Region")
+    ax.set_title(f"Top {top_n} Work Items - Cost Comparison by Region")
     ax.legend()
     ax.invert_yaxis()
     plt.tight_layout()

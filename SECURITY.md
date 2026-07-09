@@ -48,19 +48,19 @@ Report vulnerabilities privately to:
   "0_Workflow and Pipelines CWICR/" (Python, JavaScript, R,
   Rust, shell).
 - AI agent instructions under "1_AI_INSTRUCTIONS/".
-- The distributed datasets (CSV, XLSX, Parquet) — specifically
+- The distributed datasets (CSV, XLSX, Parquet) - specifically
   integrity issues such as tampered snapshots, malformed rows
   that crash documented consumers, or embedded payloads.
-- Qdrant snapshot files — integrity and safe-restore
+- Qdrant snapshot files - integrity and safe-restore
   considerations.
 
 **Out of scope:**
 
 - Third-party services consumed by the adapter scripts
   (OpenAI / Anthropic / Google / Mistral / Groq / DeepSeek
-  APIs, Qdrant server, n8n runtime) — report directly to the
+  APIs, Qdrant server, n8n runtime) - report directly to the
   upstream vendor.
-- Accuracy of the cost data itself — see the "Data accuracy
+- Accuracy of the cost data itself - see the "Data accuracy
   disclaimer" in [NOTICE](./NOTICE); data-quality feedback is
   welcomed via standard GitHub issues, not Security Advisories.
 - Social engineering of Licensor or downstream users.

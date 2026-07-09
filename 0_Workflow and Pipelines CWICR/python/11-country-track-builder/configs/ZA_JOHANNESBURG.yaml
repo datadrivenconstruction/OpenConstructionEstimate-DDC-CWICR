@@ -1,4 +1,0 @@
-region: ZA_JOHANNESBURG
-location_factor: 1.05    # Joburg metro premium per StatsSA construction PPI by metro
-add_us_metadata: false
-translate: false         # English source -> English target

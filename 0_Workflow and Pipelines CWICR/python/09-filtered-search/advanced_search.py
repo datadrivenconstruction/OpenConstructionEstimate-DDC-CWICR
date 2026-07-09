@@ -231,37 +231,37 @@ def run_demo_scenarios(
 
     scenarios = [
         {
-            "title": "Unfiltered search — concrete work",
+            "title": "Unfiltered search - concrete work",
             "query": "reinforced concrete foundation",
             "filter": None,
         },
         {
-            "title": "Department filter — only 'Concrete' department",
+            "title": "Department filter - only 'Concrete' department",
             "query": "reinforced concrete foundation",
             "filter": filter_by_department("Concrete"),
         },
         {
-            "title": "Cost range — items between 100 and 1000 EUR",
+            "title": "Cost range - items between 100 and 1000 EUR",
             "query": "insulation thermal wall",
             "filter": filter_by_cost_range(min_cost=100, max_cost=1000),
         },
         {
-            "title": "Unit filter — items measured in m3",
+            "title": "Unit filter - items measured in m3",
             "query": "excavation earthwork",
             "filter": filter_by_unit("m3"),
         },
         {
-            "title": "Materials only — steel reinforcement materials",
+            "title": "Materials only - steel reinforcement materials",
             "query": "steel reinforcement rebar",
             "filter": filter_materials_only(),
         },
         {
-            "title": "Machinery only — crane and heavy equipment",
+            "title": "Machinery only - crane and heavy equipment",
             "query": "crane lifting heavy equipment",
             "filter": filter_machines_only(),
         },
         {
-            "title": "Combined — Concrete dept, 50-500 EUR, measured in m2",
+            "title": "Combined - Concrete dept, 50-500 EUR, measured in m2",
             "query": "formwork shuttering",
             "filter": combined_filter(
                 department="Concrete",

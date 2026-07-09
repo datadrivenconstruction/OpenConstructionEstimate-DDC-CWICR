@@ -113,7 +113,7 @@ fn main() -> Result<(), Box<dyn std::error::Error>> {
         let col_idx = match schema.index_of(col_name) {
             Ok(idx) => idx,
             Err(_) => {
-                println!("  Column '{}' not found — skipping.\n", col_name);
+                println!("  Column '{}' not found - skipping.\n", col_name);
                 continue;
             }
         };
@@ -144,7 +144,7 @@ fn main() -> Result<(), Box<dyn std::error::Error>> {
                 }
                 _ => {
                     println!(
-                        "  Column '{}' has unsupported type {:?} — skipping.\n",
+                        "  Column '{}' has unsupported type {:?} - skipping.\n",
                         col_name,
                         col.data_type()
                     );

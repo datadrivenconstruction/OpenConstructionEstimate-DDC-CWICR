@@ -1,7 +1,0 @@
-region: TR_ISTANBUL
-# Istanbul has roughly +15% construction-cost premium over national average
-# per TUIK insaat maliyet endeksi. NB: TRY inflation has shifted absolute
-# values heavily 2023-26; refresh FX snapshot before promoting.
-location_factor: 1.15
-add_us_metadata: false
-translate: true          # German -> Turkish

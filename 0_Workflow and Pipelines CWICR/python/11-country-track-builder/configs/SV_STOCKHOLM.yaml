@@ -1,4 +1,0 @@
-region: SV_STOCKHOLM
-location_factor: 1.08    # Stockholm at top of SCB byggkostnadsindex regional table
-add_us_metadata: false
-translate: true          # German -> Swedish

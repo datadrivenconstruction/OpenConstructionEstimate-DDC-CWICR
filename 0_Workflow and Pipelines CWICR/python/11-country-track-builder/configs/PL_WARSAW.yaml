@@ -1,4 +1,0 @@
-region: PL_WARSAW
-location_factor: 1.10    # Warsaw is most expensive Polish metro (GUS Sekocenbud)
-add_us_metadata: false
-translate: true          # German -> Polish

@@ -1,4 +1,0 @@
-region: CS_PRAGUE
-location_factor: 1.10    # Prague at top of CSU regional construction-cost ranking
-add_us_metadata: false
-translate: true          # German -> Czech

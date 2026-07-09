@@ -9,14 +9,14 @@ LICENSING OVERVIEW
 
 See ./LICENSE for the dual-license manifest. Summary:
 
-  * DATA  (CSV / XLSX / Parquet / Qdrant)  ->  CC BY 4.0
+  * DATA  (CSV / XLSX / Parquet / Qdrant)  ->  CC BY-NC 4.0
   * CODE  (workflows / scripts / AI instr.) ->  Apache-2.0
-  * DOCS  (*.md in all languages)          ->  CC BY 4.0
+  * DOCS  (*.md in all languages)          ->  CC BY-NC 4.0
   * PDF book (long-form authored text)     ->  All Rights Reserved
 
 Canonical licence texts:
 
-  ./LICENSE-DATA.txt  - CC BY 4.0 legal code (verbatim)
+  ./LICENSE-DATA.txt  - CC BY-NC 4.0 legal code (verbatim)
   ./LICENSE-CODE.txt  - Apache License 2.0 (verbatim)
 
 ================================================================
@@ -71,7 +71,7 @@ compilations. Translations and structural harmonisation
 are Licensor's original editorial work and are protected under
 the EU sui generis database right (Directive 96/9/EC, as
 implemented by §§ 87a-87e of the German UrhG) over the compiled
-database as a whole. CC BY 4.0 licenses that right to downstream
+database as a whole. CC BY-NC 4.0 licenses that right to downstream
 users via clause 2(a)(1)(B) of the licence.
 
 Classification and taxonomy codes referenced in the data
@@ -113,7 +113,7 @@ substitute for:
 
 Licensor makes no representation of currency, completeness, or
 accuracy for any specific project. Use at Your own risk - see
-Sections 5 and 6 of the CC BY 4.0 legal code for the full
+Sections 5 and 6 of the CC BY-NC 4.0 legal code for the full
 warranty disclaimer.
 
 ================================================================
@@ -123,7 +123,7 @@ AI AND VECTOR SEARCH NOTES
 The Qdrant snapshots distributed as *.snapshot files contain
 vector embeddings produced using OpenAI text-embedding-3-large
 (3072-dimensional). Embeddings are derived works of the DATA and
-are therefore covered by the same CC BY 4.0 licence. OpenAI's
+are therefore covered by the same CC BY-NC 4.0 licence. OpenAI's
 terms of service apply to any live API calls You make; the
 embeddings themselves are inert data and do not trigger ongoing
 obligations to OpenAI.

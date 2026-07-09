@@ -10,11 +10,11 @@ Exploratory data analysis (EDA) of the CWICR dataset. Generates charts showing c
 
 ## Charts Generated
 
-- `cost_distribution_by_department.png` — Box plot of total costs per department
-- `labor_vs_material_ratio.png` — Scatter plot comparing labour and material cost components
-- `top_expensive_items.png` — Horizontal bar chart of the most expensive work items
-- `resource_utilization.png` — Bar chart of resource usage frequency and average quantity
-- `labor_hours_distribution.png` — Histogram of construction worker labour hours
+- `cost_distribution_by_department.png` - Box plot of total costs per department
+- `labor_vs_material_ratio.png` - Scatter plot comparing labour and material cost components
+- `top_expensive_items.png` - Horizontal bar chart of the most expensive work items
+- `resource_utilization.png` - Bar chart of resource usage frequency and average quantity
+- `labor_hours_distribution.png` - Histogram of construction worker labour hours
 
 ## Prerequisites
 

@@ -10,11 +10,11 @@ Advanced Qdrant search examples that combine vector similarity search with paylo
 
 ## Filter Examples
 
-- **Department filter** — find items in a specific department (e.g., "Concrete", "Electrical")
-- **Price range** — find items within a cost range (e.g., 100-500 EUR)
-- **Unit type** — filter by measurement unit (e.g., m3, m2, kg)
-- **Combined filters** — department + price range + material flag
-- **Boolean filters** — items flagged as material, machine, or abstract
+- **Department filter** - find items in a specific department (e.g., "Concrete", "Electrical")
+- **Price range** - find items within a cost range (e.g., 100-500 EUR)
+- **Unit type** - filter by measurement unit (e.g., m3, m2, kg)
+- **Combined filters** - department + price range + material flag
+- **Boolean filters** - items flagged as material, machine, or abstract
 
 ## Prerequisites
 

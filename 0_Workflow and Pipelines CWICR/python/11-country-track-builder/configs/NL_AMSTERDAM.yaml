@@ -1,4 +1,0 @@
-region: NL_AMSTERDAM
-location_factor: 1.06    # Amsterdam metro premium per CBS bouwkostenindex
-add_us_metadata: false
-translate: true          # German -> Dutch

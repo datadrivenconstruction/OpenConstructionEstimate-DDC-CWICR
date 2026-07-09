@@ -24,7 +24,7 @@
 </div>
 
 <div align="center">
-  <img src="https://img.shields.io/badge/Lizenz-CC_BY_4.0-green?style=flat-square" alt="Lizenz">
+  <img src="https://img.shields.io/badge/Lizenz-CC_BY--NC_4.0-green?style=flat-square" alt="Lizenz">
   <img src="https://img.shields.io/badge/Version-v0.1.1-blue?style=flat-square" alt="Version">
   <img src="https://img.shields.io/badge/Embeddings-OpenAI_3072d-412991?style=flat-square" alt="Embeddings">
   <img src="https://img.shields.io/badge/Vektor_DB-Qdrant-dc382d?style=flat-square" alt="Qdrant">
@@ -117,59 +117,59 @@
 ## 📑 Inhaltsverzeichnis
 
 ### 🤖 KI-Integration
-- [Perfekter Treibstoff für KI](#-perfekter-treibstoff-für-ihre-ki-produkte) — Warum diese Datenbank ideal für KI ist
-- [Claude Code & Google Antigravity](#-claude-code--google-antigravity--ki-programmierassistenten) — KI-Programmierassistenten
-- [n8n](#-n8n--visuelle-workflow-automatisierung) — Workflow-Automatisierung
-- [Universelle Anwendungsfälle](#-universelle-anwendungsfälle) — Was Sie erstellen können
-- [Entwicklerbeispiele](#-entwicklerbeispiele) — Sofort ausführbarer Code
+- [Perfekter Treibstoff für KI](#-perfekter-treibstoff-für-ihre-ki-produkte) - Warum diese Datenbank ideal für KI ist
+- [Claude Code & Google Antigravity](#-claude-code--google-antigravity--ki-programmierassistenten) - KI-Programmierassistenten
+- [n8n](#-n8n--visuelle-workflow-automatisierung) - Workflow-Automatisierung
+- [Universelle Anwendungsfälle](#-universelle-anwendungsfälle) - Was Sie erstellen können
+- [Entwicklerbeispiele](#-entwicklerbeispiele) - Sofort ausführbarer Code
 
 ### 📊 Datenbank & Daten
-- [Überblick](#überblick) — Was ist DDC CWICR
-- [Verfügbare Formate](#verfügbare-formate) — Excel, Parquet, CSV, Qdrant
-- [Datenschema](#datenschema) — 85-Felder-Struktur
-- [Feldgruppen](#feldgruppen) — Klassifikation, Ressourcen, Arbeit, Maschinen
-- [Methodik](#methodik) — Ressourcenbasierte Kalkulationsprinzipien
-- [Historischer Kontext](#historischer-kontext) — 100+ Jahre Standards
+- [Überblick](#überblick) - Was ist DDC CWICR
+- [Verfügbare Formate](#verfügbare-formate) - Excel, Parquet, CSV, Qdrant
+- [Datenschema](#datenschema) - 85-Felder-Struktur
+- [Feldgruppen](#feldgruppen) - Klassifikation, Ressourcen, Arbeit, Maschinen
+- [Methodik](#methodik) - Ressourcenbasierte Kalkulationsprinzipien
+- [Historischer Kontext](#historischer-kontext) - 100+ Jahre Standards
 
 ### ⚡ n8n Workflows
-- [n8n Workflows Übersicht](#-n8n-workflows) — Wählen Sie Ihren Eingabetyp
-- [Jetzt testen — Live Demo Bots](#-jetzt-testen--live-demo-bots) — Sofort in Telegram testen
-- [Workflow 1: Text-Schätzer-Bot](#1️⃣-text-schätzer-bot) — Telegram-Bot für Texteingabe
-- [Workflow 2: Foto-Kostenschätzer](#2️⃣-foto-kostenschätzer) — Webformular mit KI-Vision
-- [Workflow 3: Universal Bot](#3️⃣-universal-bot-text--foto--pdf) — Text + Foto + PDF
-- [Workflow 4: CAD/BIM Pipeline](#4️⃣-cad-bim-kostenschätzungs-pipeline) — Revit/IFC/DWG zur Schätzung
-- [Workflows Schnellstart](#workflows-schnellstart) — Einrichtung in 4 Schritten
-- [n8n 2.0+ Einrichtung](#️-n8n-20-einrichtung-erforderlich) — Execute Command Node aktivieren
+- [n8n Workflows Übersicht](#-n8n-workflows) - Wählen Sie Ihren Eingabetyp
+- [Jetzt testen - Live Demo Bots](#-jetzt-testen--live-demo-bots) - Sofort in Telegram testen
+- [Workflow 1: Text-Schätzer-Bot](#1️⃣-text-schätzer-bot) - Telegram-Bot für Texteingabe
+- [Workflow 2: Foto-Kostenschätzer](#2️⃣-foto-kostenschätzer) - Webformular mit KI-Vision
+- [Workflow 3: Universal Bot](#3️⃣-universal-bot-text--foto--pdf) - Text + Foto + PDF
+- [Workflow 4: CAD/BIM Pipeline](#4️⃣-cad-bim-kostenschätzungs-pipeline) - Revit/IFC/DWG zur Schätzung
+- [Workflows Schnellstart](#workflows-schnellstart) - Einrichtung in 4 Schritten
+- [n8n 2.0+ Einrichtung](#️-n8n-20-einrichtung-erforderlich) - Execute Command Node aktivieren
 
 ### 🏗️ CAD/BIM Pipeline
-- [Voraussetzungen](#-voraussetzungen) — Erforderliche Komponenten
-- [Pipeline-Stufen](#-pipeline-stufen) — 10-stufige Verarbeitung
-- [LLM-Modellauswahl](#️-llm-modellauswahl) — OpenAI, Claude, Gemini, Grok
-- [Ausgabedateien](#-ausgabedateien) — HTML & Excel-Berichte
-- [Fehlerbehebung](#️-fehlerbehebung) — Häufige Probleme
+- [Voraussetzungen](#-voraussetzungen) - Erforderliche Komponenten
+- [Pipeline-Stufen](#-pipeline-stufen) - 10-stufige Verarbeitung
+- [LLM-Modellauswahl](#️-llm-modellauswahl) - OpenAI, Claude, Gemini, Grok
+- [Ausgabedateien](#-ausgabedateien) - HTML & Excel-Berichte
+- [Fehlerbehebung](#️-fehlerbehebung) - Häufige Probleme
 
 ### 🔍 Vektordatenbank
-- [Vektordatenbank](#vektordatenbank) — Semantische Suche mit Qdrant
-- [Qdrant-Snapshots der Vektordatenbank](#qdrant-snapshots-der-vektordatenbank) — Snapshots herunterladen
-- [Collections](#collections) — 11 Sprach-Collections
-- [Docker-Bereitstellung](#docker-bereitstellung) — Selbst gehostete Einrichtung
+- [Vektordatenbank](#vektordatenbank) - Semantische Suche mit Qdrant
+- [Qdrant-Snapshots der Vektordatenbank](#qdrant-snapshots-der-vektordatenbank) - Snapshots herunterladen
+- [Collections](#collections) - 11 Sprach-Collections
+- [Docker-Bereitstellung](#docker-bereitstellung) - Selbst gehostete Einrichtung
 
 ### 🌐 API
-- [Pricing Search API](#-pricing-search-api--buildcalculatorio) — Kostenlose REST-API für Baupreise
-- [API-Endpunkte](#api-endpunkte) — Suche, Sprachen, Statistiken
-- [Codebeispiele](#api-codebeispiele) — cURL, Python, JavaScript
+- [Pricing Search API](#-pricing-search-api--buildcalculatorio) - Kostenlose REST-API für Baupreise
+- [API-Endpunkte](#api-endpunkte) - Suche, Sprachen, Statistiken
+- [Codebeispiele](#api-codebeispiele) - cURL, Python, JavaScript
 
 ### 🚀 Erste Schritte
-- [Schnellstart - Python](#schnellstart) — Tabellarische Daten & semantische Suche
-- [Integrationsanwendungsfälle](#integration) — Einstieg bis Fortgeschritten
+- [Schnellstart - Python](#schnellstart) - Tabellarische Daten & semantische Suche
+- [Integrationsanwendungsfälle](#integration) - Einstieg bis Fortgeschritten
 
 ### 👥 Community
-- [Ressourcen & Community](#ressourcen--community) — Links & Kanäle
-- [Beratung & Schulung](#beratung--schulung) — Professionelle Dienstleistungen
-- [Mitwirken](#mitwirken) — Workflows einreichen
-- [Lizenz](#lizenz) — CC BY 4.0
-- [Projekt unterstützen](#projekt-unterstützen) — Sponsern & Spenden
-- [🤖 AI Instructions](#ai-instructions) — Dokumentation für KI-Assistenten
+- [Ressourcen & Community](#ressourcen--community) - Links & Kanäle
+- [Beratung & Schulung](#beratung--schulung) - Professionelle Dienstleistungen
+- [Mitwirken](#mitwirken) - Workflows einreichen
+- [Lizenz](#lizenz) - CC BY-NC 4.0
+- [Projekt unterstützen](#projekt-unterstützen) - Sponsern & Spenden
+- [🤖 AI Instructions](#ai-instructions) - Dokumentation für KI-Assistenten
 
 
 ---
@@ -177,16 +177,16 @@
 ## 🚀 Perfekter Treibstoff für Ihre KI-Produkte
 
 <p align="center">
-  <b>Klonen Sie einfach das Repository und beschreiben Sie, was Sie wollen — die KI erledigt den Rest</b>
+  <b>Klonen Sie einfach das Repository und beschreiben Sie, was Sie wollen - die KI erledigt den Rest</b>
 </p>
 
-DDC CWICR ist nicht nur eine Datenbank — es ist **sofort einsatzbereiter Treibstoff für KI-gestützte Anwendungen**. Ob Sie Kostenschätzungs-Bots erstellen, Bau-Workflows automatisieren oder intelligente Assistenten entwickeln — diese Daten funktionieren sofort mit modernen KI-Tools.
+DDC CWICR ist nicht nur eine Datenbank - es ist **sofort einsatzbereiter Treibstoff für KI-gestützte Anwendungen**. Ob Sie Kostenschätzungs-Bots erstellen, Bau-Workflows automatisieren oder intelligente Assistenten entwickeln - diese Daten funktionieren sofort mit modernen KI-Tools.
 
 ### Warum diese Datenbank ideal für KI ist
 
 | Merkmal | Vorteil |
 |---------|---------|
-| **Vorberechnete Embeddings** | Keine Vektorgenerierung nötig — semantische Suche funktioniert sofort |
+| **Vorberechnete Embeddings** | Keine Vektorgenerierung nötig - semantische Suche funktioniert sofort |
 | **Strukturiertes 85-Felder-Schema** | KI kann Datenbeziehungen verstehen und genaue Antworten liefern |
 | **11 Sprachen inklusive** | Mehrsprachige Anwendungen ohne Übersetzungsaufwand erstellen |
 | **55.000+ Arbeitspositionen** | Umfassende Abdeckung für jede Baukalkulationsaufgabe |
@@ -203,11 +203,11 @@ DDC CWICR bietet **vollständige, strukturierte Arbeitsbeschreibungen**, die in 
 | Beteiligter | Was er bekommt |
 |-------------|----------------|
 | 🏢 **Auftraggeber / Investor** | Volle Kostentransparenz, Ressourcenaufschlüsselung, Preisbegründung für Investitionsentscheidungen |
-| 📊 **Kalkulator** | Detaillierte Preise, Arbeitsstunden, Materialmengen, Gerätekosten — fertig für die LV-Erstellung |
+| 📊 **Kalkulator** | Detaillierte Preise, Arbeitsstunden, Materialmengen, Gerätekosten - fertig für die LV-Erstellung |
 | 👷 **Bauleiter / Polier** | Arbeitszusammensetzung, Ressourcenbedarf, Arbeitsnormen für tägliche Planung und Ausführung |
 | 🔧 **Auftragnehmer / Ausführender** | Vollständige Spezifikationen, Einheitspreise, Produktivitätskennzahlen für genaue Angebote und Terminplanung |
 
-Export nach **Excel, PDF, HTML, ERP-Systeme, BIM-Plattformen** — das strukturierte 85-Felder-Schema gewährleistet Datenintegrität in allen Ausgabeformaten.
+Export nach **Excel, PDF, HTML, ERP-Systeme, BIM-Plattformen** - das strukturierte 85-Felder-Schema gewährleistet Datenintegrität in allen Ausgabeformaten.
 
 ### 🛠️ Funktioniert perfekt mit
 
@@ -245,7 +245,7 @@ Export nach **Excel, PDF, HTML, ERP-Systeme, BIM-Plattformen** — das strukturi
 
 ## 🎯 DDC Skills
 
-**[DDC Skills für KI-Agenten im Bauwesen](https://github.com/datadrivenconstruction/DDC_Skills_for_AI_Agents_in_Construction)** — 196 Automatisierungsfähigkeiten mit direkter Integration in diese CWICR-Datenbank. Klonen, mit KI-Codierungsassistent öffnen, beschreiben was Sie brauchen.
+**[DDC Skills für KI-Agenten im Bauwesen](https://github.com/datadrivenconstruction/DDC_Skills_for_AI_Agents_in_Construction)** - 196 Automatisierungsfähigkeiten mit direkter Integration in diese CWICR-Datenbank. Klonen, mit KI-Codierungsassistent öffnen, beschreiben was Sie brauchen.
 
 <p align="center">
   <a href="https://github.com/datadrivenconstruction/DDC_Skills_for_AI_Agents_in_Construction">
@@ -255,7 +255,7 @@ Export nach **Excel, PDF, HTML, ERP-Systeme, BIM-Plattformen** — das strukturi
 
 ---
 
-### 💻 Claude Code & Google Antigravity — KI-Programmierassistenten
+### 💻 Claude Code & Google Antigravity - KI-Programmierassistenten
 
 Der schnellste Weg, mit DDC CWICR zu arbeiten. Öffnen Sie einfach das Repository in Claude Code oder Google Antigravity und stellen Sie Fragen in natürlicher Sprache.
 
@@ -287,7 +287,7 @@ claude
 
 ---
 
-### ⚡ n8n — Visuelle Workflow-Automatisierung
+### ⚡ n8n - Visuelle Workflow-Automatisierung
 
 Erstellen Sie leistungsstarke Automatisierungs-Pipelines ohne Programmierung. Verbinden Sie DDC CWICR mit über 400 Apps und Diensten.
 
@@ -545,7 +545,7 @@ Bewerten Sie den DDC-Workflow auf GitHub mit einem Stern und werden Sie sofort �
 
 ---
 
-## n8n Workflows — Detaillierte Beschreibung
+## n8n Workflows - Detaillierte Beschreibung
 
 Vier produktionsreife Workflows für automatisierte Baukostenkalkulation. Jeder Workflow verbindet sich über Qdrant mit der DDC CWICR Vektordatenbank und verwendet KI-Modelle für intelligentes Parsing und Matching.
 
@@ -562,7 +562,7 @@ Vier produktionsreife Workflows für automatisierte Baukostenkalkulation. Jeder 
 
 **Datei:** `n8n_1_Telegram_Bot_Cost_Estimates_and_Rate_Finder_TEXT_DDC_CWICR.json`
 
-Telegram-Bot für textbasierte Kostenschätzung. Beschreiben Sie Bauarbeiten in natürlicher Sprache — der Bot parst die Eingabe, durchsucht die Vektordatenbank und liefert detaillierte Kostenaufschlüsselungen.
+Telegram-Bot für textbasierte Kostenschätzung. Beschreiben Sie Bauarbeiten in natürlicher Sprache - der Bot parst die Eingabe, durchsucht die Vektordatenbank und liefert detaillierte Kostenaufschlüsselungen.
 
 <p align="center">
   <br>
@@ -570,7 +570,7 @@ Telegram-Bot für textbasierte Kostenschätzung. Beschreiben Sie Bauarbeiten in 
   <br></br>
 </p>
 
-<h3 align="left">🤖 Jetzt testen — Live Demo Bots</h3>
+<h3 align="left">🤖 Jetzt testen - Live Demo Bots</h3>
 <p align="left"><i>Testen Sie die Schätzungs-Workflows sofort in Telegram</i></p>
 <p><b>@TextOpenConstructionEstimate_bot</b></p>
 <p>Erstellen Sie vollständige Kostenschätzungen<br>aus Textbeschreibungen</p>
@@ -627,7 +627,7 @@ flowchart LR
 
 | Funktion                   | Beschreibung                                                         |
 |----------------------------|----------------------------------------------------------------------|
-| 💬 Natürliche Spracheingabe| Akzeptiert jedes Textformat — Listen, Sätze, strukturierte Beschreibungen |
+| 💬 Natürliche Spracheingabe| Akzeptiert jedes Textformat - Listen, Sätze, strukturierte Beschreibungen |
 | 🤖 Multi-LLM-Unterstützung | Funktioniert mit OpenAI, Claude oder Gemini (umschaltbar)            |
 | 🔍 Semantische Suche       | Findet beste Treffer auch bei unterschiedlicher Wortwahl             |
 | 🌍 11 Sprachen              | DE, EN, RU, ES, FR, PT, ZH, AR, HI, US, UK                                   |
@@ -645,7 +645,7 @@ flowchart LR
 
 **Datei:** `n8n_2_Photo_Cost_Estimate_DDC_CWICR.json`
 
-Webformular-Schnittstelle für fotobasierte Kalkulation. Laden Sie ein Baufoto hoch — KI Vision identifiziert Elemente, schätzt Abmessungen und berechnet Kosten automatisch.
+Webformular-Schnittstelle für fotobasierte Kalkulation. Laden Sie ein Baufoto hoch - KI Vision identifiziert Elemente, schätzt Abmessungen und berechnet Kosten automatisch.
 
 <p align="center">
   <br>
@@ -919,7 +919,7 @@ flowchart TB
 ```
 
 
-**n8n bietet über 400 native Integrationen** mit Plattformen wie Google Sheets, Notion, Slack, Airtable, Datenbanken (PostgreSQL, MongoDB), Cloud-Speicher und mehr. Jeder Knoten in diesem Workflow ist modular — Sie können:
+**n8n bietet über 400 native Integrationen** mit Plattformen wie Google Sheets, Notion, Slack, Airtable, Datenbanken (PostgreSQL, MongoDB), Cloud-Speicher und mehr. Jeder Knoten in diesem Workflow ist modular - Sie können:
 
 - 🔄 **LLM-Anbieter wechseln** (OpenAI ↔ Claude ↔ Gemini ↔ Grok)
 - 📊 **Mit Ihrem ERP oder Projektmanagementsystem verbinden**
@@ -986,16 +986,16 @@ curl -X POST "http://localhost:6333/collections/ddc_de_berlin/snapshots/upload" 
 
 > **Ab n8n Version 2.0 ist der Execute Command Knoten aus Sicherheitsgründen standardmäßig deaktiviert.**
 >
-> Ohne die untenstehende Konfiguration **funktionieren Workflows mit Execute Command (insbesondere CAD/BIM Pipeline) nicht** — Knoten werden mit Fragezeichen angezeigt oder nicht erkannt.
+> Ohne die untenstehende Konfiguration **funktionieren Workflows mit Execute Command (insbesondere CAD/BIM Pipeline) nicht** - Knoten werden mit Fragezeichen angezeigt oder nicht erkannt.
 
 ### Schnelle Lösung
 
-**Windows (CMD) — bei jedem Start ausführen:**
+**Windows (CMD) - bei jedem Start ausführen:**
 ```cmd
 set NODES_EXCLUDE=[] && npx n8n
 ```
 
-**Permanente Lösung — einmal erstellen:**
+**Permanente Lösung - einmal erstellen:**
 
 Datei `C:\Users\IHR_BENUTZER\.n8n\.env` erstellen mit:
 ```
@@ -1183,7 +1183,7 @@ curl -X POST "http://localhost:6333/collections/ddc_de_berlin/snapshots/upload" 
 ```
 ---
 
-## 🌐 Pricing Search API — BuildCalculator.io
+## 🌐 Pricing Search API - BuildCalculator.io
 
 <p align="center">
   <a href="https://buildcalculator.io/api-docs/">
@@ -1203,19 +1203,19 @@ Kostenlose REST-API zur Suche von Baupositionen mit vollständiger Kostenaufschl
 
 ### API-Endpunkte
 
-#### `GET/POST /api/v1/search` — Baupositionen suchen
+#### `GET/POST /api/v1/search` - Baupositionen suchen
 
 | Parameter | Typ | Standard | Erforderlich | Beschreibung |
 |-----------|-----|----------|-------------|-------------|
-| `q` | string | — | Ja | Suchanfrage (min. 2 Zeichen). Funktioniert in jeder Sprache |
+| `q` | string | - | Ja | Suchanfrage (min. 2 Zeichen). Funktioniert in jeder Sprache |
 | `lang` | string | `en` | Nein | Datenbanksprache: `en`, `ru`, `de`, `fr`, `es`, `pt`, `zh`, `ar`, `hi` |
 | `top` | integer | 5 | Nein | Anzahl der Ergebnisse (1–20) |
 
-#### `GET /api/v1/languages` — Unterstützte Sprachen
+#### `GET /api/v1/languages` - Unterstützte Sprachen
 
 Gibt alle verfügbaren Sprachen mit Positionsanzahl zurück.
 
-#### `GET /api/v1/stats` — Datenbankstatistiken
+#### `GET /api/v1/stats` - Datenbankstatistiken
 
 Gibt Positionsanzahl, Kategorien, Sprachen und Metadaten zurück.
 
@@ -1235,7 +1235,7 @@ response = requests.get("https://buildcalculator.io/api/v1/search",
 data = response.json()
 
 for item in data["results"]:
-    print(f"{item['name']} — {item['pricing']['total_per_unit']} EUR/{item['unit']}")
+    print(f"{item['name']} - {item['pricing']['total_per_unit']} EUR/{item['unit']}")
 ```
 
 **JavaScript:**
@@ -1421,17 +1421,17 @@ Der `AI_INSTRUCTIONS/` Ordner enthält umfassende Dokumentation für KI-Programm
 ### Was ist DDC CWICR?
 
 **DDC CWICR** (Construction Work Items, Components & Resources) ist eine Open-Source-Baukostendatenbank mit:
-- **55.719 Arbeitspositionen** — detaillierte Bauvorgänge mit vollständiger Kostenaufschlüsselung
-- **27.672 Ressourcen** — Materialien, Arbeit und Ausrüstung mit regionalen Preisen
-- **85 Datenfelder** — strukturiertes Schema für genaue Kostenberechnungen
-- **11 Sprachen** — mit regionsspezifischen Preisen (EUR, USD, CAD, RUB, CNY, etc.)
-- **Vorberechnete Embeddings** — 3072-dimensionale OpenAI-Vektoren für semantische Suche
+- **55.719 Arbeitspositionen** - detaillierte Bauvorgänge mit vollständiger Kostenaufschlüsselung
+- **27.672 Ressourcen** - Materialien, Arbeit und Ausrüstung mit regionalen Preisen
+- **85 Datenfelder** - strukturiertes Schema für genaue Kostenberechnungen
+- **11 Sprachen** - mit regionsspezifischen Preisen (EUR, USD, CAD, RUB, CNY, etc.)
+- **Vorberechnete Embeddings** - 3072-dimensionale OpenAI-Vektoren für semantische Suche
 
 ### Ressourcenbasierte Methodik
 
 Die Datenbank verwendet einen **ressourcenbasierten Kalkulationsansatz**, der trennt:
-- **Technologienormen** (unveränderlich) — Arbeitsstunden, Materialmengen, Gerätezeit
-- **Regionale Preise** (volatil) — Stundensätze, Materialkosten, Kraftstoffpreise
+- **Technologienormen** (unveränderlich) - Arbeitsstunden, Materialmengen, Gerätezeit
+- **Regionale Preise** (volatil) - Stundensätze, Materialkosten, Kraftstoffpreise
 
 ```
 Tatsächliche Kosten = Technologienorm × Regionaler Preis
@@ -1449,7 +1449,7 @@ Dies ermöglicht genaue Schätzungen für verschiedene Regionen und Zeiträume.
 | `ANTIGRAVITY.md` | GCP-Integration (BigQuery, Vertex AI, Qdrant) |
 | `DATABASE_SCHEMA.md` | Vollständiges 85-Felder-Schema |
 
-### n8n Workflows — Beispiele & Vorlagen
+### n8n Workflows - Beispiele & Vorlagen
 
 Die enthaltenen n8n-Workflows sind **Beispiele und Vorlagen**, die die Kostenkalkulationslogik demonstrieren. Sie können:
 - ✅ Unverändert für schnelle Bereitstellung verwendet werden
@@ -1479,15 +1479,15 @@ KI-Assistenten können Ihnen helfen:
 
 ---
 
-## Lizenz — CC BY 4.0
+## Lizenz - CC BY-NC 4.0
 
-Das gesamte Repository ist lizenziert unter [**Creative Commons Attribution 4.0 International (CC BY 4.0)**](https://creativecommons.org/licenses/by/4.0/).
+Das gesamte Repository ist lizenziert unter [**Creative Commons Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)**](https://creativecommons.org/licenses/by-nc/4.0/).
 
 ### Was Sie tun DÜRFEN
 
 | | |
 |---|---|
-| **Kommerzielle Nutzung** | Erstellen Sie Produkte, SaaS, Apps, APIs — kostenlos, ohne Genehmigung |
+| **Kommerzielle Nutzung** | Erstellen Sie Produkte, SaaS, Apps, APIs - kostenlos, ohne Genehmigung |
 | **Kopieren und Verteilen** | Teilen Sie die Daten in jedem Format |
 | **Ändern und Anpassen** | Transformieren, ergänzen, abgeleitete Werke erstellen |
 | **Für AI/ML verwenden** | Modelltraining, RAG-Pipelines, Embeddings |
@@ -1497,29 +1497,29 @@ Das gesamte Repository ist lizenziert unter [**Creative Commons Attribution 4.0 
 
 | | |
 |---|---|
-| **Namensnennung angeben** | Sie **müssen** die Quelle bei jeder Nutzung angeben — siehe Beispiele unten |
+| **Namensnennung angeben** | Sie **müssen** die Quelle bei jeder Nutzung angeben - siehe Beispiele unten |
 | **Änderungen angeben** | Wenn Sie die Daten geändert haben, **müssen** Sie angeben, was geändert wurde |
-| **Lizenz beibehalten** | Fügen Sie einen Link zu CC BY 4.0 bei der Weitergabe bei |
+| **Lizenz beibehalten** | Fügen Sie einen Link zu CC BY-NC 4.0 bei der Weitergabe bei |
 
-### Namensnennung — Pflichtformat
+### Namensnennung - Pflichtformat
 
 Jedes Projekt, Produkt, jede Veröffentlichung oder Anwendung, die DDC CWICR-Daten verwendet, **muss** enthalten:
 
 ```
 DDC CWICR by Artem Boiko / DataDrivenConstruction
 https://github.com/datadrivenconstruction/OpenConstructionEstimate-DDC-CWICR
-Licensed under CC BY 4.0
+Licensed under CC BY-NC 4.0
 ```
 
 **Beispiele für die Namensnennung:**
 
 | Wo | Wie |
 |-----|-----|
-| **README / Dokumentation** | `Datenquelle: DDC CWICR by Artem Boiko / DataDrivenConstruction (CC BY 4.0)` |
-| **Web-App (Footer oder "Über")** | `Baukostendaten © Artem Boiko / DataDrivenConstruction — CC BY 4.0` |
-| **Wissenschaftliche Arbeit** | `Boiko, A. (2025). DDC CWICR — Construction Work Items, Costs & Resources. DataDrivenConstruction.` |
-| **Mobile / Desktop-App** | "Über"-Bildschirm: `Daten: DDC CWICR by DataDrivenConstruction (CC BY 4.0)` |
-| **API / SaaS** | API-Dokumentation: `Bereitgestellt von DDC CWICR (CC BY 4.0) — datadrivenconstruction.io` |
+| **README / Dokumentation** | `Datenquelle: DDC CWICR by Artem Boiko / DataDrivenConstruction (CC BY-NC 4.0)` |
+| **Web-App (Footer oder "Über")** | `Baukostendaten © Artem Boiko / DataDrivenConstruction - CC BY-NC 4.0` |
+| **Wissenschaftliche Arbeit** | `Boiko, A. (2025). DDC CWICR - Construction Work Items, Costs & Resources. DataDrivenConstruction.` |
+| **Mobile / Desktop-App** | "Über"-Bildschirm: `Daten: DDC CWICR by DataDrivenConstruction (CC BY-NC 4.0)` |
+| **API / SaaS** | API-Dokumentation: `Bereitgestellt von DDC CWICR (CC BY-NC 4.0) - datadrivenconstruction.io` |
 
 ## Projekt unterstützen
 

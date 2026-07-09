@@ -1,5 +1,5 @@
 """
-RAG Pipeline — LangChain + OpenAI + Qdrant
+RAG Pipeline - LangChain + OpenAI + Qdrant
 
 Uses LangChain to build a retrieval-augmented generation chain backed by
 Qdrant (CWICR construction cost data) and OpenAI for both embeddings and

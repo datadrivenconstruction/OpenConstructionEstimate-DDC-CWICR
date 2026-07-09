@@ -71,7 +71,7 @@ RULES: list[tuple[str, str, str, str]] = [
         "OST_StructuralFraming", "IfcMember",
         "truss fachwerk IfcMember IfcBeam roof-truss"),
 
-    # ===== Architecture — walls / partitions =====
+    # ===== Architecture - walls / partitions =====
     (r"\bкладк.*кирпич|кирпич.*кладк|кирпичн.*стен",
         "OST_Walls", "IfcWall",
         "brick-wall masonry mauerwerk IfcWall basic-wall"),
@@ -88,7 +88,7 @@ RULES: list[tuple[str, str, str, str]] = [
         "OST_Walls", "IfcWall",
         "wall mauer wand IfcWall basic-wall"),
 
-    # ===== Architecture — openings =====
+    # ===== Architecture - openings =====
     (r"\bдвер.*противопожар|противопожар.*двер",
         "OST_Doors", "IfcDoor",
         "fire-door brandschutztür IfcDoor"),
@@ -102,7 +102,7 @@ RULES: list[tuple[str, str, str, str]] = [
         "OST_Windows", "IfcWindow",
         "window fenster glazing casement IfcWindow"),
 
-    # ===== Architecture — finishes =====
+    # ===== Architecture - finishes =====
     (r"\bпотолок.*подвесн|подвесн.*потолок",
         "OST_Ceilings", "IfcCovering",
         "suspended-ceiling abgehängte-decke IfcCovering"),
@@ -131,7 +131,7 @@ RULES: list[tuple[str, str, str, str]] = [
         "OST_Floors", "IfcCovering",
         "screed estrich floor-screed IfcCovering"),
 
-    # ===== MEP — plumbing =====
+    # ===== MEP - plumbing =====
     (r"\bунитаз|умывальн|раковин|ванн|душ|санитарн.*приб",
         "OST_PlumbingFixtures", "IfcSanitaryTerminal",
         "sink toilet wc washbasin shower bathtub IfcSanitaryTerminal"),
@@ -157,7 +157,7 @@ RULES: list[tuple[str, str, str, str]] = [
         "OST_PipeAccessory", "IfcValve",
         "valve gate-valve ball-valve absperrarmatur IfcValve"),
 
-    # ===== MEP — HVAC =====
+    # ===== MEP - HVAC =====
     (r"\bвоздуховод",
         "OST_DuctCurves", "IfcDuctSegment",
         "duct lüftungskanal IfcDuctSegment ventilation HVAC"),
@@ -177,7 +177,7 @@ RULES: list[tuple[str, str, str, str]] = [
         "OST_MechanicalEquipment", "IfcSpaceHeater",
         "heating heizung IfcSpaceHeater"),
 
-    # ===== MEP — electrical =====
+    # ===== MEP - electrical =====
     (r"\bкабельн.*лоток|лоток.*кабельн",
         "OST_CableTray", "IfcCableCarrierSegment",
         "cable-tray kabelpritsche IfcCableCarrierSegment"),
@@ -388,7 +388,7 @@ def classify_work_type(text: str) -> str | None:
 
 
 # ---------------------------------------------------------------------------
-# applies_to_classes — detect what BIM element this RATE OPERATES ON when the
+# applies_to_classes - detect what BIM element this RATE OPERATES ON when the
 # rate itself is a sub-task / secondary work (insulation, painting, fire-proofing,
 # coating, marking on a parent element). Returns a list of IfcClass values.
 #
@@ -494,17 +494,17 @@ INLINE_LANG_TAGS = (
     # RU + EN (original)
     "КАП", "ПУС", "MAJ", "COM", "MIN", "REM", "REP", "MOD", "EKS", "EXP",
     # 10 European-script languages share INB (commissioning) + GRU (major repair):
-    # BG/CS/DE/HR/IT/NL/PL/RO/SV/TR — 894 codes each
+    # BG/CS/DE/HR/IT/NL/PL/RO/SV/TR - 894 codes each
     "INB", "GRU",
-    # FR — RÉN (rénovation = major repair) — 231 codes
+    # FR - RÉN (rénovation = major repair) - 231 codes
     "RÉN",
-    # PT — REF (refurbishment) — 231 codes
+    # PT - REF (refurbishment) - 231 codes
     "REF",
-    # HI (Hindi/Devanagari) — 1602 codes total: निर(708) + प्र(663) + उपक(231)
+    # HI (Hindi/Devanagari) - 1602 codes total: निर(708) + प्र(663) + उपक(231)
     "निर", "प्र", "उपक",
-    # ZH (Chinese) — 1602 codes total: 建筑工(708) + 调试工(663) + 设备大(231)
+    # ZH (Chinese) - 1602 codes total: 建筑工(708) + 调试工(663) + 设备大(231)
     "建筑工", "调试工", "设备大",
-    # AR (Arabic) — 1004 codes total: أعم(773 commissioning) + إصل(231 repair)
+    # AR (Arabic) - 1004 codes total: أعم(773 commissioning) + إصل(231 repair)
     "أعم", "إصل",
 )
 

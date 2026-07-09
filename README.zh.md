@@ -24,7 +24,7 @@
 </div>
 
 <div align="center">
-  <img src="https://img.shields.io/badge/许可证-CC_BY_4.0-green?style=flat-square" alt="许可证">
+  <img src="https://img.shields.io/badge/许可证-CC_BY--NC_4.0-green?style=flat-square" alt="许可证">
   <img src="https://img.shields.io/badge/版本-v0.1.1-blue?style=flat-square" alt="版本">
   <img src="https://img.shields.io/badge/嵌入向量-OpenAI_3072d-412991?style=flat-square" alt="嵌入向量">
   <img src="https://img.shields.io/badge/向量数据库-Qdrant-dc382d?style=flat-square" alt="Qdrant">
@@ -117,59 +117,59 @@
 ## 📑 目录
 
 ### 🤖 AI 集成
-- [AI 产品的完美燃料](#-您的-ai-产品的完美燃料) — 为什么这个数据库是 AI 的理想选择
-- [Claude Code 与 Google Antigravity](#-claude-code--google-antigravity--ai-编程助手) — AI 编程助手
-- [n8n](#-n8n--可视化工作流自动化) — 工作流自动化
-- [通用场景](#-通用场景) — 您可以构建什么
-- [开发者示例](#-开发者示例) — 即用型代码
+- [AI 产品的完美燃料](#-您的-ai-产品的完美燃料) - 为什么这个数据库是 AI 的理想选择
+- [Claude Code 与 Google Antigravity](#-claude-code--google-antigravity--ai-编程助手) - AI 编程助手
+- [n8n](#-n8n--可视化工作流自动化) - 工作流自动化
+- [通用场景](#-通用场景) - 您可以构建什么
+- [开发者示例](#-开发者示例) - 即用型代码
 
 ### 📊 数据库与数据
-- [关于](#关于) — 什么是 DDC CWICR
-- [可用格式](#可用格式) — Excel、Parquet、CSV、Qdrant
-- [数据架构](#数据架构) — 85 字段结构
-- [字段分组](#字段分组) — 分类、资源、人工、机械
-- [方法论](#方法论) — 基于资源的成本计算原则
-- [历史背景](#历史背景) — 100+ 年的标准
+- [关于](#关于) - 什么是 DDC CWICR
+- [可用格式](#可用格式) - Excel、Parquet、CSV、Qdrant
+- [数据架构](#数据架构) - 85 字段结构
+- [字段分组](#字段分组) - 分类、资源、人工、机械
+- [方法论](#方法论) - 基于资源的成本计算原则
+- [历史背景](#历史背景) - 100+ 年的标准
 
 ### ⚡ n8n 工作流
-- [n8n 工作流概述](#-n8n-工作流) — 选择您的输入类型
-- [立即体验 — 在线演示机器人](#-立即体验--在线演示机器人) — 在 Telegram 中即时测试
-- [工作流 1：文本估算机器人](#1️⃣-文本估算机器人) — 文本输入的 Telegram 机器人
-- [工作流 2：照片成本估算器](#2️⃣-照片成本估算器) — 带 AI 视觉的网页表单
-- [工作流 3：通用机器人](#3️⃣-通用估算机器人文本--照片--pdf) — 文本 + 照片 + PDF
-- [工作流 4：CAD/BIM 管道](#4️⃣-cad-bim-成本估算管道) — Revit/IFC/DWG 转估算
-- [工作流快速入门](#工作流快速入门) — 4 步完成设置
-- [n8n 2.0+ 设置](#️-n8n-20-设置要求) — 启用执行命令节点
+- [n8n 工作流概述](#-n8n-工作流) - 选择您的输入类型
+- [立即体验 - 在线演示机器人](#-立即体验--在线演示机器人) - 在 Telegram 中即时测试
+- [工作流 1：文本估算机器人](#1️⃣-文本估算机器人) - 文本输入的 Telegram 机器人
+- [工作流 2：照片成本估算器](#2️⃣-照片成本估算器) - 带 AI 视觉的网页表单
+- [工作流 3：通用机器人](#3️⃣-通用估算机器人文本--照片--pdf) - 文本 + 照片 + PDF
+- [工作流 4：CAD/BIM 管道](#4️⃣-cad-bim-成本估算管道) - Revit/IFC/DWG 转估算
+- [工作流快速入门](#工作流快速入门) - 4 步完成设置
+- [n8n 2.0+ 设置](#️-n8n-20-设置要求) - 启用执行命令节点
 
 ### 🏗️ CAD/BIM 管道
-- [先决条件](#-先决条件) — 必需组件
-- [管道阶段](#-管道阶段) — 10 阶段处理
-- [LLM 模型选择](#️-llm-模型选择) — OpenAI、Claude、Gemini、Grok
-- [输出文件](#-输出文件) — HTML 和 Excel 报告
-- [故障排除](#️-故障排除) — 常见问题
+- [先决条件](#-先决条件) - 必需组件
+- [管道阶段](#-管道阶段) - 10 阶段处理
+- [LLM 模型选择](#️-llm-模型选择) - OpenAI、Claude、Gemini、Grok
+- [输出文件](#-输出文件) - HTML 和 Excel 报告
+- [故障排除](#️-故障排除) - 常见问题
 
 ### 🔍 向量数据库
-- [向量数据库](#向量数据库) — 使用 Qdrant 进行语义搜索
-- [Qdrant 向量数据库快照](#qdrant-向量数据库快照) — 下载快照
-- [集合](#集合) — 11 种语言集合
-- [Docker 部署](#docker-部署) — 自托管设置
+- [向量数据库](#向量数据库) - 使用 Qdrant 进行语义搜索
+- [Qdrant 向量数据库快照](#qdrant-向量数据库快照) - 下载快照
+- [集合](#集合) - 11 种语言集合
+- [Docker 部署](#docker-部署) - 自托管设置
 
 ### 🌐 API
-- [Pricing Search API](#-pricing-search-api--buildcalculatorio) — 免费的建筑定价 REST API
-- [API 端点](#api-端点) — 搜索、语言、统计
-- [代码示例](#api-代码示例) — cURL、Python、JavaScript
+- [Pricing Search API](#-pricing-search-api--buildcalculatorio) - 免费的建筑定价 REST API
+- [API 端点](#api-端点) - 搜索、语言、统计
+- [代码示例](#api-代码示例) - cURL、Python、JavaScript
 
 ### 🚀 快速入门
-- [快速入门 - Python](#快速入门) — 表格数据与语义搜索
-- [集成场景](#集成) — 入门到高级
+- [快速入门 - Python](#快速入门) - 表格数据与语义搜索
+- [集成场景](#集成) - 入门到高级
 
 ### 👥 社区
-- [资源与社区](#资源与社区) — 链接与频道
-- [咨询与培训](#咨询与培训) — 专业服务
-- [贡献](#贡献) — 提交您的工作流
-- [许可证](#许可证) — CC BY 4.0
-- [支持项目](#支持项目) — 赞助与捐赠
-- [🤖 AI 指令](#ai-指令) — AI 助手文档
+- [资源与社区](#资源与社区) - 链接与频道
+- [咨询与培训](#咨询与培训) - 专业服务
+- [贡献](#贡献) - 提交您的工作流
+- [许可证](#许可证) - CC BY-NC 4.0
+- [支持项目](#支持项目) - 赞助与捐赠
+- [🤖 AI 指令](#ai-指令) - AI 助手文档
 
 
 ---
@@ -177,16 +177,16 @@
 ## 🚀 您的 AI 产品的完美燃料
 
 <p align="center">
-  <b>只需克隆仓库并描述您想要的内容 — AI 完成其余工作</b>
+  <b>只需克隆仓库并描述您想要的内容 - AI 完成其余工作</b>
 </p>
 
-DDC CWICR 不仅仅是一个数据库 — 它是 **AI 驱动应用的即用燃料**。无论您是构建成本估算机器人、自动化建筑工作流，还是创建智能助手 — 这些数据可以与现代 AI 工具开箱即用。
+DDC CWICR 不仅仅是一个数据库 - 它是 **AI 驱动应用的即用燃料**。无论您是构建成本估算机器人、自动化建筑工作流，还是创建智能助手 - 这些数据可以与现代 AI 工具开箱即用。
 
 ### 为什么这个数据库是 AI 的理想选择
 
 | 特性 | 优势 |
 |---------|---------|
-| **预计算嵌入向量** | 无需生成向量 — 语义搜索即时可用 |
+| **预计算嵌入向量** | 无需生成向量 - 语义搜索即时可用 |
 | **结构化的 85 字段架构** | AI 可以推理数据关系并提供准确答案 |
 | **包含 11 种语言** | 构建多语言应用无需翻译开销 |
 | **55,000+ 工作项目** | 全面覆盖任何建筑估算任务 |
@@ -203,11 +203,11 @@ DDC CWICR 提供**完整、结构化的工作描述**，可在任何系统或格
 | 参与者 | 获得的内容 |
 |--------|-----------|
 | 🏢 **业主 / 投资者** | 完全的成本透明度、资源分解、投资决策的价格依据 |
-| 📊 **造价工程师** | 详细定额、人工工时、材料数量、设备成本 — 可直接用于编制工程量清单 |
+| 📊 **造价工程师** | 详细定额、人工工时、材料数量、设备成本 - 可直接用于编制工程量清单 |
 | 👷 **项目经理 / 工长** | 工作组成、资源需求、劳动定额，用于日常规划和执行 |
 | 🔧 **承包商 / 施工方** | 完整规格、单价、生产率基准，用于准确报价和进度安排 |
 
-导出至 **Excel、PDF、HTML、ERP系统、BIM平台** — 结构化的85字段架构确保所有输出格式的数据完整性。
+导出至 **Excel、PDF、HTML、ERP系统、BIM平台** - 结构化的85字段架构确保所有输出格式的数据完整性。
 
 ### 🛠️ 完美适配
 
@@ -245,7 +245,7 @@ DDC CWICR 提供**完整、结构化的工作描述**，可在任何系统或格
 
 ## 🎯 DDC Skills
 
-**[建筑业AI代理DDC技能](https://github.com/datadrivenconstruction/DDC_Skills_for_AI_Agents_in_Construction)** — 196个自动化技能，直接集成到CWICR数据库。克隆，用AI编码助手打开，描述您的需求。
+**[建筑业AI代理DDC技能](https://github.com/datadrivenconstruction/DDC_Skills_for_AI_Agents_in_Construction)** - 196个自动化技能，直接集成到CWICR数据库。克隆，用AI编码助手打开，描述您的需求。
 
 <p align="center">
   <a href="https://github.com/datadrivenconstruction/DDC_Skills_for_AI_Agents_in_Construction">
@@ -255,7 +255,7 @@ DDC CWICR 提供**完整、结构化的工作描述**，可在任何系统或格
 
 ---
 
-### 💻 Claude Code & Google Antigravity — AI 编程助手
+### 💻 Claude Code & Google Antigravity - AI 编程助手
 
 使用 DDC CWICR 最快捷的方式。只需在 Claude Code 或 Google Antigravity 中打开仓库，用自然语言提问即可。
 
@@ -287,7 +287,7 @@ claude
 
 ---
 
-### ⚡ n8n — 可视化工作流自动化
+### ⚡ n8n - 可视化工作流自动化
 
 无需编码即可构建强大的自动化管道。将 DDC CWICR 连接到 400+ 个应用和服务。
 
@@ -545,7 +545,7 @@ flowchart TB
 
 ---
 
-## n8n 工作流 — 详细说明
+## n8n 工作流 - 详细说明
 
 四个可用于生产的自动化建筑成本估算工作流。每个工作流通过 Qdrant 连接到 DDC CWICR 向量数据库，并使用 AI 模型进行智能解析和匹配。
 
@@ -562,7 +562,7 @@ flowchart TB
 
 **文件：** `n8n_1_Telegram_Bot_Cost_Estimates_and_Rate_Finder_TEXT_DDC_CWICR.json`
 
-用于基于文本的成本估算的 Telegram 机器人。用自然语言描述建筑工作 — 机器人解析输入，搜索向量数据库，返回详细的成本分解。
+用于基于文本的成本估算的 Telegram 机器人。用自然语言描述建筑工作 - 机器人解析输入，搜索向量数据库，返回详细的成本分解。
 
 <p align="center">
   <br>
@@ -570,7 +570,7 @@ flowchart TB
   <br></br>
 </p>
 
-<h3 align="left">🤖 立即体验 — 在线演示机器人</h3>
+<h3 align="left">🤖 立即体验 - 在线演示机器人</h3>
 <p align="left"><i>在 Telegram 中即时测试估算工作流</i></p>
 <p><b>@TextOpenConstructionEstimate_bot</b></p>
 <p>从文本描述创建<br>完整的成本估算</p>
@@ -627,7 +627,7 @@ flowchart LR
 
 | 功能                    | 描述                                                          |
 |----------------------------|----------------------------------------------------------------------|
-| 💬 自然语言输入  | 接受任何文本格式 — 列表、句子、结构化描述 |
+| 💬 自然语言输入  | 接受任何文本格式 - 列表、句子、结构化描述 |
 | 🤖 多 LLM 支持       | 支持 OpenAI、Claude 或 Gemini（可切换）                    |
 | 🔍 语义搜索         | 即使措辞不同也能找到最佳匹配                       |
 | 🌍 11 种语言             | DE、EN、RU、ES、FR、PT、ZH、AR、HI、US、UK                                   |
@@ -645,7 +645,7 @@ flowchart LR
 
 **文件：** `n8n_2_Photo_Cost_Estimate_DDC_CWICR.json`
 
-用于基于照片估算的网页表单界面。上传建筑照片 — AI 视觉识别元素，估算尺寸，并自动计算成本。
+用于基于照片估算的网页表单界面。上传建筑照片 - AI 视觉识别元素，估算尺寸，并自动计算成本。
 
 <p align="center">
   <br>
@@ -919,7 +919,7 @@ flowchart TB
 ```
 
 
-**n8n 提供 400+ 个原生集成**，包括 Google Sheets、Notion、Slack、Airtable、数据库（PostgreSQL、MongoDB）、云存储等。此工作流中的每个节点都是模块化的 — 您可以：
+**n8n 提供 400+ 个原生集成**，包括 Google Sheets、Notion、Slack、Airtable、数据库（PostgreSQL、MongoDB）、云存储等。此工作流中的每个节点都是模块化的 - 您可以：
 
 - 🔄 **切换 LLM 提供商**（OpenAI ↔ Claude ↔ Gemini ↔ Grok）
 - 📊 **连接到您的 ERP 或项目管理系统**
@@ -986,16 +986,16 @@ curl -X POST "http://localhost:6333/collections/ddc_zh_shanghai/snapshots/upload
 
 > **从 n8n 2.0 版本开始，出于安全原因，执行命令节点默认被禁用。**
 >
-> 没有以下配置，使用执行命令的工作流（特别是 CAD/BIM 管道）**将无法工作** — 节点会显示问号或无法识别。
+> 没有以下配置，使用执行命令的工作流（特别是 CAD/BIM 管道）**将无法工作** - 节点会显示问号或无法识别。
 
 ### 快速修复
 
-**Windows (CMD) — 每次运行：**
+**Windows (CMD) - 每次运行：**
 ```cmd
 set NODES_EXCLUDE=[] && npx n8n
 ```
 
-**永久解决方案 — 创建一次：**
+**永久解决方案 - 创建一次：**
 
 创建文件 `C:\Users\您的用户名\.n8n\.env`，内容为：
 ```
@@ -1118,7 +1118,7 @@ project_YYYY-MM-DD.xls    ← Excel 兼容电子表格
 
 带有 OpenAI `text-embedding-3-large` 嵌入向量的即用 Qdrant 集合，用于跨建筑工作项目的语义搜索。
 
-向量数据库允许您用自然语言与数据"对话" — 使用简单的句子或短语而不是代码或复杂的过滤器。这大大加快了查找正确工作项目或成本行的速度，即使在非常大的数据集中也是如此。
+向量数据库允许您用自然语言与数据"对话" - 使用简单的句子或短语而不是代码或复杂的过滤器。这大大加快了查找正确工作项目或成本行的速度，即使在非常大的数据集中也是如此。
 
 这些 Qdrant 集合可以通过现代自动化和集成工作流连接到应用程序（例如，低代码/无代码工作流和管道工具）。您可以构建搜索、过滤和解释建筑工作项目的助手，或将语义搜索直接集成到现有的估算和项目控制工具中。
 
@@ -1183,7 +1183,7 @@ curl -X POST "http://localhost:6333/collections/ddc_zh_shanghai/snapshots/upload
 ```
 ---
 
-## 🌐 Pricing Search API — BuildCalculator.io
+## 🌐 Pricing Search API - BuildCalculator.io
 
 <p align="center">
   <a href="https://buildcalculator.io/api-docs/">
@@ -1203,19 +1203,19 @@ curl -X POST "http://localhost:6333/collections/ddc_zh_shanghai/snapshots/upload
 
 ### API 端點
 
-#### `GET/POST /api/v1/search` — 搜索建築工程項目
+#### `GET/POST /api/v1/search` - 搜索建築工程項目
 
 | 參數 | 類型 | 默認值 | 必填 | 描述 |
 |------|------|--------|------|------|
-| `q` | string | — | 是 | 搜索查詢（最少2個字符）。支持任何語言 |
+| `q` | string | - | 是 | 搜索查詢（最少2個字符）。支持任何語言 |
 | `lang` | string | `en` | 否 | 數據庫語言：`en`、`ru`、`de`、`fr`、`es`、`pt`、`zh`、`ar`、`hi` |
 | `top` | integer | 5 | 否 | 返回結果數量（1–20） |
 
-#### `GET /api/v1/languages` — 支持的語言列表
+#### `GET /api/v1/languages` - 支持的語言列表
 
 返回所有可用語言及其項目數量。
 
-#### `GET /api/v1/stats` — 數據庫統計
+#### `GET /api/v1/stats` - 數據庫統計
 
 返回項目數量、分類、語言和元數據。
 
@@ -1235,7 +1235,7 @@ response = requests.get("https://buildcalculator.io/api/v1/search",
 data = response.json()
 
 for item in data["results"]:
-    print(f"{item['name']} — {item['pricing']['total_per_unit']} EUR/{item['unit']}")
+    print(f"{item['name']} - {item['pricing']['total_per_unit']} EUR/{item['unit']}")
 ```
 
 **JavaScript：**
@@ -1402,7 +1402,7 @@ results = client.search(
 
 DDC CWICR 是一个免费开放的项目，致力于使建筑行业更加高效、透明和技术先进。我们正在积极寻找志同道合的爱好者，他们认同这一使命。如果您创建了有用的解决方案并准备与社区分享，我们将帮助您被更多人知道。
 
-我们邀请您提交基于 DDC CWICR 工具的开源工作流、管道和集成 — 任何人都可以在工作中自由使用的工具。优秀的解决方案将在 GitHub 上以完整的作者署名发布，并通过我们的新闻通讯和社交媒体渠道宣布，触达数万名专业订阅者。这将使您的名字直接展示在国际估算师、BIM 专家和项目经理社区面前。
+我们邀请您提交基于 DDC CWICR 工具的开源工作流、管道和集成 - 任何人都可以在工作中自由使用的工具。优秀的解决方案将在 GitHub 上以完整的作者署名发布，并通过我们的新闻通讯和社交媒体渠道宣布，触达数万名专业订阅者。这将使您的名字直接展示在国际估算师、BIM 专家和项目经理社区面前。
 
 我们一起改变行业。您可以将您的解决方案发送到 info@datadrivenconstruction.io，主题为"DDC Open Workflow"，或直接向我们的 GitHub 仓库提交 Pull Request。
 
@@ -1421,17 +1421,17 @@ DDC CWICR 是一个免费开放的项目，致力于使建筑行业更加高效�
 ### 什么是 DDC CWICR？
 
 **DDC CWICR**（建筑工作项目、组件与资源）是一个开源建筑成本数据库，包含：
-- **55,719 个工作项目** — 带完整成本分解的详细建筑操作
-- **27,672 个资源** — 材料、人工和设备，带区域定价
-- **85 个数据字段** — 用于准确成本计算的结构化架构
-- **11 种语言** — 带特定区域定价（EUR、USD、CAD、RUB、CNY 等）
-- **预计算嵌入向量** — 3072 维 OpenAI 向量，用于语义搜索
+- **55,719 个工作项目** - 带完整成本分解的详细建筑操作
+- **27,672 个资源** - 材料、人工和设备，带区域定价
+- **85 个数据字段** - 用于准确成本计算的结构化架构
+- **11 种语言** - 带特定区域定价（EUR、USD、CAD、RUB、CNY 等）
+- **预计算嵌入向量** - 3072 维 OpenAI 向量，用于语义搜索
 
 ### 基于资源的方法论
 
 数据库使用**基于资源的成本计算方法**，将以下内容分离：
-- **技术定额**（不变） — 人工工时、材料数量、设备时间
-- **区域价格**（波动） — 小时费率、材料成本、燃料价格
+- **技术定额**（不变） - 人工工时、材料数量、设备时间
+- **区域价格**（波动） - 小时费率、材料成本、燃料价格
 
 ```
 实际成本 = 技术定额 × 区域价格
@@ -1449,7 +1449,7 @@ DDC CWICR 是一个免费开放的项目，致力于使建筑行业更加高效�
 | `ANTIGRAVITY.md` | GCP 集成（BigQuery、Vertex AI、Qdrant） |
 | `DATABASE_SCHEMA.md` | 完整的 85 字段架构参考 |
 
-### n8n 工作流 — 示例与模板
+### n8n 工作流 - 示例与模板
 
 包含的 n8n 工作流是**示例和模板**，演示成本估算逻辑。它们可以：
 - ✅ 直接使用进行快速部署
@@ -1479,15 +1479,15 @@ AI 助手可以帮助您：
 
 ---
 
-## 许可证 — CC BY 4.0
+## 许可证 - CC BY-NC 4.0
 
-整个仓库基于 [**Creative Commons Attribution 4.0 International (CC BY 4.0)**](https://creativecommons.org/licenses/by/4.0/) 许可。
+整个仓库基于 [**Creative Commons Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)**](https://creativecommons.org/licenses/by-nc/4.0/) 许可。
 
 ### 您可以做什么
 
 | | |
 |---|---|
-| **商业使用** | 创建产品、SaaS、应用程序、API — 免费，无需请求许可 |
+| **商业使用** | 创建产品、SaaS、应用程序、API - 免费，无需请求许可 |
 | **复制和分发** | 以任何格式分享数据 |
 | **修改和改编** | 转换、补充、创建衍生作品 |
 | **用于 AI/ML** | 模型训练、RAG 管道、嵌入 |
@@ -1497,29 +1497,29 @@ AI 助手可以帮助您：
 
 | | |
 |---|---|
-| **标注来源** | 每次使用时您**必须**注明来源 — 参见下方示例 |
+| **标注来源** | 每次使用时您**必须**注明来源 - 参见下方示例 |
 | **标注更改** | 如果您修改了数据，您**必须**注明修改了什么 |
-| **保留许可证** | 分发时包含 CC BY 4.0 链接 |
+| **保留许可证** | 分发时包含 CC BY-NC 4.0 链接 |
 
-### 署名 — 必需格式
+### 署名 - 必需格式
 
 每个使用 DDC CWICR 数据的项目、产品、出版物或应用程序**必须**包含：
 
 ```
 DDC CWICR by Artem Boiko / DataDrivenConstruction
 https://github.com/datadrivenconstruction/OpenConstructionEstimate-DDC-CWICR
-Licensed under CC BY 4.0
+Licensed under CC BY-NC 4.0
 ```
 
 **署名示例：**
 
 | 位置 | 方式 |
 |-----|-----|
-| **README / 文档** | `数据来源：DDC CWICR by Artem Boiko / DataDrivenConstruction (CC BY 4.0)` |
-| **Web 应用（页脚或"关于"）** | `建筑成本数据 © Artem Boiko / DataDrivenConstruction — CC BY 4.0` |
-| **学术论文** | `Boiko, A. (2025). DDC CWICR — Construction Work Items, Costs & Resources. DataDrivenConstruction.` |
-| **移动端 / 桌面应用** | "关于"界面：`数据：DDC CWICR by DataDrivenConstruction (CC BY 4.0)` |
-| **API / SaaS** | API 文档：`由 DDC CWICR (CC BY 4.0) 提供 — datadrivenconstruction.io` |
+| **README / 文档** | `数据来源：DDC CWICR by Artem Boiko / DataDrivenConstruction (CC BY-NC 4.0)` |
+| **Web 应用（页脚或"关于"）** | `建筑成本数据 © Artem Boiko / DataDrivenConstruction - CC BY-NC 4.0` |
+| **学术论文** | `Boiko, A. (2025). DDC CWICR - Construction Work Items, Costs & Resources. DataDrivenConstruction.` |
+| **移动端 / 桌面应用** | "关于"界面：`数据：DDC CWICR by DataDrivenConstruction (CC BY-NC 4.0)` |
+| **API / SaaS** | API 文档：`由 DDC CWICR (CC BY-NC 4.0) 提供 - datadrivenconstruction.io` |
 
 ## 支持项目
 

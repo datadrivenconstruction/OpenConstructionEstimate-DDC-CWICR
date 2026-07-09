@@ -66,7 +66,7 @@ results = client.search(
 | `US` | English | USA | USD | `ddc_usa_usd` |
 | `ZH` | Chinese | Shanghai | CNY | `ddc_zh_shanghai` |
 
-### Derived tracks (19) — built by `0_Workflow and Pipelines CWICR/python/11-country-track-builder/`
+### Derived tracks (19) - built by the DDC country-track build pipeline
 
 | Code | Language | Region | Currency | Collection | Source track |
 |------|----------|--------|----------|------------|--------------|
@@ -92,7 +92,7 @@ results = client.search(
 
 Snapshot path pattern for any track: `<CODE>___DDC_CWICR/<REGION>_workitems_costs_resources_EMBEDDINGS_3072_DDC_CWICR.snapshot`.
 
-Derived tracks share the same `rate_code` and `resource_code` as their source — these are the alignment keys for cross-track comparison. Norms (labour hours, machine hours, resource quantities) are identical across all tracks; only prices and translatable text vary by region.
+Derived tracks share the same `rate_code` and `resource_code` as their source - these are the alignment keys for cross-track comparison. Norms (labour hours, machine hours, resource quantities) are identical across all tracks; only prices and translatable text vary by region.
 
 ## Core Methodology
 
@@ -178,7 +178,7 @@ results = client.search(
 
 ## License
 
-- **Database**: CC BY 4.0 (free commercial use with attribution)
+- **Database**: CC BY-NC 4.0 (free commercial use with attribution)
 - **Code**: MIT (unrestricted use)
 
 ## Related Repository

@@ -1,0 +1,170 @@
+# OpenConstructionEstimate
+
+**Construction Work Items, Components & Resources**
+
+---
+
+**可用格式**
+
+| Format | Description |
+|--------|-------------|
+| Excel (.xlsx) | 通用数据分析格式 |
+| Parquet (.parquet) | 大数据和机器学习的列式格式 |
+| CSV (.csv) | 通用文本格式 |
+
+---
+
+## 关于数据库
+
+欧亚大陆和亚太地区的现代建筑业依赖于统一的技术标准化生态系统，该系统作为10多个快速发展经济体的通用工程语言。
+
+DDC CWICR数据库（Construction Work Items, Components & Resources）是一项标准协调的尝试，为跨语言的资本项目管理创建无缝的规范空间。该数据库涵盖建筑工程的全部范围：从土方和混凝土工程到专业安装作业。
+
+## 数据来源
+
+DDC CWICR基于欧亚国家公开可用的官方建筑成本标准。该数据库是与来自不同国家的预算员和建筑专家密切合作开发的，这使我们能够考虑到数据工作的实际方面。数据已被系统化为统一结构，在方法论上进行了协调，并以11种语言版本和11种区域定价版本提供国际使用。
+
+## 历史发展
+
+建筑工程资源化标准化方法自1920年代以来不断发展和完善--从最初的生产定额到现代数字参考手册。一个世纪以来，该系统从手工计算发展到机器可读数据库，同时保留了基本原则：准确记录每单位建筑产出的物理资源。
+
+现代版本将历史数据与当前市场价格相结合。在当地市场，类似系统以国家代码形式存在：ENIR、GESN、FER、NRR、ESN、AzDTN、ShNQK、MKS ChT、SNT、BNbD、定额（Định Mức）、定额（Ding'e）。
+
+## 资源成本法方法论
+
+资源成本法的核心价值在于将不变的生产技术与波动的财务组成部分分离：它基于建筑的物理"第一性原理"--劳动力成本、机械时间和材料消耗的标准定额。无论在哪个国家进行建设，这些定额几乎保持不变。
+
+这实现了透明定价，消除了隐藏加价，并允许对投资进行深度审计。因此，DDC CWICR不仅是一本参考手册，而且是一个基本的风险管理工具，在过去一个世纪中已成为该宏观区域事实上的行业标准。
+
+## 数据库统计
+
+- **55,719** 工作项目和费率
+- **27,672** 唯一资源
+- **10+** 应用国家
+
+
+## 数据结构
+
+数据库包含85列，组织成逻辑组：
+
+### 分类层级
+*10列*
+
+category_type、collection_code/name、department_code/name、section_name、subsection_code/name
+
+### 费率（工作项）
+*11列*
+
+rate_code、rate_original_name、rate_unit、row_type、标志 is_material/is_labor/is_machine/is_abstract
+
+### 资源
+*7列*
+
+resource_code、resource_name、resource_unit、resource_quantity、resource_price_per_unit、resource_cost
+
+### 劳动力
+*11列*
+
+count_workers/engineers/operators、按类别的labor_hours、cost_of_working_hours
+
+### 机械设备
+*12列*
+
+machine_class、personnel_operator_grade、electricity_consumption_kwh、electricity_cost
+
+### 价格变体
+*16列*
+
+price_est_min/max/median/mean、position_count、tech_group
+
+### 质量
+*3列*
+
+mass_name、mass_value、mass_unit
+
+## 使用场景
+
+- **成本对标** - 跨地区比较成本
+- **价格指数化** - 跟踪动态
+- **本地化** - 适应当地条件
+- **ETL/BI管道** - 提取和转换数据
+- **AI/ML训练** - 训练模型
+- **CAD (BIM) 5D集成** - 自动分配费率
+- **投标估算** - 快速估算
+- **碳排放计算** - 计算碳足迹
+- **深度审计** - 技术审计
+
+
+## 地理覆盖
+
+该方法论和数据库在以下地区以各种适应形式应用：
+
+- **中亚欧亚（独联体）**: 白俄罗斯、哈萨克斯坦、吉尔吉斯斯坦、俄罗斯、塔吉克斯坦、土库曼斯坦、乌兹别克斯坦
+- **高加索**: 亚美尼亚、阿塞拜疆、格鲁吉亚
+- **东欧**: 摩尔多瓦、乌克兰
+- **东亚（定额体系）**: 中国（定额）、蒙古（BNbD）、越南（Định Mức）
+- **国际项目**: 孟加拉国、埃及、土耳其
+- **历史应用（1950-1990）**: 保加利亚、捷克斯洛伐克、匈牙利
+
+
+## 合作与发展
+
+我们欢迎与专业社区对话。您在实际项目中使用数据库的经验有助于改进平台并扩展其功能。分享使用案例，提出改进建议，并参与讨论。
+
+- **GitHub**: [github.com/datadrivenconstruction](https://github.com/datadrivenconstruction)
+- **Telegram**: [t.me/datadrivenconstruction](https://t.me/datadrivenconstruction)
+- **LinkedIn**: [linkedin.com/company/datadrivenconstruction](https://linkedin.com/company/datadrivenconstruction)
+
+
+## 咨询与培训
+
+我们与全球领先的建筑、工程、咨询机构和技术公司合作，帮助他们实施开放数据原则、自动化CAD/BIM处理并构建强大的ETL管道。
+
+如果您想用自己的数据测试此解决方案，或有兴趣将工作流程适应实际项目任务，请随时与我们联系。我们的团队提供实践研讨会、战略咨询，并开发适合实际项目流程的原型。
+
+我们积极支持寻求数字化转型和互操作性实用解决方案的组织，专注于数据质量和分类挑战，并推动采用开放和自动化的工作流程。
+
+联系我们进行免费咨询，我们将讨论您的挑战并演示n8n自动化如何转变您的运营。通过电子邮件info@datadrivenconstruction.io联系我们，或访问我们的网站datadrivenconstruction.io了解更多关于我们服务的信息。
+
+
+
+## 支持项目
+
+如果您发现我们的工具和数据库有用，并希望看到更多建筑行业的应用，请在GitHub上为我们的仓库点星。这有助于项目发展，并允许您接收新版本的通知。
+
+基于DDC CWICR，您可以构建用于与CAD（BIM）、招标系统和BI平台集成的自动化管道和工作流程。新的工作流程、工具和现成解决方案定期在GitHub和项目网站上发布。订阅更新，第一时间获取新版本。
+
+- ⭐ **CAD (BIM) Data Agents & Workflows + AI**: [github.com/datadrivenconstruction/cad2data-Revit-IFC-DWG-DGN-pipeline-with-conversion-validation-qto](https://github.com/datadrivenconstruction/cad2data-Revit-IFC-DWG-DGN-pipeline-with-conversion-validation-qto)
+- ⭐ **OpenConstructionEstimate DDC CWICR**: [github.com/datadrivenconstruction/OpenConstructionEstimate-DDC-CWICR](https://github.com/datadrivenconstruction/OpenConstructionEstimate-DDC-CWICR)
+
+
+## 语言版本
+
+文档提供11种语言版本：
+
+- **阿拉伯语 / العربية** (迪拜) - 中东
+- **中文** (上海) - 东亚
+- **德语 / Deutsch** (柏林) - 中欧
+- **英语 / English** (多伦多) - 北美
+- **西班牙语 / Español** (巴塞罗那) - 伊比利亚
+- **法语 / Français** (巴黎) - 西欧
+- **印地语 / हिन्दी** (孟买) - 南亚
+- **葡萄牙语 / Português** (圣保罗) - 拉丁美洲
+- **俄语 / Русский** (圣彼得堡) - 独联体
+
+
+## 资源
+
+- **使用示例:** https://openconstructionestimate.com
+- **Website:** https://datadrivenconstruction.io
+
+
+---
+
+### 释放建筑数据的力量 🚀
+
+迈向全周期数据管理，只保留统一的结构化数据和流程，🔓 您的数据属于您
+
+---
+
+*[Artem Boiko, 2025](https://www.linkedin.com/in/boikoartem/)*

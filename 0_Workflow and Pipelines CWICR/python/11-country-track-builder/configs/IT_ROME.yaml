@@ -1,4 +1,0 @@
-region: IT_ROME
-location_factor: 1.04    # Rome slightly above Italian national avg (ISTAT)
-add_us_metadata: false
-translate: true          # German -> Italian

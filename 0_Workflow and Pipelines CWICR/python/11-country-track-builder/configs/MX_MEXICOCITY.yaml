@@ -1,4 +1,0 @@
-region: MX_MEXICOCITY
-location_factor: 1.10    # CDMX premium per INEGI BIE construction-cost
-add_us_metadata: false
-translate: true          # Spanish (ES Spain) -> Spanish (MX Mexico) — light dialect pass

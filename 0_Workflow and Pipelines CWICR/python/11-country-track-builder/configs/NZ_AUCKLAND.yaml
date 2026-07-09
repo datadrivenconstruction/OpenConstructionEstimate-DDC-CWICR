@@ -1,4 +1,0 @@
-region: NZ_AUCKLAND
-location_factor: 1.06    # Auckland premium per NZ Stats construction cost regional index
-add_us_metadata: false
-translate: false         # English source -> English target

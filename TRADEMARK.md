@@ -1,6 +1,6 @@
 # Trademark Policy
 
-**Version 1.0 — Effective April 2026**
+**Version 1.0 - Effective April 2026**
 
 This policy explains how the names and product marks associated
 with this repository may be used.
@@ -45,16 +45,16 @@ Such use must:
   produced by Licensor: *"This product is not affiliated with,
   endorsed by, or sponsored by DataDrivenConstruction."*
 
-## 3. CC BY 4.0 attribution ≠ trademark licence
+## 3. CC BY-NC 4.0 attribution ≠ trademark licence
 
-The Creative Commons Attribution 4.0 International licence that
+The Creative Commons Attribution-NonCommercial 4.0 International licence that
 covers the Data (see [LICENSE](./LICENSE) and
 [LICENSE-DATA.txt](./LICENSE-DATA.txt)) requires you to **give
 attribution** to Licensor when you redistribute or build upon
 the Data. That attribution requirement is satisfied by the
 factual nominative use described in Section 2 above.
 
-However, CC BY 4.0 **does not grant trademark rights**
+However, CC BY-NC 4.0 **does not grant trademark rights**
 (clause 2(b)(2) of the licence expressly reserves them to the
 licensor). You therefore must not use the DDC Marks to
 distinguish your product or service beyond the factual
@@ -104,7 +104,7 @@ sponsored by any of these standards bodies. See
 
 ## 6. Forks and derivative datasets
 
-Derivatives of the Data redistributed under CC BY 4.0 must:
+Derivatives of the Data redistributed under CC BY-NC 4.0 must:
 
 - provide the required attribution in the format shown in
   [LICENSE](./LICENSE) Section 1;

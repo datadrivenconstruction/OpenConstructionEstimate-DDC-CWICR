@@ -44,7 +44,7 @@ python generate_embeddings.py \
     --collection my_collection \
     --batch-size 100
 
-# Dry run — generate embeddings but do not upsert
+# Dry run - generate embeddings but do not upsert
 python generate_embeddings.py --input data.parquet --dry-run
 
 # Limit rows for testing

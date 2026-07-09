@@ -7,8 +7,8 @@
 //!   cargo run -p qdrant-search
 //!
 //! Environment variables:
-//!   QDRANT_URL  — Qdrant gRPC endpoint (default: http://localhost:6334)
-//!   QDRANT_KEY  — Optional API key for authentication
+//!   QDRANT_URL  - Qdrant gRPC endpoint (default: http://localhost:6334)
+//!   QDRANT_KEY  - Optional API key for authentication
 
 use qdrant_client::prelude::*;
 use qdrant_client::qdrant::vectors_config::Config;

@@ -4,7 +4,7 @@
 
 Perform semantic search against the DDC-CWICR Qdrant collection using the
 official `@qdrant/js-client-rest` SDK and OpenAI embeddings. This is the
-recommended approach for production use — the client handles retries,
+recommended approach for production use - the client handles retries,
 connection pooling, and typed responses.
 
 ## Prerequisites

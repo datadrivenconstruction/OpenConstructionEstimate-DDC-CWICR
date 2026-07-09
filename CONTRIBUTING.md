@@ -14,7 +14,7 @@ request, please read this short guide.
 - Python, JavaScript, R, Rust, and shell adapter scripts
 - Dockerfiles and build automation
 
-**In scope (CC BY 4.0 Data and Documentation):**
+**In scope (CC BY-NC 4.0 Data and Documentation):**
 
 - Schema clarifications and data-dictionary improvements
 - New regional cost-reference entries for existing language
@@ -52,7 +52,7 @@ By signing off on a commit you attest to the
 **Developer Certificate of Origin** at
 <https://developercertificate.org/>. In short: you confirm that
 you have the right to submit the contribution under the
-project's open-source licence (Apache-2.0 for code; CC BY 4.0
+project's open-source licence (Apache-2.0 for code; CC BY-NC 4.0
 for data and documentation).
 
 Sign with `git commit -s`. To fix already-unsigned commits:

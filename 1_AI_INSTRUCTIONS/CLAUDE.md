@@ -147,7 +147,7 @@ Snapshot path pattern: `<CODE>___DDC_CWICR/<REGION>_workitems_costs_resources_EM
 | `ddc_usa_usd` | English | USA | USD |
 | `ddc_zh_shanghai` | Chinese | Shanghai | CNY |
 
-### Derived (19) — built by `0_Workflow and Pipelines CWICR/python/11-country-track-builder/`
+### Derived (19) - built by the DDC country-track build pipeline
 
 | Collection | Language | Region | Currency | Source |
 |------------|----------|--------|----------|--------|
@@ -171,7 +171,7 @@ Snapshot path pattern: `<CODE>___DDC_CWICR/<REGION>_workitems_costs_resources_EM
 | `ddc_vi_hanoi` | Vietnamese | Hanoi | VND | UK_GBP |
 | `ddc_za_johannesburg` | English | Johannesburg | ZAR | UK_GBP |
 
-Derived tracks share `rate_code` and `resource_code` with their source. Norms (labour hours, machine hours, resource quantities) are bytewise-identical across all tracks; only prices and translatable text differ. See `0_Workflow and Pipelines CWICR/python/11-country-track-builder/README.md` for the build pipeline.
+Derived tracks share `rate_code` and `resource_code` with their source. Norms (labour hours, machine hours, resource quantities) are bytewise-identical across all tracks; only prices and translatable text differ. They are produced by the DDC country-track build pipeline.
 
 ## n8n Workflows
 

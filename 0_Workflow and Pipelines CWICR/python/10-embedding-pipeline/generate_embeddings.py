@@ -1,5 +1,5 @@
 """
-Embedding Pipeline — Generate & Upsert to Qdrant
+Embedding Pipeline - Generate & Upsert to Qdrant
 
 Read a CSV or Parquet file, generate embeddings via OpenAI
 text-embedding-3-large with batching and rate-limit handling,
@@ -310,7 +310,7 @@ def main():
 
     # --- Upsert ---
     if args.dry_run:
-        print(f"\n[4/4] Dry run — skipping upsert to Qdrant.")
+        print(f"\n[4/4] Dry run - skipping upsert to Qdrant.")
         print(f"  Would have upserted {len(embeddings):,} points to '{args.collection}'.")
     else:
         print(f"\n[4/4] Upserting to Qdrant collection: {args.collection}")

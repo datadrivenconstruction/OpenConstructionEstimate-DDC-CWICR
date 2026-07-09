@@ -24,7 +24,7 @@
 </div>
 
 <div align="center">
-  <img src="https://img.shields.io/badge/Licence-CC_BY_4.0-green?style=flat-square" alt="Licence">
+  <img src="https://img.shields.io/badge/Licence-CC_BY--NC_4.0-green?style=flat-square" alt="Licence">
   <img src="https://img.shields.io/badge/Version-v0.1.1-blue?style=flat-square" alt="Version">
   <img src="https://img.shields.io/badge/Embeddings-OpenAI_3072d-412991?style=flat-square" alt="Embeddings">
   <img src="https://img.shields.io/badge/Vector_DB-Qdrant-dc382d?style=flat-square" alt="Qdrant">
@@ -117,59 +117,59 @@
 ## 📑 Table des Matières
 
 ### 🤖 Intégration IA
-- [Carburant Parfait pour l'IA](#-carburant-parfait-pour-vos-produits-ia) — Pourquoi cette base de données est idéale pour l'IA
-- [Claude Code & Google Antigravity](#-claude-code--google-antigravity--assistants-de-programmation-ia) — Assistants de programmation IA
-- [n8n](#-n8n--automatisation-visuelle-des-workflows) — Automatisation des workflows
-- [Cas d'Utilisation Universels](#-cas-dutilisation-universels) — Ce que vous pouvez construire
-- [Exemples pour Développeurs](#-exemples-pour-développeurs) — Code prêt à exécuter
+- [Carburant Parfait pour l'IA](#-carburant-parfait-pour-vos-produits-ia) - Pourquoi cette base de données est idéale pour l'IA
+- [Claude Code & Google Antigravity](#-claude-code--google-antigravity--assistants-de-programmation-ia) - Assistants de programmation IA
+- [n8n](#-n8n--automatisation-visuelle-des-workflows) - Automatisation des workflows
+- [Cas d'Utilisation Universels](#-cas-dutilisation-universels) - Ce que vous pouvez construire
+- [Exemples pour Développeurs](#-exemples-pour-développeurs) - Code prêt à exécuter
 
 ### 📊 Base de Données & Données
-- [À Propos](#à-propos) — Qu'est-ce que DDC CWICR
-- [Formats Disponibles](#formats-disponibles) — Excel, Parquet, CSV, Qdrant
-- [Schéma de Données](#schéma-de-données) — Structure de 85 champs
-- [Groupes de Champs](#groupes-de-champs) — Classification, Ressources, Main d'œuvre, Machines
-- [Méthodologie](#méthodologie) — Principes de calcul basé sur les ressources
-- [Contexte Historique](#contexte-historique) — 100+ ans de normes
+- [À Propos](#à-propos) - Qu'est-ce que DDC CWICR
+- [Formats Disponibles](#formats-disponibles) - Excel, Parquet, CSV, Qdrant
+- [Schéma de Données](#schéma-de-données) - Structure de 85 champs
+- [Groupes de Champs](#groupes-de-champs) - Classification, Ressources, Main d'œuvre, Machines
+- [Méthodologie](#méthodologie) - Principes de calcul basé sur les ressources
+- [Contexte Historique](#contexte-historique) - 100+ ans de normes
 
 ### ⚡ Workflows n8n
-- [Aperçu des Workflows n8n](#-workflows-n8n) — Choisissez votre type d'entrée
-- [Essayez Maintenant — Bots de Démo en Direct](#-essayez-maintenant--bots-de-démo-en-direct) — Testez instantanément sur Telegram
-- [Workflow 1: Bot Estimateur de Texte](#1️⃣-bot-estimateur-de-texte) — Bot Telegram pour entrée texte
-- [Workflow 2: Estimateur de Coûts par Photo](#2️⃣-estimateur-de-coûts-par-photo) — Formulaire web avec IA Vision
-- [Workflow 3: Bot Universel](#3️⃣-bot-universel-texte--photo--pdf) — Texte + Photo + PDF
-- [Workflow 4: Pipeline CAD/BIM](#4️⃣-pipeline-destimation-cad-bim) — Revit/IFC/DWG vers estimation
-- [Démarrage Rapide des Workflows](#démarrage-rapide-des-workflows) — Configuration en 4 étapes
-- [Configuration n8n 2.0+](#️-configuration-n8n-20-requise) — Activer le nœud Execute Command
+- [Aperçu des Workflows n8n](#-workflows-n8n) - Choisissez votre type d'entrée
+- [Essayez Maintenant - Bots de Démo en Direct](#-essayez-maintenant--bots-de-démo-en-direct) - Testez instantanément sur Telegram
+- [Workflow 1: Bot Estimateur de Texte](#1️⃣-bot-estimateur-de-texte) - Bot Telegram pour entrée texte
+- [Workflow 2: Estimateur de Coûts par Photo](#2️⃣-estimateur-de-coûts-par-photo) - Formulaire web avec IA Vision
+- [Workflow 3: Bot Universel](#3️⃣-bot-universel-texte--photo--pdf) - Texte + Photo + PDF
+- [Workflow 4: Pipeline CAD/BIM](#4️⃣-pipeline-destimation-cad-bim) - Revit/IFC/DWG vers estimation
+- [Démarrage Rapide des Workflows](#démarrage-rapide-des-workflows) - Configuration en 4 étapes
+- [Configuration n8n 2.0+](#️-configuration-n8n-20-requise) - Activer le nœud Execute Command
 
 ### 🏗️ Pipeline CAD/BIM
-- [Prérequis](#-prérequis) — Composants requis
-- [Étapes du Pipeline](#-étapes-du-pipeline) — Traitement en 10 étapes
-- [Sélection du Modèle LLM](#️-sélection-du-modèle-llm) — OpenAI, Claude, Gemini, Grok
-- [Fichiers de Sortie](#-fichiers-de-sortie) — Rapports HTML & Excel
-- [Dépannage](#️-dépannage) — Problèmes courants
+- [Prérequis](#-prérequis) - Composants requis
+- [Étapes du Pipeline](#-étapes-du-pipeline) - Traitement en 10 étapes
+- [Sélection du Modèle LLM](#️-sélection-du-modèle-llm) - OpenAI, Claude, Gemini, Grok
+- [Fichiers de Sortie](#-fichiers-de-sortie) - Rapports HTML & Excel
+- [Dépannage](#️-dépannage) - Problèmes courants
 
 ### 🔍 Base de Données Vectorielle
-- [Base de Données Vectorielle](#base-de-données-vectorielle) — Recherche sémantique avec Qdrant
-- [Snapshots de la Base de Données Vectorielle Qdrant](#snapshots-de-la-base-de-données-vectorielle-qdrant) — Télécharger les snapshots
-- [Collections](#collections) — 11 collections linguistiques
-- [Déploiement Docker](#déploiement-docker) — Configuration auto-hébergée
+- [Base de Données Vectorielle](#base-de-données-vectorielle) - Recherche sémantique avec Qdrant
+- [Snapshots de la Base de Données Vectorielle Qdrant](#snapshots-de-la-base-de-données-vectorielle-qdrant) - Télécharger les snapshots
+- [Collections](#collections) - 11 collections linguistiques
+- [Déploiement Docker](#déploiement-docker) - Configuration auto-hébergée
 
 ### 🌐 API
-- [Pricing Search API](#-pricing-search-api--buildcalculatorio) — API REST gratuite pour les prix de construction
-- [Points de terminaison API](#points-de-terminaison-api) — Recherche, Langues, Statistiques
-- [Exemples de code](#exemples-de-code-api) — cURL, Python, JavaScript
+- [Pricing Search API](#-pricing-search-api--buildcalculatorio) - API REST gratuite pour les prix de construction
+- [Points de terminaison API](#points-de-terminaison-api) - Recherche, Langues, Statistiques
+- [Exemples de code](#exemples-de-code-api) - cURL, Python, JavaScript
 
 ### 🚀 Démarrage
-- [Démarrage Rapide - Python](#démarrage-rapide) — Données tabulaires & recherche sémantique
-- [Cas d'Utilisation d'Intégration](#intégration) — Niveau débutant à avancé
+- [Démarrage Rapide - Python](#démarrage-rapide) - Données tabulaires & recherche sémantique
+- [Cas d'Utilisation d'Intégration](#intégration) - Niveau débutant à avancé
 
 ### 👥 Communauté
-- [Ressources & Communauté](#ressources--communauté) — Liens & canaux
-- [Conseil & Formation](#conseil--formation) — Services professionnels
-- [Contribuer](#contribuer) — Soumettez vos workflows
-- [Licence](#licence) — CC BY 4.0
-- [Soutenir le Projet](#soutenir-le-projet) — Sponsoriser & donner
-- [🤖 Instructions IA](#instructions-ia) — Documentation pour les assistants IA
+- [Ressources & Communauté](#ressources--communauté) - Liens & canaux
+- [Conseil & Formation](#conseil--formation) - Services professionnels
+- [Contribuer](#contribuer) - Soumettez vos workflows
+- [Licence](#licence) - CC BY-NC 4.0
+- [Soutenir le Projet](#soutenir-le-projet) - Sponsoriser & donner
+- [🤖 Instructions IA](#instructions-ia) - Documentation pour les assistants IA
 
 
 ---
@@ -177,16 +177,16 @@
 ## 🚀 Carburant Parfait pour Vos Produits IA
 
 <p align="center">
-  <b>Clonez simplement le repo et décrivez ce que vous voulez — l'IA fait le reste</b>
+  <b>Clonez simplement le repo et décrivez ce que vous voulez - l'IA fait le reste</b>
 </p>
 
-DDC CWICR n'est pas qu'une base de données — c'est un **carburant prêt à l'emploi pour les applications alimentées par l'IA**. Que vous construisiez des bots d'estimation des coûts, automatisiez des workflows de construction, ou créiez des assistants intelligents — ces données fonctionnent immédiatement avec les outils IA modernes.
+DDC CWICR n'est pas qu'une base de données - c'est un **carburant prêt à l'emploi pour les applications alimentées par l'IA**. Que vous construisiez des bots d'estimation des coûts, automatisiez des workflows de construction, ou créiez des assistants intelligents - ces données fonctionnent immédiatement avec les outils IA modernes.
 
 ### Pourquoi Cette Base de Données est Idéale pour l'IA
 
 | Caractéristique | Avantage |
 |-----------------|----------|
-| **Embeddings pré-calculés** | Pas besoin de générer des vecteurs — la recherche sémantique fonctionne instantanément |
+| **Embeddings pré-calculés** | Pas besoin de générer des vecteurs - la recherche sémantique fonctionne instantanément |
 | **Schéma structuré de 85 champs** | L'IA peut raisonner sur les relations de données et fournir des réponses précises |
 | **11 langues incluses** | Construisez des applications multilingues sans surcharge de traduction |
 | **55 000+ postes de travail** | Couverture complète pour toute tâche d'estimation de construction |
@@ -203,11 +203,11 @@ DDC CWICR fournit des **descriptions de travaux complètes et structurées** qui
 | Intervenant | Ce qu'il obtient |
 |-------------|------------------|
 | 🏢 **Maître d'ouvrage / Investisseur** | Transparence totale des coûts, décomposition des ressources, justification des prix pour les décisions d'investissement |
-| 📊 **Métreur / Économiste** | Prix détaillés, heures de travail, quantités de matériaux, coûts d'équipement — prêt pour la génération de devis |
+| 📊 **Métreur / Économiste** | Prix détaillés, heures de travail, quantités de matériaux, coûts d'équipement - prêt pour la génération de devis |
 | 👷 **Chef de chantier / Conducteur de travaux** | Composition des travaux, besoins en ressources, normes de travail pour la planification et l'exécution quotidienne |
 | 🔧 **Entrepreneur / Exécutant** | Spécifications complètes, prix unitaires, références de productivité pour des offres et une planification précises |
 
-Export vers **Excel, PDF, HTML, systèmes ERP, plateformes BIM** — le schéma structuré de 85 champs garantit l'intégrité des données dans tous les formats de sortie.
+Export vers **Excel, PDF, HTML, systèmes ERP, plateformes BIM** - le schéma structuré de 85 champs garantit l'intégrité des données dans tous les formats de sortie.
 
 ### 🛠️ Fonctionne Parfaitement Avec
 
@@ -245,7 +245,7 @@ Export vers **Excel, PDF, HTML, systèmes ERP, plateformes BIM** — le schéma 
 
 ## 🎯 DDC Skills
 
-**[DDC Skills pour Agents IA dans la Construction](https://github.com/datadrivenconstruction/DDC_Skills_for_AI_Agents_in_Construction)** — 196 compétences d'automatisation avec intégration directe dans cette base de données CWICR. Clonez, ouvrez avec un assistant de codage IA, décrivez ce dont vous avez besoin.
+**[DDC Skills pour Agents IA dans la Construction](https://github.com/datadrivenconstruction/DDC_Skills_for_AI_Agents_in_Construction)** - 196 compétences d'automatisation avec intégration directe dans cette base de données CWICR. Clonez, ouvrez avec un assistant de codage IA, décrivez ce dont vous avez besoin.
 
 <p align="center">
   <a href="https://github.com/datadrivenconstruction/DDC_Skills_for_AI_Agents_in_Construction">
@@ -255,7 +255,7 @@ Export vers **Excel, PDF, HTML, systèmes ERP, plateformes BIM** — le schéma 
 
 ---
 
-### 💻 Claude Code & Google Antigravity — Assistants de Programmation IA
+### 💻 Claude Code & Google Antigravity - Assistants de Programmation IA
 
 Le moyen le plus rapide de travailler avec DDC CWICR. Ouvrez simplement le repository dans Claude Code ou Google Antigravity et posez des questions en langage naturel.
 
@@ -287,7 +287,7 @@ claude
 
 ---
 
-### ⚡ n8n — Automatisation Visuelle des Workflows
+### ⚡ n8n - Automatisation Visuelle des Workflows
 
 Construisez des pipelines d'automatisation puissants sans code. Connectez DDC CWICR à plus de 400 apps et services.
 
@@ -545,7 +545,7 @@ Mettez une étoile au workflow DDC sur GitHub et soyez instantanément notifié 
 
 ---
 
-## Workflows n8n — Description Détaillée
+## Workflows n8n - Description Détaillée
 
 Quatre workflows prêts pour la production pour l'estimation automatisée des coûts de construction. Chaque workflow se connecte à la base de données vectorielle DDC CWICR via Qdrant et utilise des modèles IA pour le parsing intelligent et la correspondance.
 
@@ -562,7 +562,7 @@ Quatre workflows prêts pour la production pour l'estimation automatisée des co
 
 **Fichier:** `n8n_1_Telegram_Bot_Cost_Estimates_and_Rate_Finder_TEXT_DDC_CWICR.json`
 
-Bot Telegram pour l'estimation des coûts basée sur le texte. Décrivez les travaux de construction en langage naturel — le bot analyse l'entrée, recherche dans la base de données vectorielle et retourne des ventilations de coûts détaillées.
+Bot Telegram pour l'estimation des coûts basée sur le texte. Décrivez les travaux de construction en langage naturel - le bot analyse l'entrée, recherche dans la base de données vectorielle et retourne des ventilations de coûts détaillées.
 
 <p align="center">
   <br>
@@ -570,7 +570,7 @@ Bot Telegram pour l'estimation des coûts basée sur le texte. Décrivez les tra
   <br></br>
 </p>
 
-<h3 align="left">🤖 Essayez Maintenant — Bots de Démo en Direct</h3>
+<h3 align="left">🤖 Essayez Maintenant - Bots de Démo en Direct</h3>
 <p align="left"><i>Testez les workflows d'estimation instantanément sur Telegram</i></p>
 <p><b>@TextOpenConstructionEstimate_bot</b></p>
 <p>Créez des estimations de coûts complètes<br>à partir de descriptions textuelles</p>
@@ -627,7 +627,7 @@ flowchart LR
 
 | Fonctionnalité               | Description                                                          |
 |------------------------------|----------------------------------------------------------------------|
-| 💬 Entrée en langage naturel | Accepte tout format texte — listes, phrases, descriptions structurées |
+| 💬 Entrée en langage naturel | Accepte tout format texte - listes, phrases, descriptions structurées |
 | 🤖 Support multi-LLM         | Fonctionne avec OpenAI, Claude ou Gemini (commutable)                |
 | 🔍 Recherche sémantique      | Trouve les meilleures correspondances même avec une formulation différente |
 | 🌍 11 langues                | DE, EN, RU, ES, FR, PT, ZH, AR, HI, US, UK                           |
@@ -645,7 +645,7 @@ flowchart LR
 
 **Fichier:** `n8n_2_Photo_Cost_Estimate_DDC_CWICR.json`
 
-Interface formulaire web pour l'estimation basée sur les photos. Téléchargez une photo de construction — l'IA Vision identifie les éléments, estime les dimensions et calcule automatiquement les coûts.
+Interface formulaire web pour l'estimation basée sur les photos. Téléchargez une photo de construction - l'IA Vision identifie les éléments, estime les dimensions et calcule automatiquement les coûts.
 
 <p align="center">
   <br>
@@ -919,7 +919,7 @@ flowchart TB
 ```
 
 
-**n8n fournit plus de 400 intégrations natives** avec des plateformes comme Google Sheets, Notion, Slack, Airtable, bases de données (PostgreSQL, MongoDB), stockage cloud, et plus. Chaque nœud dans ce workflow est modulaire — vous pouvez:
+**n8n fournit plus de 400 intégrations natives** avec des plateformes comme Google Sheets, Notion, Slack, Airtable, bases de données (PostgreSQL, MongoDB), stockage cloud, et plus. Chaque nœud dans ce workflow est modulaire - vous pouvez:
 
 - 🔄 **Changer de fournisseur LLM** (OpenAI ↔ Claude ↔ Gemini ↔ Grok)
 - 📊 **Connecter à votre ERP ou système de gestion de projet**
@@ -986,16 +986,16 @@ curl -X POST "http://localhost:6333/collections/ddc_fr_paris/snapshots/upload" \
 
 > **À partir de la version 2.0 de n8n, le nœud Execute Command est désactivé par défaut pour des raisons de sécurité.**
 >
-> Sans la configuration ci-dessous, les workflows utilisant Execute Command (notamment le Pipeline CAD/BIM) **ne fonctionneront pas** — les nœuds s'afficheront avec un point d'interrogation ou ne seront pas reconnus.
+> Sans la configuration ci-dessous, les workflows utilisant Execute Command (notamment le Pipeline CAD/BIM) **ne fonctionneront pas** - les nœuds s'afficheront avec un point d'interrogation ou ne seront pas reconnus.
 
 ### Solution Rapide
 
-**Windows (CMD) — exécuter à chaque fois:**
+**Windows (CMD) - exécuter à chaque fois:**
 ```cmd
 set NODES_EXCLUDE=[] && npx n8n
 ```
 
-**Solution permanente — créer une fois:**
+**Solution permanente - créer une fois:**
 
 Créez le fichier `C:\Users\VOTRE_UTILISATEUR\.n8n\.env` avec:
 ```
@@ -1183,7 +1183,7 @@ curl -X POST "http://localhost:6333/collections/ddc_fr_paris/snapshots/upload" \
 ```
 ---
 
-## 🌐 Pricing Search API — BuildCalculator.io
+## 🌐 Pricing Search API - BuildCalculator.io
 
 <p align="center">
   <a href="https://buildcalculator.io/api-docs/">
@@ -1203,19 +1203,19 @@ API REST gratuite pour rechercher des postes de construction avec ventilation co
 
 ### Points de terminaison API
 
-#### `GET/POST /api/v1/search` — Rechercher des postes de construction
+#### `GET/POST /api/v1/search` - Rechercher des postes de construction
 
 | Paramètre | Type | Défaut | Requis | Description |
 |-----------|------|--------|--------|-------------|
-| `q` | string | — | Oui | Requête de recherche (min. 2 caractères). Fonctionne dans toutes les langues |
+| `q` | string | - | Oui | Requête de recherche (min. 2 caractères). Fonctionne dans toutes les langues |
 | `lang` | string | `en` | Non | Langue de la base : `en`, `ru`, `de`, `fr`, `es`, `pt`, `zh`, `ar`, `hi` |
 | `top` | integer | 5 | Non | Nombre de résultats (1–20) |
 
-#### `GET /api/v1/languages` — Langues supportées
+#### `GET /api/v1/languages` - Langues supportées
 
 Retourne toutes les langues disponibles avec le nombre de postes.
 
-#### `GET /api/v1/stats` — Statistiques de la base de données
+#### `GET /api/v1/stats` - Statistiques de la base de données
 
 Retourne le nombre de postes, catégories, langues et métadonnées.
 
@@ -1235,7 +1235,7 @@ response = requests.get("https://buildcalculator.io/api/v1/search",
 data = response.json()
 
 for item in data["results"]:
-    print(f"{item['name']} — {item['pricing']['total_per_unit']} EUR/{item['unit']}")
+    print(f"{item['name']} - {item['pricing']['total_per_unit']} EUR/{item['unit']}")
 ```
 
 **JavaScript :**
@@ -1402,7 +1402,7 @@ Si vous souhaitez tester cette solution avec vos propres données ou si vous êt
 
 DDC CWICR est un projet gratuit et open source dédié à rendre l'industrie de la construction plus efficace, transparente et technologiquement avancée. Nous recherchons activement des enthousiastes partageant cette mission. Si vous créez des solutions utiles et êtes prêt à les partager avec la communauté, nous sommes là pour vous aider à être entendu.
 
-Nous vous invitons à soumettre vos workflows open source, pipelines et intégrations basés sur DDC CWICR — des outils que tout le monde peut utiliser librement dans son travail. Les meilleures solutions seront publiées avec attribution complète de l'auteur sur GitHub et annoncées via notre newsletter et nos réseaux sociaux, atteignant des dizaines de milliers d'abonnés professionnels. Cela place votre nom directement devant une communauté internationale de métreurs, spécialistes BIM et chefs de projet.
+Nous vous invitons à soumettre vos workflows open source, pipelines et intégrations basés sur DDC CWICR - des outils que tout le monde peut utiliser librement dans son travail. Les meilleures solutions seront publiées avec attribution complète de l'auteur sur GitHub et annoncées via notre newsletter et nos réseaux sociaux, atteignant des dizaines de milliers d'abonnés professionnels. Cela place votre nom directement devant une communauté internationale de métreurs, spécialistes BIM et chefs de projet.
 
 Ensemble, nous changeons l'industrie. Vous pouvez envoyer votre solution à info@datadrivenconstruction.io avec le sujet "DDC Open Workflow" ou soumettre une Pull Request directement sur nos repositories GitHub.
 
@@ -1421,17 +1421,17 @@ Le dossier `AI_INSTRUCTIONS/` contient une documentation complète pour les assi
 ### Qu'est-ce que DDC CWICR?
 
 **DDC CWICR** (Construction Work Items, Components & Resources) est une base de données open-source de coûts de construction contenant:
-- **55 719 postes de travaux** — opérations de construction détaillées avec ventilation complète des coûts
-- **27 672 ressources** — matériaux, main d'œuvre et équipements avec prix régionaux
-- **85 champs de données** — schéma structuré pour des calculs précis
-- **11 langues** — avec prix régionaux (EUR, USD, CAD, RUB, CNY, etc.)
-- **Embeddings pré-calculés** — vecteurs OpenAI 3072 dimensions pour recherche sémantique
+- **55 719 postes de travaux** - opérations de construction détaillées avec ventilation complète des coûts
+- **27 672 ressources** - matériaux, main d'œuvre et équipements avec prix régionaux
+- **85 champs de données** - schéma structuré pour des calculs précis
+- **11 langues** - avec prix régionaux (EUR, USD, CAD, RUB, CNY, etc.)
+- **Embeddings pré-calculés** - vecteurs OpenAI 3072 dimensions pour recherche sémantique
 
 ### Méthodologie Basée sur les Ressources
 
 La base de données utilise une **approche de calcul basée sur les ressources** qui sépare:
-- **Normes technologiques** (invariables) — heures de travail, quantités de matériaux, temps d'équipement
-- **Prix régionaux** (variables) — taux horaires, coûts des matériaux, prix du carburant
+- **Normes technologiques** (invariables) - heures de travail, quantités de matériaux, temps d'équipement
+- **Prix régionaux** (variables) - taux horaires, coûts des matériaux, prix du carburant
 
 ```
 Coût Réel = Norme Technologique × Prix Régional
@@ -1449,7 +1449,7 @@ Cela permet une estimation précise pour différentes régions et périodes.
 | `ANTIGRAVITY.md` | Intégration GCP (BigQuery, Vertex AI, Qdrant) |
 | `DATABASE_SCHEMA.md` | Schéma complet de 85 champs |
 
-### Workflows n8n — Exemples & Templates
+### Workflows n8n - Exemples & Templates
 
 Les workflows n8n inclus sont des **exemples et templates** démontrant la logique d'estimation des coûts. Ils peuvent être:
 - ✅ Utilisés tels quels pour un déploiement rapide
@@ -1479,15 +1479,15 @@ Les assistants IA peuvent vous aider à:
 
 ---
 
-## Licence — CC BY 4.0
+## Licence - CC BY-NC 4.0
 
-L'ensemble du dépôt est sous licence [**Creative Commons Attribution 4.0 International (CC BY 4.0)**](https://creativecommons.org/licenses/by/4.0/).
+L'ensemble du dépôt est sous licence [**Creative Commons Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)**](https://creativecommons.org/licenses/by-nc/4.0/).
 
 ### Ce que vous POUVEZ faire
 
 | | |
 |---|---|
-| **Utilisation commerciale** | Créez des produits, SaaS, applications, APIs — gratuitement, sans demander la permission |
+| **Utilisation commerciale** | Créez des produits, SaaS, applications, APIs - gratuitement, sans demander la permission |
 | **Copier et distribuer** | Partagez les données dans n'importe quel format |
 | **Modifier et adapter** | Transformez, complétez, créez des œuvres dérivées |
 | **Utiliser pour l'IA/ML** | Entraînement de modèles, pipelines RAG, embeddings |
@@ -1497,29 +1497,29 @@ L'ensemble du dépôt est sous licence [**Creative Commons Attribution 4.0 Inter
 
 | | |
 |---|---|
-| **Mentionner l'attribution** | Vous **devez** indiquer la source à chaque utilisation — voir les exemples ci-dessous |
+| **Mentionner l'attribution** | Vous **devez** indiquer la source à chaque utilisation - voir les exemples ci-dessous |
 | **Indiquer les modifications** | Si vous avez modifié les données, vous **devez** indiquer ce qui a été changé |
-| **Conserver la licence** | Incluez un lien vers CC BY 4.0 lors de la distribution |
+| **Conserver la licence** | Incluez un lien vers CC BY-NC 4.0 lors de la distribution |
 
-### Attribution — format obligatoire
+### Attribution - format obligatoire
 
 Chaque projet, produit, publication ou application utilisant les données DDC CWICR **doit** inclure :
 
 ```
 DDC CWICR by Artem Boiko / DataDrivenConstruction
 https://github.com/datadrivenconstruction/OpenConstructionEstimate-DDC-CWICR
-Licensed under CC BY 4.0
+Licensed under CC BY-NC 4.0
 ```
 
 **Exemples d'attribution :**
 
 | Où | Comment |
 |-----|-----|
-| **README / documentation** | `Source des données : DDC CWICR by Artem Boiko / DataDrivenConstruction (CC BY 4.0)` |
-| **Application web (pied de page ou "À propos")** | `Données de coûts de construction © Artem Boiko / DataDrivenConstruction — CC BY 4.0` |
-| **Article scientifique** | `Boiko, A. (2025). DDC CWICR — Construction Work Items, Costs & Resources. DataDrivenConstruction.` |
-| **Application mobile / bureau** | Écran "À propos" : `Données : DDC CWICR by DataDrivenConstruction (CC BY 4.0)` |
-| **API / SaaS** | Documentation API : `Fourni par DDC CWICR (CC BY 4.0) — datadrivenconstruction.io` |
+| **README / documentation** | `Source des données : DDC CWICR by Artem Boiko / DataDrivenConstruction (CC BY-NC 4.0)` |
+| **Application web (pied de page ou "À propos")** | `Données de coûts de construction © Artem Boiko / DataDrivenConstruction - CC BY-NC 4.0` |
+| **Article scientifique** | `Boiko, A. (2025). DDC CWICR - Construction Work Items, Costs & Resources. DataDrivenConstruction.` |
+| **Application mobile / bureau** | Écran "À propos" : `Données : DDC CWICR by DataDrivenConstruction (CC BY-NC 4.0)` |
+| **API / SaaS** | Documentation API : `Fourni par DDC CWICR (CC BY-NC 4.0) - datadrivenconstruction.io` |
 
 ## Soutenir le Projet
 

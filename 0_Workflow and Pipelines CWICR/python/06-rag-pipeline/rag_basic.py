@@ -1,5 +1,5 @@
 """
-RAG Pipeline — Basic (Anthropic Claude + Qdrant + OpenAI Embeddings)
+RAG Pipeline - Basic (Anthropic Claude + Qdrant + OpenAI Embeddings)
 
 Embed a user question with OpenAI text-embedding-3-large, retrieve the top-k
 most relevant CWICR work items from Qdrant, then ask Claude to generate an

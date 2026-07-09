@@ -1,7 +1,0 @@
-__pycache__/
-*.pyc
-logs/
-validation_reports/*.html
-validation_reports/_*.log
-.env
-*.tmp

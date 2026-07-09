@@ -11,21 +11,32 @@ before use.
 ================================================================
 
 ================================================================
-1. DATA LICENSE - Creative Commons Attribution 4.0 International
+1. DATA LICENSE - Creative Commons Attribution-NonCommercial 4.0
+   International (CC BY-NC 4.0)
 ================================================================
 
 All DATA files in this repository are licensed under the
-Creative Commons Attribution 4.0 International License
-(CC BY 4.0).
+Creative Commons Attribution-NonCommercial 4.0 International
+License (CC BY-NC 4.0). This means the data is free for
+non-commercial use (research, teaching, evaluation, personal and
+non-profit use) with attribution. Any commercial use requires a
+separate commercial license from DataDrivenConstruction, see
+Section 5.
 
 What counts as "DATA":
 
-  - All CSV files (*.csv), including the language-specific
-    datasets in directories named *___DDC_CWICR/
-    (AR___DDC_CWICR/, DE___DDC_CWICR/, EN___DDC_CWICR/,
-    ES___DDC_CWICR/, FR___DDC_CWICR/, HI___DDC_CWICR/,
-    PT___DDC_CWICR/, RU___DDC_CWICR/, UK___DDC_CWICR/,
-    US___DDC_CWICR/, ZH___DDC_CWICR/).
+  - All CSV files (*.csv), including the language and market
+    datasets in the country folders:
+      CIS-Russia-GESN-FER-TER/       (the CIS base, 30 editions)
+      Asia-China-Dinge/
+      Asia-Indonesia-AHSP/
+      Asia-Vietnam-Dinh-Muc/
+      Europe-Greece-GGDE/
+      Europe-Italy-Prezzario-Toscana/
+      Europe-Spain-BCCA/
+      Europe-Turkey-Birim-Fiyat/
+      SouthAmerica-Brazil-SINAPI/
+    and the per-market catalogs under each folder's markets/.
   - All XLSX files (*.xlsx) containing cost data.
   - All Parquet files (*.parquet).
   - All Qdrant snapshot files and vector-database exports
@@ -36,7 +47,16 @@ What counts as "DATA":
     describing the above.
 
 Full licence text:  ./LICENSE-DATA.txt
-Online:             https://creativecommons.org/licenses/by/4.0/legalcode
+Online:             https://creativecommons.org/licenses/by-nc/4.0/legalcode
+
+What DDC licenses under CC BY-NC 4.0 is the compilation: the
+harmonised schema, the translations, the World Bank PPP repricing
+and the cross-classification. The underlying official norms and
+prices are public facts, available under their own terms directly
+from each issuer. Each country folder carries a PROVENANCE.md that
+names the source, its legal basis, and the attribution to
+preserve. Those source attributions must be kept in addition to
+the DDC attribution below.
 
 Attribution requirement:
 
@@ -49,14 +69,22 @@ Attribution requirement:
 
 See CITATION.cff for a machine-readable citation.
 
+Note on earlier releases:
+
+  Some of this data (the CIS base) was previously published under
+  Creative Commons Attribution-NonCommercial 4.0 (CC BY-NC 4.0). Creative Commons
+  licenses are irrevocable, so copies distributed under CC BY 4.0
+  before this change remain under CC BY 4.0. The current and
+  future releases are licensed under CC BY-NC 4.0 as stated above.
+
 Note on the EU sui generis database right:
 
   To the extent Licensor holds a sui generis database right
   under Directive 96/9/EC (as implemented in German law in
-  §§ 87a - 87e UrhG) over the compiled database as a whole,
-  CC BY 4.0 - by clause 2(a)(1)(B) of the licence - also
-  licenses that right to You, subject to the same attribution
-  condition.
+  paragraphs 87a to 87e UrhG) over the compiled database as a
+  whole, CC BY-NC 4.0 - by clause 2(a)(1)(B) of the licence -
+  also licenses that right to You for non-commercial use, subject
+  to the same attribution condition.
 
 ================================================================
 2. CODE LICENSE - Apache License, Version 2.0
@@ -89,10 +117,8 @@ submarine-patent claims.
 ================================================================
 
 Markdown documentation (*.md), including all language-specific
-README files (README.md, README.de.md, README.fr.md,
-README.es.md, README.zh.md, README.zh-CN.md, README.ja.md,
-README.ar.md, README.ru.md, README.pt-BR.md), is licensed under
-CC BY 4.0 (same as DATA).
+README files and the per-folder README.md and PROVENANCE.md, is
+licensed under CC BY-NC 4.0 (same as DATA).
 
 ================================================================
 4. COPYRIGHTED MATERIALS - ALL RIGHTS RESERVED
@@ -112,31 +138,34 @@ author. Contact: info@datadrivenconstruction.io.
 5. COMMERCIAL LICENSING
 ================================================================
 
-CC BY 4.0 permits commercial use of the DATA subject to the
-attribution condition. If You require:
+CC BY-NC 4.0 does NOT permit commercial use of the DATA. Any use
+in or for a commercial product, service, or paid engagement
+requires a separate commercial license from
+DataDrivenConstruction. A commercial license can cover:
 
+  - commercial use of the data in products and services;
   - an enterprise licence without public attribution obligations;
   - a commercial licence covering derivative data products;
   - indemnification for the data as delivered;
   - a data-processing agreement (DPA) or service-level
     agreement;
-  - regulated-industry compliance documentation,
+  - regulated-industry compliance documentation.
 
-please contact: info@datadrivenconstruction.io.
+Free for academia, non-profits, open-source and evaluation use.
+For a commercial license, contact: info@datadrivenconstruction.io.
 
 ================================================================
 6. DATA QUALITY DISCLAIMER
 ================================================================
 
-The cost data is compiled from public, licensed, and originally
-collected sources and normalised for cross-language and
-cross-regional comparability. It is NOT a substitute for formal
-bids, quotations, or country-specific professional cost
-publications (RSMeans, BCIS, Batiprix, Baukosteninformations-
-zentrum, RICS NRM, etc.). Licensor makes no representation that
-prices are current, complete, or accurate for any specific
-project. Use at Your own risk - see Sections 5 and 6 of the
-CC BY 4.0 legal code for the full warranty disclaimer.
+The cost data is compiled from public and official sources and
+normalised for cross-language and cross-regional comparability.
+It is NOT a substitute for formal bids, quotations, or
+country-specific professional cost publications and indices.
+Licensor makes no representation that prices are current,
+complete, or accurate for any specific project. Use at Your own
+risk, see Sections 5 and 6 of the CC BY-NC 4.0 legal code for the
+full warranty disclaimer.
 
 ================================================================
 7. ASSIGNMENT
@@ -146,8 +175,8 @@ Licensor may assign the commercial-licensing and proprietary
 rights reserved under Section 4 to any successor entity,
 including a German Unternehmergesellschaft (haftungsbeschränkt)
 (UG) or Gesellschaft mit beschränkter Haftung (GmbH) formed by
-the individual Artem Boiko. The CC BY 4.0 licence grants made to
-downstream users are not affected by such assignment.
+the individual Artem Boiko. The licence grants made to downstream
+users are not affected by such assignment.
 
 ================================================================
 Contact:

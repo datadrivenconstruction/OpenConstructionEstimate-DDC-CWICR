@@ -1,4 +1,0 @@
-region: TH_BANGKOK
-location_factor: 1.15    # Bangkok metro vs upcountry per BoT construction cost index
-add_us_metadata: false
-translate: true          # English -> Thai

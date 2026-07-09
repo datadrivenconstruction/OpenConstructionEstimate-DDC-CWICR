@@ -94,4 +94,4 @@ The AI layer handles:
 
 ## License
 
-CC BY 4.0 -- DataDrivenConstruction.io
+CC BY-NC 4.0 -- DataDrivenConstruction.io

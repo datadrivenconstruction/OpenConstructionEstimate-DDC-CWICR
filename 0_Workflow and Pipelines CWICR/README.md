@@ -138,7 +138,7 @@ The DDC CWICR dataset is available as pre-built Qdrant collections:
 
 ## License
 
-All examples and the DDC CWICR dataset are licensed under **CC BY 4.0** (Creative Commons Attribution 4.0 International).
+All examples and the DDC CWICR dataset are licensed under **CC BY-NC 4.0** (Creative Commons Attribution-NonCommercial 4.0 International).
 
 You are free to share and adapt the material for any purpose, including commercial use, as long as you provide appropriate attribution.
 

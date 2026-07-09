@@ -1,4 +1,0 @@
-region: JA_TOKYO
-location_factor: 1.15    # Tokyo well above national avg (MLIT construction cost surveys)
-add_us_metadata: false
-translate: true          # English (UK) -> Japanese
