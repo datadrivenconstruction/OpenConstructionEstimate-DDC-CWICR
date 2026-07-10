@@ -10,7 +10,7 @@ OpenConstructionERP the same way and stays mergeable.
 
 - Source system: Construction consumption quotas (Dinge), valued under GB 50500 (定额 (预算定额)).
 - Issuer and edition: Beijing municipal construction quota (2012).
-- Content: 11,312 work items described through 57,672 resource lines
+- Content: 11,312 work items described through 61,007 resource lines
   (labour, material and machinery with norm quantities), unit prices in CNY.
 - Native language: Chinese. Every work item keeps its original-language description;
   an English description is added through a glossary, Latin script only.
@@ -28,7 +28,7 @@ OpenConstructionERP the same way and stays mergeable.
 
 ## Data quality (measured, honest)
 
-92 percent of positions named, 99 percent carry a unit, and every work item is fully decomposed into labour, material and machinery norms with unit prices in CNY.
+92 percent of positions named and 99 percent carry a unit. Every work item is fully decomposed into labour, material and machinery norms, and 95 percent of the resource lines resolve to a name.
 
 Distinct works are counted, not region-code pairs. This edition is the Beijing municipal consumption quota, where every work item carries its full resource composition, so quantities and unit prices can be traced line by line.
 

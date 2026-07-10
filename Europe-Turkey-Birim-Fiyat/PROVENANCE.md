@@ -5,7 +5,7 @@
 - System: Construction and installation unit prices (İnşaat ve Tesisat Birim Fiyatları).
 - Issuer and edition: Ministry of Environment, Urbanisation and Climate Change (Cevre, Sehircilik ve Iklim Degisikligi Bakanligi).
 - Region id in the platform: `TR_NATIONAL`. Currency: TRY. Language: Turkish.
-- Size: 12,361 work items, 97,700 resource lines. Money: unit prices in TRY.
+- Size: 22,704 work items, 97,539 resource lines. Money: unit prices in TRY.
 
 ## Legal basis of the source
 

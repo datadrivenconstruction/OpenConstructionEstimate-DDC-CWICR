@@ -5,7 +5,7 @@
 - System: Construction consumption quotas (Dinge), valued under GB 50500 (定额 (预算定额)).
 - Issuer and edition: Beijing municipal construction quota (2012).
 - Region id in the platform: `ZH_CHINA`. Currency: CNY. Language: Chinese.
-- Size: 11,312 work items, 57,672 resource lines. Money: unit prices in CNY.
+- Size: 11,312 work items, 61,007 resource lines. Money: unit prices in CNY.
 
 ## Legal basis of the source
 

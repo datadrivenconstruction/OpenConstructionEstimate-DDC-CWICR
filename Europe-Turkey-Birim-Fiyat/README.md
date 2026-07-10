@@ -10,7 +10,7 @@ OpenConstructionERP the same way and stays mergeable.
 
 - Source system: Construction and installation unit prices (İnşaat ve Tesisat Birim Fiyatları).
 - Issuer and edition: Ministry of Environment, Urbanisation and Climate Change (Cevre, Sehircilik ve Iklim Degisikligi Bakanligi).
-- Content: 12,361 work items described through 97,700 resource lines
+- Content: 22,704 work items described through 97,539 resource lines
   (labour, material and machinery with norm quantities), unit prices in TRY.
 - Native language: Turkish. Every work item keeps its original-language description;
   an English description is added through a glossary, Latin script only.
@@ -28,7 +28,7 @@ OpenConstructionERP the same way and stays mergeable.
 
 ## Data quality (measured, honest)
 
-98 percent of positions named, 100 percent carry a unit, prices carried. Resource categories are 98.7 percent tagged from the Turkish resource names.
+99 percent of positions named, 100 percent carry a unit, prices carried. 18,663 of the 22,704 items carry a full resource breakdown; the remaining 4,041 are single-rate items, mostly equipment and hire rates, priced without a published analysis. Resource categories are 98.7 percent tagged from the Turkish resource names.
 
 The national ministry unit-price analyses decomposed into labour, material and machinery. The source base leaves some codes without a scope row and a few duplicate codes; this is a structural quirk of the source and is reported, not restructured.
 
