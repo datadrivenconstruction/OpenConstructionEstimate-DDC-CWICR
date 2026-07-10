@@ -9,8 +9,8 @@ OpenConstructionERP the same way and stays mergeable.
 ## What this base is
 
 - Source system: Construction consumption quotas (Dinge), valued under GB 50500 (定额 (预算定额)).
-- Issuer and edition: Beijing municipal construction quota (2012) and Bortala / Bole quota (2022).
-- Content: 34,125 work items described through 61,007 resource lines
+- Issuer and edition: Beijing municipal construction quota (2012).
+- Content: 11,312 work items described through 57,672 resource lines
   (labour, material and machinery with norm quantities), unit prices in CNY.
 - Native language: Chinese. Every work item keeps its original-language description;
   an English description is added through a glossary, Latin script only.
@@ -28,9 +28,9 @@ OpenConstructionERP the same way and stays mergeable.
 
 ## Data quality (measured, honest)
 
-95 percent of positions named, 100 percent carry a unit, prices carried.
+92 percent of positions named, 99 percent carry a unit, and every work item is fully decomposed into labour, material and machinery norms with unit prices in CNY.
 
-Distinct works are counted, not region-code pairs. The Beijing set covers all three disciplines; the Bortala / Bole set is the one Xinjiang prefecture that publishes the full building, municipal and installation catalogue. Other Xinjiang prefectures reprice the same catalogue and are kept as a separate price layer, not double counted.
+Distinct works are counted, not region-code pairs. This edition is the Beijing municipal consumption quota, where every work item carries its full resource composition, so quantities and unit prices can be traced line by line.
 
 ## How to use it
 
@@ -47,7 +47,7 @@ research, teaching, evaluation and non-profit use. See the repository `LICENSE` 
 
 ## Attribution
 
-Beijing municipal construction quota (2012) and Bortala / Bole quota (2022), People's Republic of China.
+Beijing municipal construction quota (2012), People's Republic of China.
 
 ## Contact
 

@@ -3,13 +3,13 @@
 ## Source
 
 - System: Construction consumption quotas (Dinge), valued under GB 50500 (定额 (预算定额)).
-- Issuer and edition: Beijing municipal construction quota (2012) and Bortala / Bole quota (2022).
+- Issuer and edition: Beijing municipal construction quota (2012).
 - Region id in the platform: `ZH_CHINA`. Currency: CNY. Language: Chinese.
-- Size: 34,125 work items, 61,007 resource lines. Money: unit prices in CNY.
+- Size: 11,312 work items, 57,672 resource lines. Money: unit prices in CNY.
 
 ## Legal basis of the source
 
-Official government construction quotas, publicly issued by the municipal and prefectural authorities. Government norms of this kind are public technical documents.
+Official government construction quotas, publicly issued by the municipal authorities. Government norms of this kind are public technical documents.
 
 ## What DDC adds and licenses
 
@@ -27,7 +27,7 @@ underlying public facts, which anyone may still obtain from the issuer.
 
 ## Attribution to preserve
 
-Beijing municipal construction quota (2012) and Bortala / Bole quota (2022), People's Republic of China.
+Beijing municipal construction quota (2012), People's Republic of China.
 
 ## Note
 
