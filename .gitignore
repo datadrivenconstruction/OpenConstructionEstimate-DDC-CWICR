@@ -15,3 +15,6 @@ examples/python/**/__pycache__/
 examples/javascript/node_modules/
 examples/rust/target/
 .env
+
+# Pre-repair parquet backups kept locally during translation repair passes
+*.bak_pre_gpt4o.parquet
