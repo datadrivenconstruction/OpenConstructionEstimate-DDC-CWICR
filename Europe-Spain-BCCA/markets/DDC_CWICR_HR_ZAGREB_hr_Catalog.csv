@@ -534,13 +534,13 @@ HL00400,"MODULARNA ČANTU COMEDOR OD 20,50 m2",Material,General,u,5155.23,5155.2
 IF05600,PVC sifonski odvodnik s 125 mm promjera,Material,General,u,5.9,5.9,5.9,5.9,1,EUR,5.9,1.0,5,5,INSTALACIONES,Baza troškova građevine Andaluzije (BCCA 2023),INSTALACIJE,Plastika
 HL00100,MODULARNA KABINA WC-A 15 m2,Material,General,u,6529.95,6529.95,6529.95,6529.95,1,EUR,2316.83,0.3548,5,5,SEGURIDAD Y SALUD,Baza troškova građevine Andaluzije (BCCA 2023),SIGURNOST I ZDRAVLJE,Toaleti
 HL00300,MODULARNA ČANTU ZA JEDNU SALU OD 15 m2,Material,General,u,4364.75,4364.75,4364.75,4364.75,1,EUR,1548.61,0.3548,5,5,SEGURIDAD Y SALUD,Baza troškova građevine Andaluzije (BCCA 2023),SIGURNOST I ZDRAVLJE,Kantine
-US20175,"VÃLV. COMP. M/M N.O.D. DIÃM. 80 mm, F.D.",Material,General,u,176.72,176.72,176.72,176.72,1,EUR,176.72,1.0,5,5,URBANIZACIONES,Baza troškova građevine Andaluzije (BCCA 2023),URBANIZACIJE,Za lijevanje
+US20175,"VÁLV. COMP. M/M N.O.D. DIÁM. 80 mm, F.D.",Material,General,u,176.72,176.72,176.72,176.72,1,EUR,176.72,1.0,5,5,URBANIZACIONES,Baza troškova građevine Andaluzije (BCCA 2023),URBANIZACIJE,Za lijevanje
 RP00800,Silikonska umjetna kamena 50 mm,Material,General,m,11.58,11.58,11.58,11.58,1,EUR,12.28,1.0604,5,5,REVESTIMIENTOS,Baza troškova građevine Andaluzije (BCCA 2023),Obloge,Stepenice
 RP01000,OSB obloga HAYA 50x70 mm,Material,General,m,21.02,21.02,21.02,21.02,1,EUR,22.03,1.048,5,5,REVESTIMIENTOS,Baza troškova građevine Andaluzije (BCCA 2023),Obloge,Stepenice
 MT00100,Vučena vučna traktor,Equipment,Trucks,h,25.25,25.25,25.25,25.25,1,EUR,0.78,0.031,4,4,ACONDICIONAMIENTO DE TERRENOS,Baza troškova građevine Andaluzije (BCCA 2023),PRIPREMA TERENA,Objašnjenja
 TW00010,REVIZIJA I ODRŽAVANJE STABILIZATORA SKELI,Labor,Labor,u,367.36,367.36,367.36,367.36,1,EUR,12.12,0.033,4,4,DEMOLICIONES Y TRABAJOS PREVIOS,Baza troškova građevine Andaluzije (BCCA 2023),RUŠENJA I PRIPREMNI RADOVI,Vertikale
 IF06270,Stavka 256,Material,General,u,9.17,9.17,9.17,9.17,1,EUR,231.52,25.25,4,4,INSTALACIONES,Baza troškova građevine Andaluzije (BCCA 2023),INSTALACIJE,Brojači
-IF06271,VÃLVULA SALIDA BATERIA CONTADORES DN 13/15 mm,Material,General,u,6.23,6.23,6.23,6.23,1,EUR,157.4,25.25,4,4,INSTALACIONES,Baza troškova građevine Andaluzije (BCCA 2023),INSTALACIJE,Brojači
+IF06271,VÁLVULA SALIDA BATERIA CONTADORES DN 13/15 mm,Material,General,u,6.23,6.23,6.23,6.23,1,EUR,157.4,25.25,4,4,INSTALACIONES,Baza troškova građevine Andaluzije (BCCA 2023),INSTALACIJE,Brojači
 IF06275,"cijev FLEXIBLE DE 3/4""X 50 cm",Material,General,u,4.87,4.87,4.87,4.87,1,EUR,123.05,25.25,4,4,INSTALACIONES,Baza troškova građevine Andaluzije (BCCA 2023),INSTALACIJE,Brojači
 RP01005,HUBB GRANIT RUŽIČASTI PORRIÑO 30 mm,Material,General,m,15.84,15.84,15.84,15.84,1,EUR,16.63,1.05,4,4,REVESTIMIENTOS,Baza troškova građevine Andaluzije (BCCA 2023),Obloge,Stepenice
 HS01200,ZNAK PVC 30 cm,Material,General,u,2.61,2.61,2.61,2.61,1,EUR,0.86,0.33,4,4,SEGURIDAD Y SALUD,Baza troškova građevine Andaluzije (BCCA 2023),SIGURNOST I ZDRAVLJE,Signalizacija
@@ -613,7 +613,7 @@ IG05070,KIT SIGURNOSTI CALDERA,Material,General,u,747.66,747.66,747.66,747.66,1,
 VW01600,PERFIL UNIVERSAL DE ALUMINIO DE 60 mm CON GOMA TRAPECIO,Material,General,m,7.59,7.59,7.59,7.59,1,EUR,7.97,1.05,4,4,VIDRIERÍA Y ELABORADOS SINTÉTICOS,Baza troškova građevine Andaluzije (BCCA 2023),Staklarstvo i sintetički materijali,Ćelulari
 VW01400,"PERFIL EN ""U"" DE CIERRE DE ALUMINIJ DE 16 mm",Material,General,m,2.13,2.13,2.13,2.13,1,EUR,1.7,0.8,4,4,VIDRIERÍA Y ELABORADOS SINTÉTICOS,Baza troškova građevine Andaluzije (BCCA 2023),Staklarstvo i sintetički materijali,Ćelulari
 AGL80500,"CEMENTNA LAPURICA BIJELI BL II/A-L 42,5 R",Material,Concrete & Cement,m3,197.45,197.45,197.45,197.45,1,EUR,0.2,0.001,4,4,ALBAÑILERÍA,Baza troškova građevine Andaluzije (BCCA 2023),ZIDARSKI RADOVI,Balustrade
-IF30600,VÃLVULA DESAGUE LAVADERO C/TAPON,Material,General,u,4.53,4.53,4.53,4.53,1,EUR,4.53,1.0,4,4,INSTALACIONES,Baza troškova građevine Andaluzije (BCCA 2023),INSTALACIJE,Različiti
+IF30600,VÁLVULA DESAGUE LAVADERO C/TAPON,Material,General,u,4.53,4.53,4.53,4.53,1,EUR,4.53,1.0,4,4,INSTALACIONES,Baza troškova građevine Andaluzije (BCCA 2023),INSTALACIJE,Različiti
 IF07900,"DESAGUE BAÑERA 1 1/4"" C/REBOSADERO",Material,General,u,8.07,8.07,8.07,8.07,1,EUR,8.07,1.0,4,4,INSTALACIONES,Baza troškova građevine Andaluzije (BCCA 2023),INSTALACIJE,Kada
 IF01700,BATERIA EXTERIOR FREGADERO F Y C DE 1ª C.,Material,General,u,41.86,41.86,41.86,41.86,1,EUR,41.86,1.0,4,4,INSTALACIONES,Baza troškova građevine Andaluzije (BCCA 2023),INSTALACIJE,Sudoper
 IF08500,ŽBUKA VAPNENA MORTAR,Material,General,u,31.37,31.37,31.37,31.37,1,EUR,31.37,1.0,4,4,INSTALACIONES,Baza troškova građevine Andaluzije (BCCA 2023),INSTALACIJE,Tuš
@@ -658,7 +658,7 @@ AGM01900,PERLITE AND PLASTER MORTAR,Material,General,m3,263.26,263.26,263.26,263
 FL80200,"LADRILLO CERÁM. PERFORADO 24x11,5x10 cm",Material,General,mu,148.42,148.42,148.42,148.42,1,EUR,11.98,0.0807,4,4,ALBAÑILERÍA,Baza troškova građevine Andaluzije (BCCA 2023),ZIDARSKI RADOVI,Citaras
 VW00200,CERRADURA CENTRAL HOJA čelik INOXIDABLE,Material,General,u,95.09,95.09,95.09,95.09,1,EUR,39.63,0.4168,4,4,VIDRIERÍA Y ELABORADOS SINTÉTICOS,Baza troškova građevine Andaluzije (BCCA 2023),Staklarstvo i sintetički materijali,Obojeni
 VL03100,POLIRANA PLUTANA BEZBOJNA LUNA 5 mm,Material,General,m2,36.02,36.02,36.02,36.02,1,EUR,31.58,0.8765,4,4,VIDRIERÍA Y ELABORADOS SINTÉTICOS,Baza troškova građevine Andaluzije (BCCA 2023),Staklarstvo i sintetički materijali,Bezbojne
-UG02500,"VÃLVULA za LLENADO DE DEPÓSITO DE PROPANO-BUTANO 1""",Material,General,u,31.93,31.93,31.93,31.93,1,EUR,31.93,1.0,4,4,INSTALACIONES,Baza troškova građevine Andaluzije (BCCA 2023),INSTALACIJE,Propane
+UG02500,"VÁLVULA za LLENADO DE DEPÓSITO DE PROPANO-BUTANO 1""",Material,General,u,31.93,31.93,31.93,31.93,1,EUR,31.93,1.0,4,4,INSTALACIONES,Baza troškova građevine Andaluzije (BCCA 2023),INSTALACIJE,Propane
 UG02400,"VENTIL DE SIGURNOSTI DE DEPÓSITO PROPANO-BUTANO 1""",Material,General,u,28.03,28.03,28.03,28.03,1,EUR,28.03,1.0,4,4,INSTALACIONES,Baza troškova građevine Andaluzije (BCCA 2023),INSTALACIJE,Propane
 UG02300,"VENTIL ZA PURGACIJU REZERVOARA PROPANA-BUTANA OD 1/2""",Material,General,u,21.07,21.07,21.07,21.07,1,EUR,21.07,1.0,4,4,INSTALACIONES,Baza troškova građevine Andaluzije (BCCA 2023),INSTALACIJE,Propane
 UG02100,MEDIDOR DE NIVEL CON INDICADOR DE PUNTO,Material,General,u,35.93,35.93,35.93,35.93,1,EUR,35.93,1.0,4,4,INSTALACIONES,Baza troškova građevine Andaluzije (BCCA 2023),INSTALACIJE,Propane
@@ -701,7 +701,7 @@ KS04600,PERSIANA JEDNOM NAMOTA PVC 1 mm,Material,General,m2,16.22,16.22,16.22,16
 IF06278,PLOČA OZNAKA,Material,General,u,9.87,9.87,9.87,9.87,1,EUR,24.67,2.5,4,4,INSTALACIONES,Baza troškova građevine Andaluzije (BCCA 2023),INSTALACIJE,Brojači
 IF28500,cijev bakar promjer. 34/36 mm,Material,General,m,13.27,13.27,13.27,13.27,1,EUR,13.4,1.01,4,4,INSTALACIONES,Baza troškova građevine Andaluzije (BCCA 2023),INSTALACIJE,Bakar
 HS01400,SIGNAL PVC 50x25 cm,Material,General,u,4.36,4.36,4.36,4.36,1,EUR,1.44,0.33,4,4,SEGURIDAD Y SALUD,Baza troškova građevine Andaluzije (BCCA 2023),SIGURNOST I ZDRAVLJE,Signalizacija
-IF00400,"ARMARIO METÃLICO CONTADOR 1,30x0,60 m",Material,General,u,80.76,80.76,80.76,80.76,1,EUR,80.76,1.0,3,3,INSTALACIONES,Baza troškova građevine Andaluzije (BCCA 2023),INSTALACIJE,Brojači
+IF00400,"ARMARIO METÁLICO CONTADOR 1,30x0,60 m",Material,General,u,80.76,80.76,80.76,80.76,1,EUR,80.76,1.0,3,3,INSTALACIONES,Baza troškova građevine Andaluzije (BCCA 2023),INSTALACIJE,Brojači
 IF29800,"VENTIL COMPUERTA PROM. 1 1/4"" (28/32 mm)",Material,General,u,12.14,12.14,12.14,12.14,1,EUR,16.18,1.3333,3,3,INSTALACIONES,Baza troškova građevine Andaluzije (BCCA 2023),INSTALACIJE,Brojači
 FB80110,BLOK BETON GLADAK SIV 40X20X20 cm C/V,Material,General,u,1.01,1.01,1.01,1.01,1,EUR,10.48,10.3333,3,3,ALBAÑILERÍA,Baza troškova građevine Andaluzije (BCCA 2023),ZIDARSKI RADOVI,Beton
 IE03733,kabel bakar 1X185 MM2 RZ1-K(AS),Material,Electrical,m,47.68,47.68,47.68,47.68,1,EUR,95.53,2.0033,3,3,INSTALACIONES,Baza troškova građevine Andaluzije (BCCA 2023),INSTALACIJE,Provodnici
@@ -752,7 +752,7 @@ RD0004A,MANILA U U,Material,General,u,17.48,17.48,17.48,17.48,1,EUR,17.48,1.0,3,
 KM0051002N,VRATA MADERA PINO FLANDES OJO BUEY,Material,General,m²,81.38,81.38,81.38,81.38,1,EUR,89.51,1.1,3,3,CARPINTERÍA Y ELEMENTOS DE SEGURIDAD Y PROTECCIÓN,Baza troškova građevine Andaluzije (BCCA 2023),STOLARIJA I ELEMENTI SIGURNOSTI I ZAŠTITE,Različiti
 IE11200,MODUL HOMOLOGOVAN ZA SMJEŠTAJ BROJAČA,Material,General,u,47.8,47.8,47.8,47.8,1,EUR,47.8,1.0,3,3,INSTALACIONES,Baza troškova građevine Andaluzije (BCCA 2023),INSTALACIJE,Brojači
 IF92964,"CIJEV POLIETILEN ALTA DENSIDAD UNIÓN MEC. DIÁM. 50x3,7 mm",Material,General,m,2.72,2.72,2.72,2.72,1,EUR,2.75,1.01,3,3,INSTALACIONES,Baza troškova građevine Andaluzije (BCCA 2023),INSTALACIJE,Plastika
-IF92965,"cijev POLIETILENO ALTA gustoća UNIÓN MEC. DIÃM. 63x4,7 mm",Material,General,m,4.3,4.3,4.3,4.3,1,EUR,4.35,1.01,3,3,INSTALACIONES,Baza troškova građevine Andaluzije (BCCA 2023),INSTALACIJE,Plastika
+IF92965,"cijev POLIETILENO ALTA gustoća UNIÓN MEC. DIÁM. 63x4,7 mm",Material,General,m,4.3,4.3,4.3,4.3,1,EUR,4.35,1.01,3,3,INSTALACIONES,Baza troškova građevine Andaluzije (BCCA 2023),INSTALACIJE,Plastika
 CB00300,"KOMAD KERAMIČKOG PLETENOG BLOKA 0,60x0,20 m",Material,General,u,1.5,1.5,1.5,1.5,1,EUR,9.27,6.18,3,3,ESTRUCTURAS,Baza troškova građevine Andaluzije (BCCA 2023),Konstrukcije,Dvosmjerni
 CB00400,"BLOK RETICULAR OD POLISTIREN 0,60x0,60 m",Material,General,u,4.73,4.73,4.73,4.73,1,EUR,9.47,2.0,3,3,ESTRUCTURAS,Baza troškova građevine Andaluzije (BCCA 2023),Konstrukcije,Dvosmjerni
 IW04100,REJILLA CILINDRICA,Material,General,u,3.18,3.18,3.18,3.18,1,EUR,3.18,1.0,3,3,SANEAMIENTO,Baza troškova građevine Andaluzije (BCCA 2023),ODVOZ OTPADNIH VODA,Kozlice
@@ -1001,7 +1001,7 @@ XT80630,ALUMINIJSKA ZAŠTITA 30mm DIAM.,Material,General,m,5.19,5.19,5.19,5.19,1
 CW00400,MALLA FIBRA DE VIDRIO PREVUČENA PVC DE 217 g/m2,Material,General,m2,1.61,1.61,1.61,1.61,1,EUR,0.96,0.6,2,2,REVESTIMIENTOS,Baza troškova građevine Andaluzije (BCCA 2023),Obloge,Fasade
 RW04600,"GUARDAVIVOS DE CHAPA 0,6 mm ACERO GALVANIZADO",Material,General,m,0.99,0.99,0.99,0.99,1,EUR,0.77,0.775,2,2,REVESTIMIENTOS,Baza troškova građevine Andaluzije (BCCA 2023),Obloge,Fasade
 AGM01100,HIDRAUL VAPNENA ŽBUKA (1:1),Material,General,m3,231.34,231.34,231.34,231.34,1,EUR,1.16,0.005,2,2,REVESTIMIENTOS,Baza troškova građevine Andaluzije (BCCA 2023),Obloge,Gletanje
-AS00120,ÃRIDO SELECCIONADO MONOCAPA,Material,General,kg,0.54,0.54,0.54,0.54,1,EUR,8.04,15.0,2,2,REVESTIMIENTOS,Baza troškova građevine Andaluzije (BCCA 2023),Obloge,Žbukanje
+AS00120,ÁRIDO SELECCIONADO MONOCAPA,Material,General,kg,0.54,0.54,0.54,0.54,1,EUR,8.04,15.0,2,2,REVESTIMIENTOS,Baza troškova građevine Andaluzije (BCCA 2023),Obloge,Žbukanje
 GM00100,ŽBUKA VAPNENA ZRAK,Material,General,kg,0.56,0.56,0.56,0.56,1,EUR,10.09,18.0,2,2,REVESTIMIENTOS,Baza troškova građevine Andaluzije (BCCA 2023),Obloge,Žbukanje
 XT10200,FIELTRO VLAKNO STAKLO ESPESOR 12 mm DENSIDAD 36 kg/m3,Material,General,m2,6.68,6.68,6.68,6.68,1,EUR,7.09,1.061,2,2,AISLAMIENTOS,Baza troškova građevine Andaluzije (BCCA 2023),IZOLACIJE,Različiti
 KA01300,KAPI NA KLIZNU SASTAVNU I GALVANIJSKU PLOČU,Material,General,m2,73.74,73.74,73.74,73.74,1,EUR,73.74,1.0,2,2,CARPINTERÍA Y ELEMENTOS DE SEGURIDAD Y PROTECCIÓN,Baza troškova građevine Andaluzije (BCCA 2023),STOLARIJA I ELEMENTI SIGURNOSTI I ZAŠTITE,Preklopna
@@ -1127,7 +1127,7 @@ KW80010,EMISOR RECEPTOR MONOCANAL,Material,General,u,85.78,85.78,85.78,85.78,1,E
 KW80020,ELEKTRIČNI PLOČA UPRAVLJANJA I ZAŠTITE MOTORA PERSIJANE,Material,General,u,88.27,88.27,88.27,88.27,1,EUR,88.27,1.0,2,2,CARPINTERÍA Y ELEMENTOS DE SEGURIDAD Y PROTECCIÓN,Baza troškova građevine Andaluzije (BCCA 2023),STOLARIJA I ELEMENTI SIGURNOSTI I ZAŠTITE,Različiti
 IC50200,"AUTOMATSKI ISPUSTI ZRAKA, 10 bara SA ZATVARAJUĆIM VENTILOM",Material,General,u,9.71,9.71,9.71,9.71,1,EUR,9.71,1.0,2,2,INSTALACIONES,Baza troškova građevine Andaluzije (BCCA 2023),INSTALACIJE,Ventili i cijevi
 IP03100,DETEKTOR ÓPTICO OD HUMO,Material,General,u,44.46,44.46,44.46,44.46,1,EUR,44.46,1.0,2,2,INSTALACIONES,Baza troškova građevine Andaluzije (BCCA 2023),INSTALACIJE,Detekcija i alarm
-IC69000,"cijev čelik NEGRO SOLDADO UNE 19040 17,2x2,35 mm DIÃM. x ESP.",Material,General,m,1.15,1.15,1.15,1.15,1,EUR,1.17,1.01,2,2,INSTALACIONES,Baza troškova građevine Andaluzije (BCCA 2023),INSTALACIJE,Ventili i cijevi
+IC69000,"cijev čelik NEGRO SOLDADO UNE 19040 17,2x2,35 mm DIÁM. x ESP.",Material,General,m,1.15,1.15,1.15,1.15,1,EUR,1.17,1.01,2,2,INSTALACIONES,Baza troškova građevine Andaluzije (BCCA 2023),INSTALACIJE,Ventili i cijevi
 IC69100,"CIJEV ČELIK CRNI ZAVARENI UNE 19040 21,3x2,65 mm PROMJER. x DEBLJ.",Material,General,m,1.34,1.34,1.34,1.34,1,EUR,1.36,1.01,2,2,INSTALACIONES,Baza troškova građevine Andaluzije (BCCA 2023),INSTALACIJE,Ventili i cijevi
 IC69200,"CIJEV ČELIK CRNI ZAVARENI UNE 19040 26,9x2,65 mm PROMJER. x DEBLJ.",Material,General,m,1.59,1.59,1.59,1.59,1,EUR,1.61,1.01,2,2,INSTALACIONES,Baza troškova građevine Andaluzije (BCCA 2023),INSTALACIJE,Ventili i cijevi
 IC67900,"CIJEV ČELIK CRNO SIN SOLD. UNE 19040 21,3x2,65 mm DIÁM. x ESP.",Material,General,m,2.15,2.15,2.15,2.15,1,EUR,2.17,1.01,2,2,INSTALACIONES,Baza troškova građevine Andaluzije (BCCA 2023),INSTALACIJE,Ventili i cijevi
@@ -1203,7 +1203,7 @@ QW00900,TEJIDO ANTIRRAICES,Material,General,m2,1.0,1.0,1.0,1.0,1,EUR,0.9,0.9,2,2
 PL00100,Stavka 208,Material,General,kg,21.27,21.27,21.27,21.27,1,EUR,9.57,0.45,2,2,PINTURAS,Baza troškova građevine Andaluzije (BCCA 2023),BOJE,Lacas
 PW00400,"RESINA DE SILICONA INCOLORA, TRANSPARENTE",Material,General,kg,5.31,5.31,5.31,5.31,1,EUR,2.39,0.45,2,2,PINTURAS,Baza troškova građevine Andaluzije (BCCA 2023),BOJE,Plastika
 CH80300,PROPUSTLJIV BETON PROPUSTLJIVOST 3 m3/m2/h,Material,General,m3,110.57,110.57,110.57,110.57,1,EUR,9.95,0.09,2,2,CUBIERTAS,Baza troškova građevine Andaluzije (BCCA 2023),KROVOVI,Krovni elementi
-XI01700,MÃSTIC ASFÃLTICO za JUNTAS DE DILATACIÓN,Material,General,m,0.82,0.82,0.82,0.82,1,EUR,2.5,3.03,2,2,CUBIERTAS,Baza troškova građevine Andaluzije (BCCA 2023),KROVOVI,Različiti
+XI01700,MÁSTIC ASFÁLTICO za JUNTAS DE DILATACIÓN,Material,General,m,0.82,0.82,0.82,0.82,1,EUR,2.5,3.03,2,2,CUBIERTAS,Baza troškova građevine Andaluzije (BCCA 2023),KROVOVI,Različiti
 PW00210,kitna masa od poliuretan MONOCOMPONENTE nizak MÓD. ELASTICIDAD,Material,General,kg,9.13,9.13,9.13,9.13,1,EUR,8.39,0.919,2,2,CUBIERTAS,Baza troškova građevine Andaluzije (BCCA 2023),KROVOVI,Različiti
 XI02505,ZAPJEČETAR OD POLIETILENSKOG PJENE DIAM. 40 MM,Material,General,m,1.53,1.53,1.53,1.53,1,EUR,3.1,2.02,2,2,CUBIERTAS,Baza troškova građevine Andaluzije (BCCA 2023),KROVOVI,Različiti
 XT15102,Polistiren Expandido Elastificado 30MM,Material,General,m2,2.46,2.46,2.46,2.46,1,EUR,1.84,0.747,2,2,CUBIERTAS,Baza troškova građevine Andaluzije (BCCA 2023),KROVOVI,Različiti
@@ -1225,7 +1225,7 @@ IF05900,CALENTADOR A GAS PRESIÓN NORMAL,Material,General,u,88.7,88.7,88.7,88.7,
 IF06000,CALENTADOR ACUMULADOR A GAS 100 l,Material,General,u,278.92,278.92,278.92,278.92,1,EUR,278.92,1.0,2,2,INSTALACIONES,Baza troškova građevine Andaluzije (BCCA 2023),INSTALACIJE,Grijaci
 IF06100,CALENTADOR ACUMULADOR ELECTRICO 100 l 1500W,Material,General,u,235.56,235.56,235.56,235.56,1,EUR,235.56,1.0,2,2,INSTALACIONES,Baza troškova građevine Andaluzije (BCCA 2023),INSTALACIJE,Grijaci
 IF31200,"POVRATNI VENTIL PROMJER 1 1/4"" (28/32 mm)",Material,General,u,6.29,6.29,6.29,6.29,1,EUR,6.29,1.0,2,2,INSTALACIONES,Baza troškova građevine Andaluzije (BCCA 2023),INSTALACIJE,Zadržavanje
-IK00001,priključak A mreža DE TELEFONÃA S/NORMAS,Material,General,u,1545.13,1545.13,1545.13,1545.13,1,EUR,1545.13,1.0,2,2,INSTALACIONES,Baza troškova građevine Andaluzije (BCCA 2023),INSTALACIJE,Priključci
+IK00001,priključak A mreža DE TELEFONÍA S/NORMAS,Material,General,u,1545.13,1545.13,1545.13,1545.13,1,EUR,1545.13,1.0,2,2,INSTALACIONES,Baza troškova građevine Andaluzije (BCCA 2023),INSTALACIJE,Priključci
 U30JW825,RJ45,Material,General,ud,0.26,0.26,0.26,0.26,1,EUR,0.14,0.515,2,2,INSTALACIONES,Baza troškova građevine Andaluzije (BCCA 2023),INSTALACIJE,Kanali
 IF11800,"FREGADERO UN SENO ACERO INOX. DE 0,70 m",Material,General,u,68.63,68.63,68.63,68.63,1,EUR,69.31,1.01,2,2,INSTALACIONES,Baza troškova građevine Andaluzije (BCCA 2023),INSTALACIJE,Sudoper
 IF11200,"SUDOPER 2 ZDJELE NEHRĐAJUĆI ČELIK OD 1,00 m",Material,General,u,104.43,104.43,104.43,104.43,1,EUR,105.47,1.01,2,2,INSTALACIONES,Baza troškova građevine Andaluzije (BCCA 2023),INSTALACIJE,Sudoper
@@ -1448,7 +1448,7 @@ RS02080,PLOČICA FERROGRES ESMALTADO 25x25 cm,Material,General,u,1.1,1.1,1.1,1.1
 RS02090,BALDOSA FERROGRES ESMALTADO 33x33 cm,Material,General,u,2.26,2.26,2.26,2.26,1,EUR,14.83,6.565,2,2,REVESTIMIENTOS,Baza troškova građevine Andaluzije (BCCA 2023),Obloge,Stepenice
 RS02508,PLOČICA GRESINA EMENTNA 25x25 cm,Material,General,u,1.05,1.05,1.05,1.05,1,EUR,11.18,10.68,2,2,REVESTIMIENTOS,Baza troškova građevine Andaluzije (BCCA 2023),Obloge,Stepenice
 RS02509,pločica gres glazirano 30x30 cm,Material,General,u,2.0,2.0,2.0,2.0,1,EUR,15.44,7.74,2,2,REVESTIMIENTOS,Baza troškova građevine Andaluzije (BCCA 2023),Obloge,Stepenice
-RS02560,pločica gres PORCELÃNICO 30x30 cm,Material,General,u,2.33,2.33,2.33,2.33,1,EUR,18.0,7.74,2,2,REVESTIMIENTOS,Baza troškova građevine Andaluzije (BCCA 2023),Obloge,Stepenice
+RS02560,pločica gres PORCELÁNICO 30x30 cm,Material,General,u,2.33,2.33,2.33,2.33,1,EUR,18.0,7.74,2,2,REVESTIMIENTOS,Baza troškova građevine Andaluzije (BCCA 2023),Obloge,Stepenice
 RW04300,CANTONERA PVC,Material,General,m,1.39,1.39,1.39,1.39,1,EUR,1.44,1.04,2,2,REVESTIMIENTOS,Baza troškova građevine Andaluzije (BCCA 2023),Obloge,Stepenice
 IF11900,"GRIFO PROVJERA ŠPIGLE DIÁM. 1/2""",Material,General,u,45.09,45.09,45.09,45.09,1,EUR,45.09,1.0,2,2,INSTALACIONES,Baza troškova građevine Andaluzije (BCCA 2023),INSTALACIJE,Brojači
 PW02000,BANDAS DE PAPEL O PLASTICO ADHESIVO,Material,General,m,0.06,0.06,0.06,0.06,1,EUR,0.08,1.3,1,1,MANTENIMIENTO,Baza troškova građevine Andaluzije (BCCA 2023),ODRŽAVANJE,Čišćenje i tretmani
@@ -1707,7 +1707,7 @@ IF16100,INODORO FLUXÓMETRO C. FUERTE CALIDAD MEDIA,Material,General,u,41.19,41.
 XT04500,COQUILLA FIBRA STAKLO DIÁM. 48 mm DEBLJINA 40 mm,Material,General,m,4.64,4.64,4.64,4.64,1,EUR,4.69,1.01,1,1,INSTALACIONES,Baza troškova građevine Andaluzije (BCCA 2023),INSTALACIJE,Različiti
 XT04000,LJUSKA STAKLENO VLAKNO DIÁM. 34 mm DEBLJINA 40 mm,Material,General,m,3.92,3.92,3.92,3.92,1,EUR,3.96,1.01,1,1,INSTALACIONES,Baza troškova građevine Andaluzije (BCCA 2023),INSTALACIJE,Različiti
 XT03200,COQUILLA FIB. VIDR. CON PAPEL KRAFF ALUM. PROMJER. 89 mm DEBLJ. 40 mm,Material,General,m,8.19,8.19,8.19,8.19,1,EUR,8.27,1.01,1,1,INSTALACIONES,Baza troškova građevine Andaluzije (BCCA 2023),INSTALACIJE,Različiti
-XT02900,COQUILLA FIB. VIDR. sa PAPEL KRAFF ALUM. DIÃM. 76 mm ESP. 30 mm,Material,General,m,7.27,7.27,7.27,7.27,1,EUR,7.35,1.01,1,1,INSTALACIONES,Baza troškova građevine Andaluzije (BCCA 2023),INSTALACIJE,Različiti
+XT02900,COQUILLA FIB. VIDR. sa PAPEL KRAFF ALUM. DIÁM. 76 mm ESP. 30 mm,Material,General,m,7.27,7.27,7.27,7.27,1,EUR,7.35,1.01,1,1,INSTALACIONES,Baza troškova građevine Andaluzije (BCCA 2023),INSTALACIJE,Različiti
 XT02500,LJUSKA OD STEKLENOG VLAKNA SA PAPIRA KRAFT ALUM. DIÁM. 48 mm DEBLJINA 30 mm,Material,General,m,7.1,7.1,7.1,7.1,1,EUR,7.17,1.01,1,1,INSTALACIONES,Baza troškova građevine Andaluzije (BCCA 2023),INSTALACIJE,Različiti
 XT02100,COQUILLA FIB. VIDR. CON PAPEL KRAFF ALUM. DIÁM. 34 mm ESP. 30 mm,Material,General,m,6.36,6.36,6.36,6.36,1,EUR,6.42,1.01,1,1,INSTALACIONES,Baza troškova građevine Andaluzije (BCCA 2023),INSTALACIJE,Različiti
 XT08300,"LJUSKA ESP. ELAST. GUMA/VINIL 0,028 W/mk 89x19 mm",Material,General,m,10.84,10.84,10.84,10.84,1,EUR,10.95,1.01,1,1,INSTALACIONES,Baza troškova građevine Andaluzije (BCCA 2023),INSTALACIJE,Različiti
@@ -1750,7 +1750,7 @@ IC35400,Ventilacijska oprema. Kabina s okruglim ventilom 380 mm 3 CV 10000 m3/h 
 IC35300,"Ventilacijska oprema, kabina, okrugli, 320 mm, 3 CV, 7000 m3/h, 25 mm.c.a.",Material,General,u,1266.6,1266.6,1266.6,1266.6,1,EUR,1266.6,1.0,1,1,INSTALACIONES,Baza troškova građevine Andaluzije (BCCA 2023),INSTALACIJE,Ventilatori
 IC35100,"Ventilacijska oprema, kabina s okruglim ventilom, 320 mm, 1,5 CV, 5500 m3/h, 25 mm.c.a.",Material,General,u,1085.93,1085.93,1085.93,1085.93,1,EUR,1085.93,1.0,1,1,INSTALACIONES,Baza troškova građevine Andaluzije (BCCA 2023),INSTALACIJE,Ventilatori
 IC34900,"Ventilacijska oprema, kabina s okruglim ventilom, 240 mm 1/5 CV 1000 m3/h 10 mm.c.a.",Material,General,u,461.88,461.88,461.88,461.88,1,EUR,461.88,1.0,1,1,INSTALACIONES,Baza troškova građevine Andaluzije (BCCA 2023),INSTALACIJE,Ventilatori
-IC27699,rešetka CIRCULAR aluminij LACADO 150 mm DIÃM.,Material,General,u,16.61,16.61,16.61,16.61,1,EUR,16.61,1.0,1,1,INSTALACIONES,Baza troškova građevine Andaluzije (BCCA 2023),INSTALACIJE,Rešetke i difuzori
+IC27699,rešetka CIRCULAR aluminij LACADO 150 mm DIÁM.,Material,General,u,16.61,16.61,16.61,16.61,1,EUR,16.61,1.0,1,1,INSTALACIONES,Baza troškova građevine Andaluzije (BCCA 2023),INSTALACIJE,Rešetke i difuzori
 IF23800,"PILETA LAVADERO PORC. C. BLANCO DE 0,60 m",Material,General,u,61.78,61.78,61.78,61.78,1,EUR,63.02,1.02,1,1,INSTALACIONES,Baza troškova građevine Andaluzije (BCCA 2023),INSTALACIJE,Različiti
 IF24000,Stavka 356,Material,General,u,28.17,28.17,28.17,28.17,1,EUR,28.73,1.02,1,1,INSTALACIONES,Baza troškova građevine Andaluzije (BCCA 2023),INSTALACIJE,Različiti
 IF24700,HROMIRANA REŠETKA I JASTUK,Material,General,u,44.4,44.4,44.4,44.4,1,EUR,44.4,1.0,1,1,INSTALACIONES,Baza troškova građevine Andaluzije (BCCA 2023),INSTALACIJE,Različiti
@@ -1789,11 +1789,11 @@ IF30670,"VÁLVULA DE ESFERA DIÁM. 2 1/2"" (65/70 mm)",Material,General,u,69.87,
 IF30660,"KUGLASTI VENTIL DIÁM. 2"" (50/60 mm)",Material,General,u,41.3,41.3,41.3,41.3,1,EUR,41.3,1.0,1,1,INSTALACIONES,Baza troškova građevine Andaluzije (BCCA 2023),INSTALACIJE,Kugla
 IF30650,"KUGLASTI VENTIL DIÁM. 1 1/2"" (36/40 mm)",Material,General,u,25.66,25.66,25.66,25.66,1,EUR,25.66,1.0,1,1,INSTALACIONES,Baza troškova građevine Andaluzije (BCCA 2023),INSTALACIJE,Kugla
 IF30640,"VENTIL KUGLASTI PROM. 1 1/4"" (28/32 mm)",Material,General,u,16.66,16.66,16.66,16.66,1,EUR,16.66,1.0,1,1,INSTALACIONES,Baza troškova građevine Andaluzije (BCCA 2023),INSTALACIJE,Kugla
-IF30630,"VÃLVULA DE ESFERA DIÃM. 1"" (22/25 mm)",Material,General,u,10.41,10.41,10.41,10.41,1,EUR,10.41,1.0,1,1,INSTALACIONES,Baza troškova građevine Andaluzije (BCCA 2023),INSTALACIJE,Kugla
+IF30630,"VÁLVULA DE ESFERA DIÁM. 1"" (22/25 mm)",Material,General,u,10.41,10.41,10.41,10.41,1,EUR,10.41,1.0,1,1,INSTALACIONES,Baza troškova građevine Andaluzije (BCCA 2023),INSTALACIJE,Kugla
 IF30620,"VÁLVULA DE ESFERA PROMJER 3/4"" (15/20 mm)",Material,General,u,7.17,7.17,7.17,7.17,1,EUR,7.17,1.0,1,1,INSTALACIONES,Baza troškova građevine Andaluzije (BCCA 2023),INSTALACIJE,Kugla
 IF00100,ANTIARIETE PREČNIK. 1,Material,General,u,6.64,6.64,6.64,6.64,1,EUR,6.64,1.0,1,1,INSTALACIONES,Baza troškova građevine Andaluzije (BCCA 2023),INSTALACIJE,Različiti
 IF31000,"VENTIL REDUCTORA TLAK PROM. 1 1/2"" (36/40 mm)",Material,General,u,245.92,245.92,245.92,245.92,1,EUR,245.92,1.0,1,1,INSTALACIONES,Baza troškova građevine Andaluzije (BCCA 2023),INSTALACIJE,Različiti
-IF30900,"VÃLVULA REDUCTORA PRESIÓN DIÃM. 1 1/4"" (28/32 mm)",Material,General,u,120.66,120.66,120.66,120.66,1,EUR,120.66,1.0,1,1,INSTALACIONES,Baza troškova građevine Andaluzije (BCCA 2023),INSTALACIJE,Različiti
+IF30900,"VÁLVULA REDUCTORA PRESIÓN DIÁM. 1 1/4"" (28/32 mm)",Material,General,u,120.66,120.66,120.66,120.66,1,EUR,120.66,1.0,1,1,INSTALACIONES,Baza troškova građevine Andaluzije (BCCA 2023),INSTALACIJE,Različiti
 IF30800,"VÁLVULA REDUCTORA PRESIÓN DIÁM. 1"" (22/25 mm)",Material,General,u,71.84,71.84,71.84,71.84,1,EUR,71.84,1.0,1,1,INSTALACIONES,Baza troškova građevine Andaluzije (BCCA 2023),INSTALACIJE,Različiti
 IF31800N,"VENTIL RETENCIÓN DIÁM. 3""",Material,General,u,21.97,21.97,21.97,21.97,1,EUR,21.97,1.0,1,1,INSTALACIONES,Baza troškova građevine Andaluzije (BCCA 2023),INSTALACIJE,Zadržavanje
 IF31700N,VENTILACIJSKI KANAL FLEKSIBILAN UMETAK,Material,General,u,18.31,18.31,18.31,18.31,1,EUR,18.31,1.0,1,1,INSTALACIONES,Baza troškova građevine Andaluzije (BCCA 2023),INSTALACIJE,Zadržavanje
@@ -1827,7 +1827,7 @@ ICDMT01,REŠETKA LINEAL RETORNO + REGULACIÓN RAL DEF,Material,General,u,91.11,9
 IC55700,Rešetka fiksna od galvanizirane lima 300x200 mm,Material,General,u,9.13,9.13,9.13,9.13,1,EUR,9.13,1.0,1,1,INSTALACIONES,Baza troškova građevine Andaluzije (BCCA 2023),INSTALACIJE,Rešetke i difuzori
 IC54600,rešetka DOBLE DEFLEXIÓN LAMAS ORIENT. CHAPA GALV. 300x200mm,Material,General,u,18.59,18.59,18.59,18.59,1,EUR,18.59,1.0,1,1,INSTALACIONES,Baza troškova građevine Andaluzije (BCCA 2023),INSTALACIJE,Rešetke i difuzori
 IC57400,REŠETKA ORIJENTABILNIH LAMELA JEDNA ZA DRUGU POCINČANA PLOČA 300x200mm,Material,General,u,9.31,9.31,9.31,9.31,1,EUR,9.31,1.0,1,1,INSTALACIONES,Baza troškova građevine Andaluzije (BCCA 2023),INSTALACIJE,Rešetke i difuzori
-IC39999,ASPIRADOR GIRATORIO sa SOMBRERO DINÃMICO ALUM. DE 250 MM,Material,General,u,124.73,124.73,124.73,124.73,1,EUR,124.73,1.0,1,1,INSTALACIONES,Baza troškova građevine Andaluzije (BCCA 2023),INSTALACIJE,Izvlačioci
+IC39999,ASPIRADOR GIRATORIO sa SOMBRERO DINÁMICO ALUM. DE 250 MM,Material,General,u,124.73,124.73,124.73,124.73,1,EUR,124.73,1.0,1,1,INSTALACIONES,Baza troškova građevine Andaluzije (BCCA 2023),INSTALACIJE,Izvlačioci
 IC85300N,Stavka 182,Material,General,u,49.86,49.86,49.86,49.86,1,EUR,49.86,1.0,1,1,INSTALACIONES,Baza troškova građevine Andaluzije (BCCA 2023),INSTALACIJE,Izvlačioci
 IC40000,"EXTRACTOR AIRE T/CUBIERTA, CENTRIF. 1 CV 7000 m3/h 12 mm.c.a.",Material,General,u,2098.66,2098.66,2098.66,2098.66,1,EUR,2098.66,1.0,1,1,INSTALACIONES,Baza troškova građevine Andaluzije (BCCA 2023),INSTALACIJE,Izvlačioci
 IC39900,"EXTRACTOR AIRE T/CUBIERTA, CENTRIF. 1 CV 7000 m3/h 12 mm.c.a.",Material,General,u,1666.43,1666.43,1666.43,1666.43,1,EUR,1666.43,1.0,1,1,INSTALACIONES,Baza troškova građevine Andaluzije (BCCA 2023),INSTALACIJE,Izvlačioci
@@ -1946,7 +1946,7 @@ IG01800,KLJUČ ZATVARANJA PROPANSKOG PLINA BUTANA,Material,General,u,4.64,4.64,4
 IG04200,TUBO DE COBRE VISTO PROMJER 50 mm,Material,General,m,20.2,20.2,20.2,20.2,1,EUR,20.2,1.0,1,1,INSTALACIONES,Baza troškova građevine Andaluzije (BCCA 2023),INSTALACIJE,Butano
 IG04000,CIJEV DE COBRE CROMADO VISTO DIÁM. 8 mm,Material,General,m,2.37,2.37,2.37,2.37,1,EUR,5.94,2.5,1,1,INSTALACIONES,Baza troškova građevine Andaluzije (BCCA 2023),INSTALACIJE,Butano
 IG03400,REGULADOR GAS BUTANO,Material,General,u,9.37,9.37,9.37,9.37,1,EUR,9.37,1.0,1,1,INSTALACIONES,Baza troškova građevine Andaluzije (BCCA 2023),INSTALACIJE,Butano
-IG01700,slavina DE PASO DIÃM. 8 mm,Material,General,u,4.38,4.38,4.38,4.38,1,EUR,8.76,2.0,1,1,INSTALACIONES,Baza troškova građevine Andaluzije (BCCA 2023),INSTALACIJE,Butano
+IG01700,slavina DE PASO DIÁM. 8 mm,Material,General,u,4.38,4.38,4.38,4.38,1,EUR,8.76,2.0,1,1,INSTALACIONES,Baza troškova građevine Andaluzije (BCCA 2023),INSTALACIJE,Butano
 IV00200,"MEHANIZAM UTIČNICE TV/FM/FI, KONAČNA SEPARACIJA",Material,General,u,3.98,3.98,3.98,3.98,1,EUR,3.98,1.0,1,1,INSTALACIONES,Baza troškova građevine Andaluzije (BCCA 2023),INSTALACIJE,Različiti
 IV00140,SENZOR KOLIČINE SVLJETLA DIGITALNI,Material,General,u,12.52,12.52,12.52,12.52,1,EUR,12.52,1.0,1,1,INSTALACIONES,Baza troškova građevine Andaluzije (BCCA 2023),INSTALACIJE,Različiti
 IV00130,DERIVADOR F.I. 4 DERIVACIONES,Material,General,u,13.53,13.53,13.53,13.53,1,EUR,13.53,1.0,1,1,INSTALACIONES,Baza troškova građevine Andaluzije (BCCA 2023),INSTALACIJE,Različiti
@@ -2019,8 +2019,8 @@ IC17500,CODO 90º CHAPA GALV. 175 mm DIÁM.,Material,General,u,14.64,14.64,14.64
 IC17200,KOLJENIKUS 90º POCINČANI LIM 100 mm PROMJER,Material,General,u,8.43,8.43,8.43,8.43,1,EUR,8.43,1.0,1,1,INSTALACIONES,Baza troškova građevine Andaluzije (BCCA 2023),INSTALACIJE,Kanali
 IC25900,CONDUCTO HELICOIDAL CHAPA GALV. 500 mm PROMJER,Material,General,m,39.1,39.1,39.1,39.1,1,EUR,39.1,1.0,1,1,INSTALACIONES,Baza troškova građevine Andaluzije (BCCA 2023),INSTALACIJE,Kanali
 IC25400,SPIRALNI KANAL OD GALVANIZIRANE PLOČE PROMJER 200 mm,Material,General,m,17.22,17.22,17.22,17.22,1,EUR,17.22,1.0,1,1,INSTALACIONES,Baza troškova građevine Andaluzije (BCCA 2023),INSTALACIJE,Kanali
-IC25300,kanal HELICOIDAL CHAPA GALV. 175 mm DIÃM.,Material,General,m,15.77,15.77,15.77,15.77,1,EUR,15.77,1.0,1,1,INSTALACIONES,Baza troškova građevine Andaluzije (BCCA 2023),INSTALACIJE,Kanali
-IC25000,kanal HELICOIDAL CHAPA GALV. 100 mm DIÃM.,Material,General,m,10.05,10.05,10.05,10.05,1,EUR,10.05,1.0,1,1,INSTALACIONES,Baza troškova građevine Andaluzije (BCCA 2023),INSTALACIJE,Kanali
+IC25300,kanal HELICOIDAL CHAPA GALV. 175 mm DIÁM.,Material,General,m,15.77,15.77,15.77,15.77,1,EUR,15.77,1.0,1,1,INSTALACIONES,Baza troškova građevine Andaluzije (BCCA 2023),INSTALACIJE,Kanali
+IC25000,kanal HELICOIDAL CHAPA GALV. 100 mm DIÁM.,Material,General,m,10.05,10.05,10.05,10.05,1,EUR,10.05,1.0,1,1,INSTALACIONES,Baza troškova građevine Andaluzije (BCCA 2023),INSTALACIJE,Kanali
 IC58400,ZAVRŠETAK FIBROCEMENTNOG DIMNJAKA,Material,Concrete & Cement,u,8.01,8.01,8.01,8.01,1,EUR,1.2,0.15,1,1,INSTALACIONES,Baza troškova građevine Andaluzije (BCCA 2023),INSTALACIJE,Kanali
 IC24500,Individuální ventilacijski kanál od fibrocementa,Material,Concrete & Cement,m,6.54,6.54,6.54,6.54,1,EUR,6.54,1.0,1,1,INSTALACIONES,Baza troškova građevine Andaluzije (BCCA 2023),INSTALACIJE,Kanali
 IG00700,"DISTRIBUIDOR PROPANO DIM. 1,1+4 TOMAS 1/2""",Material,General,u,16.43,16.43,16.43,16.43,1,EUR,16.43,1.0,1,1,INSTALACIONES,Baza troškova građevine Andaluzije (BCCA 2023),INSTALACIJE,Propane
@@ -2127,7 +2127,7 @@ IN00020,akumulator solarni bez spirala od kapacitet 500 LITROS.,Material,Chemica
 IN00010,ACUMULADOR SOLAR SIN SERPENTÍN DE CAPACIDAD 200 LITROS.,Material,Chemicals,u,522.16,522.16,522.16,522.16,1,EUR,522.16,1.0,1,1,INSTALACIONES,Baza troškova građevine Andaluzije (BCCA 2023),INSTALACIJE,Akumulatori
 IM01100,"ELEC. PUMPA FEKALNIH POTOPLJENA 2,20 HP. 5000-50000 l/h, 13-3 m.c.a.",Material,General,u,1421.56,1421.56,1421.56,1421.56,1,EUR,1421.56,1.0,1,1,INSTALACIONES,Baza troškova građevine Andaluzije (BCCA 2023),INSTALACIJE,Različiti
 IM01000,"ELEC. PUMPA FEKALNIH POTOPLJENA 1,50 HP. 3000-30000 l/h, 13-5 m.c.a.",Material,General,u,655.71,655.71,655.71,655.71,1,EUR,655.71,1.0,1,1,INSTALACIONES,Baza troškova građevine Andaluzije (BCCA 2023),INSTALACIJE,Različiti
-RT04001,ENTRAMADO METÃLICO SOPORTE HOR .1 COL,Material,General,u,255.94,255.94,255.94,255.94,1,EUR,255.94,1.0,1,1,INSTALACIONES,Baza troškova građevine Andaluzije (BCCA 2023),INSTALACIJE,Nosive konstrukcije
+RT04001,ENTRAMADO METÁLICO SOPORTE HOR .1 COL,Material,General,u,255.94,255.94,255.94,255.94,1,EUR,255.94,1.0,1,1,INSTALACIONES,Baza troškova građevine Andaluzije (BCCA 2023),INSTALACIJE,Nosive konstrukcije
 IN00872,"ESTACIÓN SOLAR 2 SECCIÓN 1,5l /6 min INTER. 40 PLACAS",Material,General,u,2020.35,2020.35,2020.35,2020.35,1,EUR,2020.35,1.0,1,1,INSTALACIONES,Baza troškova građevine Andaluzije (BCCA 2023),INSTALACIJE,Distribucijski sustavi
 IN00871,"Estaciã“n Solar 2 Secciã“n 1,5l /6 Min Inter. 30 Ploče",Material,General,u,1849.01,1849.01,1849.01,1849.01,1,EUR,1849.01,1.0,1,1,INSTALACIONES,Baza troškova građevine Andaluzije (BCCA 2023),INSTALACIJE,Distribucijski sustavi
 IN00870,"ESTACIÓN SOLAR 2 SECCIÓN 1,5l /6 min INTER. 20 PLACAS",Material,General,u,1767.43,1767.43,1767.43,1767.43,1,EUR,1767.43,1.0,1,1,INSTALACIONES,Baza troškova građevine Andaluzije (BCCA 2023),INSTALACIJE,Distribucijski sustavi
@@ -2177,7 +2177,7 @@ RT04031,METALNI OKVIR ZA OSLONAC UKLJ. 1 OKOMITI STUPAC,Material,General,u,152.3
 RT04026,PLANAR METALNU SUSTAV PODRŠKA OKOMITO 6 STUPAC,Material,General,u,600.07,600.07,600.07,600.07,1,EUR,600.07,1.0,1,1,INSTALACIONES,Baza troškova građevine Andaluzije (BCCA 2023),INSTALACIJE,Nosive konstrukcije
 IF28805,Stavka 371,Material,General,m,50.49,50.49,50.49,50.49,1,EUR,50.99,1.01,1,1,INSTALACIONES,Baza troškova građevine Andaluzije (BCCA 2023),INSTALACIJE,Primarni krug
 IF28804,BAKRENA CIJEV ZAGRIJANA PROMJERA 22 mm x 1mm DEBLJINE VRATA OTPORNOST EXT,Material,General,m,40.21,40.21,40.21,40.21,1,EUR,40.61,1.01,1,1,INSTALACIONES,Baza troškova građevine Andaluzije (BCCA 2023),INSTALACIJE,Primarni krug
-IF28803,cijev bakar RECOCIDO DIÃM. 20 mm x 1mm ESP. FUNDA RES. EXT,Material,General,m,33.89,33.89,33.89,33.89,1,EUR,34.23,1.01,1,1,INSTALACIONES,Baza troškova građevine Andaluzije (BCCA 2023),INSTALACIJE,Primarni krug
+IF28803,cijev bakar RECOCIDO DIÁM. 20 mm x 1mm ESP. FUNDA RES. EXT,Material,General,m,33.89,33.89,33.89,33.89,1,EUR,34.23,1.01,1,1,INSTALACIONES,Baza troškova građevine Andaluzije (BCCA 2023),INSTALACIJE,Primarni krug
 IF28802,CIJEV COBRE RECOCIDO PREČNIK. 18 mm x 1mm ESP. FUNDA RES. EXT,Material,General,m,30.02,30.02,30.02,30.02,1,EUR,30.32,1.01,1,1,INSTALACIONES,Baza troškova građevine Andaluzije (BCCA 2023),INSTALACIJE,Primarni krug
 IF28801,CIJEV BAKAR ŽARENA PROM. 16 mm x 1mm DEBLJ. FUNDA RES. EXT,Material,General,m,27.51,27.51,27.51,27.51,1,EUR,27.78,1.01,1,1,INSTALACIONES,Baza troškova građevine Andaluzije (BCCA 2023),INSTALACIJE,Primarni krug
 IN90901,FLUIDO CALOPORTADOR KRUŽNI CAPTADOR SOLAR,Material,General,l,4.06,4.06,4.06,4.06,1,EUR,4.06,1.0,1,1,INSTALACIONES,Baza troškova građevine Andaluzije (BCCA 2023),INSTALACIJE,Različiti
@@ -2218,10 +2218,10 @@ IN00571,"VENTIL ZA SIGURNOST 3/4"" 3/4"" 6 bar BEZ PRIKLJUČKA MANOMETRA",Materi
 IN00570,"ventil od sigurnost 3/4"" 3/4"" 3 bar bez PORTAMANÓMETRO",Material,General,u,14.77,14.77,14.77,14.77,1,EUR,14.77,1.0,1,1,INSTALACIONES,Baza troškova građevine Andaluzije (BCCA 2023),INSTALACIJE,Sustavi regulacije i kontrole
 IN00562,"SIGURNOSNI VENTIL 1/2"" 1/2"" 10 bar BEZ NOSAČA MANOMETRA",Material,General,u,8.86,8.86,8.86,8.86,1,EUR,8.86,1.0,1,1,INSTALACIONES,Baza troškova građevine Andaluzije (BCCA 2023),INSTALACIJE,Sustavi regulacije i kontrole
 IN00561,"VÁLVULA DE SEGURIDAD 1/2"" 1/2"" 6 bar SIN MANOMETAR",Material,General,u,7.84,7.84,7.84,7.84,1,EUR,7.84,1.0,1,1,INSTALACIONES,Baza troškova građevine Andaluzije (BCCA 2023),INSTALACIJE,Sustavi regulacije i kontrole
-IN00560,"VÃLVULA DE SEGURIDAD 1/2"" 1/2"" 3 bar bez PORTAMANÓMETRO",Material,General,u,4.88,4.88,4.88,4.88,1,EUR,4.88,1.0,1,1,INSTALACIONES,Baza troškova građevine Andaluzije (BCCA 2023),INSTALACIJE,Sustavi regulacije i kontrole
+IN00560,"VÁLVULA DE SEGURIDAD 1/2"" 1/2"" 3 bar bez PORTAMANÓMETRO",Material,General,u,4.88,4.88,4.88,4.88,1,EUR,4.88,1.0,1,1,INSTALACIONES,Baza troškova građevine Andaluzije (BCCA 2023),INSTALACIJE,Sustavi regulacije i kontrole
 IN00552,"SIGURNOSNI VENTIL 1/2"" 3/4"" 10 bar BEZ PRIKLJUČKA ZA MANOMETAR",Material,General,u,8.87,8.87,8.87,8.87,1,EUR,8.87,1.0,1,1,INSTALACIONES,Baza troškova građevine Andaluzije (BCCA 2023),INSTALACIJE,Sustavi regulacije i kontrole
 IN00551,"VENTIL DE SIGURNOSTI 1/2"" 3/4"" 6 bar SIN PORTAMANÓMETRO",Material,General,u,8.39,8.39,8.39,8.39,1,EUR,8.39,1.0,1,1,INSTALACIONES,Baza troškova građevine Andaluzije (BCCA 2023),INSTALACIJE,Sustavi regulacije i kontrole
-IN00550,"VÃLVULA DE SEGURIDAD 1/2"" 3/4"" 3 bar bez PORTAMANÓMETRO",Material,General,u,5.09,5.09,5.09,5.09,1,EUR,5.09,1.0,1,1,INSTALACIONES,Baza troškova građevine Andaluzije (BCCA 2023),INSTALACIJE,Sustavi regulacije i kontrole
+IN00550,"VÁLVULA DE SEGURIDAD 1/2"" 3/4"" 3 bar bez PORTAMANÓMETRO",Material,General,u,5.09,5.09,5.09,5.09,1,EUR,5.09,1.0,1,1,INSTALACIONES,Baza troškova građevine Andaluzije (BCCA 2023),INSTALACIJE,Sustavi regulacije i kontrole
 IN00531,"PURGATOR AUTOMATSKI 3/4"" MAKS. TLAK 10 bar MAKS. 110ºC",Material,General,u,12.48,12.48,12.48,12.48,1,EUR,12.48,1.0,1,1,INSTALACIONES,Baza troškova građevine Andaluzije (BCCA 2023),INSTALACIJE,Sustavi regulacije i kontrole
 IC90060,"Automatski ventilator za zrak s pluta i navojem od 1/2"" promjera",Material,General,u,5.05,5.05,5.05,5.05,1,EUR,5.05,1.0,1,1,INSTALACIONES,Baza troškova građevine Andaluzije (BCCA 2023),INSTALACIJE,Ventili i cijevi
 IC40900,GRIFO BOCA ROSCADA PROM. 3/4 (15/20 mm),Material,General,u,4.73,4.73,4.73,4.73,1,EUR,4.73,1.0,1,1,INSTALACIONES,Baza troškova građevine Andaluzije (BCCA 2023),INSTALACIJE,Ventili i cijevi
@@ -2277,7 +2277,7 @@ IC69950,"Tubo Čelik Negro Soldado Une 19040 12""",Material,General,m,53.68,53.6
 IC69940,"cijev čelik crni SOLDADO UNE 19040 10""",Material,General,m,43.99,43.99,43.99,43.99,1,EUR,44.43,1.01,1,1,INSTALACIONES,Baza troškova građevine Andaluzije (BCCA 2023),INSTALACIJE,Kanali
 IC69930,"CRNA ČELIČNA CIJ ZAVARENA UNE 19040 8""",Material,General,m,35.18,35.18,35.18,35.18,1,EUR,35.54,1.01,1,1,INSTALACIONES,Baza troškova građevine Andaluzije (BCCA 2023),INSTALACIJE,Kanali
 IC69920,"cijev čelik NEGRO SOLDADO UNE 19040 6""",Material,General,m,28.37,28.37,28.37,28.37,1,EUR,28.66,1.01,1,1,INSTALACIONES,Baza troškova građevine Andaluzije (BCCA 2023),INSTALACIJE,Kanali
-IC69900,"cijev čelik NEGRO SOLDADO UNE 19040 114,3x4,50 mm DIÃM. x ESP.",Material,General,m,14.17,14.17,14.17,14.17,1,EUR,14.32,1.01,1,1,INSTALACIONES,Baza troškova građevine Andaluzije (BCCA 2023),INSTALACIJE,Kanali
+IC69900,"cijev čelik NEGRO SOLDADO UNE 19040 114,3x4,50 mm DIÁM. x ESP.",Material,General,m,14.17,14.17,14.17,14.17,1,EUR,14.32,1.01,1,1,INSTALACIONES,Baza troškova građevine Andaluzije (BCCA 2023),INSTALACIJE,Kanali
 IC69800,"CRNA ČELIČNA CIJEV ZAVARENA UNE 19040 88,9x4,05 mm DIAM. x ESP.",Material,General,m,10.07,10.07,10.07,10.07,1,EUR,10.17,1.01,1,1,INSTALACIONES,Baza troškova građevine Andaluzije (BCCA 2023),INSTALACIJE,Kanali
 IC69400,"CIJEV ČELIKA NEGRO SOLDADO UNE 19040 42,4x3,25 mm PREČNIK. x ESP.",Material,General,m,3.25,3.25,3.25,3.25,1,EUR,3.28,1.01,1,1,INSTALACIONES,Baza troškova građevine Andaluzije (BCCA 2023),INSTALACIJE,Kanali
 IC69300,"TUBO ACERO NEGRO SOLDADO UNE 19040 33,7x2,65 mm DIÁM. x ESP.",Material,General,m,2.11,2.11,2.11,2.11,1,EUR,2.13,1.01,1,1,INSTALACIONES,Baza troškova građevine Andaluzije (BCCA 2023),INSTALACIJE,Kanali
@@ -2300,7 +2300,7 @@ IP01700,"CENTRAL DETECCIÓN AUTOMÁT. POŽARA, MODULAR 2 ZONAS",Material,General
 IP11500,SONDA INDICADORA A DISTANCIA NIVEL DEPOSITO AGUA,Material,General,u,162.46,162.46,162.46,162.46,1,EUR,162.46,1.0,1,1,INSTALACIONES,Baza troškova građevine Andaluzije (BCCA 2023),INSTALACIJE,Detekcija i alarm
 IP03200,Detector Tã‰rmico Termostãtico,Material,General,u,23.92,23.92,23.92,23.92,1,EUR,23.92,1.0,1,1,INSTALACIONES,Baza troškova građevine Andaluzije (BCCA 2023),INSTALACIJE,Detekcija i alarm
 IC69500,"CIJEV ČELIK NEGRO SOLDADO UNE 19040 48,3x3,25 mm PROM. x DEBLJ.",Material,General,m,3.41,3.41,3.41,3.41,1,EUR,3.45,1.01,1,1,INSTALACIONES,Baza troškova građevine Andaluzije (BCCA 2023),INSTALACIJE,Ventili i cijevi
-IC76100,"VÃLVULA SEGURIDAD 32 mm (1 1/4"") DIÃM. TARADO FIJO, 3 BARS",Material,General,u,37.91,37.91,37.91,37.91,1,EUR,37.91,1.0,1,1,INSTALACIONES,Baza troškova građevine Andaluzije (BCCA 2023),INSTALACIJE,Regulacija i kontrola
+IC76100,"VÁLVULA SEGURIDAD 32 mm (1 1/4"") DIÁM. TARADO FIJO, 3 BARS",Material,General,u,37.91,37.91,37.91,37.91,1,EUR,37.91,1.0,1,1,INSTALACIONES,Baza troškova građevine Andaluzije (BCCA 2023),INSTALACIJE,Regulacija i kontrola
 IC76000,"VENTIL SIGURNOSTI 25 mm (1"") PROM. TARADO FIJO, 3 BARS",Material,General,u,20.51,20.51,20.51,20.51,1,EUR,20.51,1.0,1,1,INSTALACIONES,Baza troškova građevine Andaluzije (BCCA 2023),INSTALACIJE,Regulacija i kontrola
 IC75900,"VENTIL SIGURNOSTI 20 mm (3/4"") PROM. TARADO FIJO, 3 BARS",Material,General,u,11.16,11.16,11.16,11.16,1,EUR,11.16,1.0,1,1,INSTALACIONES,Baza troškova građevine Andaluzije (BCCA 2023),INSTALACIJE,Regulacija i kontrola
 IP08675,MODUL DE MANIOBRA 8 SALIDAS,Material,General,u,71.33,71.33,71.33,71.33,1,EUR,71.33,1.0,1,1,INSTALACIONES,Baza troškova građevine Andaluzije (BCCA 2023),INSTALACIJE,Detekcija i alarm
@@ -2336,7 +2336,7 @@ IP16902,INSTALACIJA INTERKONEKCIJE PODRUMSKIH PROSTORA,Material,General,u,21.41,
 IP16901,"INSTALACIJA RESIDENCIALNE, KOMUNALNE, UREDNE INTERKONEKCIJE...",Material,General,u,14.27,14.27,14.27,14.27,1,EUR,14.27,1.0,1,1,INSTALACIONES,Baza troškova građevine Andaluzije (BCCA 2023),INSTALACIJE,Detekcija i alarm
 IP08680,modul AISLADOR DE LINEA,Material,General,u,38.79,38.79,38.79,38.79,1,EUR,38.79,1.0,1,1,INSTALACIONES,Baza troškova građevine Andaluzije (BCCA 2023),INSTALACIJE,Detekcija i alarm
 IC63500,TERMOMETRO ESPERA 120º SA ABRAZADERA,Material,General,u,66.48,66.48,66.48,66.48,1,EUR,66.48,1.0,1,1,INSTALACIONES,Baza troškova građevine Andaluzije (BCCA 2023),INSTALACIJE,Regulacija i kontrola
-IC63400,"TERMOHIDROMETRO 120G Y 40 mm.c.a., VAINA sa VÃLV. CIERRE",Material,General,u,89.24,89.24,89.24,89.24,1,EUR,89.24,1.0,1,1,INSTALACIONES,Baza troškova građevine Andaluzije (BCCA 2023),INSTALACIJE,Regulacija i kontrola
+IC63400,"TERMOHIDROMETRO 120G Y 40 mm.c.a., VAINA sa VÁLV. CIERRE",Material,General,u,89.24,89.24,89.24,89.24,1,EUR,89.24,1.0,1,1,INSTALACIONES,Baza troškova građevine Andaluzije (BCCA 2023),INSTALACIJE,Regulacija i kontrola
 IC63600,Termostato Inmersiã“n 100º Con Varilla,Material,General,u,74.04,74.04,74.04,74.04,1,EUR,74.04,1.0,1,1,INSTALACIONES,Baza troškova građevine Andaluzije (BCCA 2023),INSTALACIJE,Regulacija i kontrola
 IC64100,TERMOSTAT KONTAKTA 100º SA ZAGRADAMA,Material,General,u,68.11,68.11,68.11,68.11,1,EUR,68.11,1.0,1,1,INSTALACIONES,Baza troškova građevine Andaluzije (BCCA 2023),INSTALACIJE,Regulacija i kontrola
 IC61100,"Aktivna sonda AMBIENTE, SELEC. TEMP. Y BANDA PROPORCIONAL",Material,General,u,47.24,47.24,47.24,47.24,1,EUR,47.24,1.0,1,1,INSTALACIONES,Baza troškova građevine Andaluzije (BCCA 2023),INSTALACIJE,Regulacija i kontrola
@@ -2427,7 +2427,7 @@ IP13800,ZATVARAJUĆI VENTIL 150 mm NODULARNO ŽELJEZO BRAVA BRONČANO PN10 PRIRU
 IP13600,VENTIL BRANA 100 mm ŽELJEZO LIJEVANO. GUAR. BRONCE PN10 BRIDA,Material,General,u,206.75,206.75,206.75,206.75,1,EUR,206.75,1.0,1,1,INSTALACIONES,Baza troškova građevine Andaluzije (BCCA 2023),INSTALACIJE,Ventili
 IP13500,ventil loputa 80 mm HIERRO FUND. GUAR. bronce PN10 BRIDA,Material,General,u,172.19,172.19,172.19,172.19,1,EUR,172.19,1.0,1,1,INSTALACIONES,Baza troškova građevine Andaluzije (BCCA 2023),INSTALACIJE,Ventili
 IP13400,VENTIL BRANA 65 mm ČELIK FUND. GUAR. BRONZA PN10 PRIRUBNICA,Material,General,u,151.69,151.69,151.69,151.69,1,EUR,151.69,1.0,1,1,INSTALACIONES,Baza troškova građevine Andaluzije (BCCA 2023),INSTALACIJE,Ventili
-IP14400,VÃLVULA ventil 50 mm FUND. bronca ROSCA,Material,General,u,33.25,33.25,33.25,33.25,1,EUR,33.25,1.0,1,1,INSTALACIONES,Baza troškova građevine Andaluzije (BCCA 2023),INSTALACIJE,Ventili
+IP14400,VÁLVULA ventil 50 mm FUND. bronca ROSCA,Material,General,u,33.25,33.25,33.25,33.25,1,EUR,33.25,1.0,1,1,INSTALACIONES,Baza troškova građevine Andaluzije (BCCA 2023),INSTALACIJE,Ventili
 IP14300,VENTIL ZATVARANJA 40 mm LIJEVANA BRONCE NAVOJ,Material,General,u,21.07,21.07,21.07,21.07,1,EUR,21.07,1.0,1,1,INSTALACIONES,Baza troškova građevine Andaluzije (BCCA 2023),INSTALACIJE,Ventili
 IP14100,Vãlvula Compuerta 25 Mm Fund. Bronce Rosca,Material,General,u,11.5,11.5,11.5,11.5,1,EUR,11.5,1.0,1,1,INSTALACIONES,Baza troškova građevine Andaluzije (BCCA 2023),INSTALACIJE,Ventili
 IP15600,"VÁLVULA ESFERA, PALANCA 50 mm LJEVOŠĆA BRONCE ROSCA",Material,General,u,24.86,24.86,24.86,24.86,1,EUR,24.86,1.0,1,1,INSTALACIONES,Baza troškova građevine Andaluzije (BCCA 2023),INSTALACIJE,Ventili
@@ -2445,7 +2445,7 @@ IP15601,"VALVULA ESFERA, PALANCA 50 MM. FUND. BRONCE ROSCA",Material,General,u,2
 IP15501,"VALVULA ESFERA, PALANCA 40 MM. FUND. BRONCE ROSCA",Material,General,u,13.8,13.8,13.8,13.8,1,EUR,13.8,1.0,1,1,INSTALACIONES,Baza troškova građevine Andaluzije (BCCA 2023),INSTALACIJE,Ventili
 IP15301,"VENTIL KUGLICA, RUČICA 25 mm LEJ. MJED NAVOJ",Material,General,u,10.13,10.13,10.13,10.13,1,EUR,10.13,1.0,1,1,INSTALACIONES,Baza troškova građevine Andaluzije (BCCA 2023),INSTALACIJE,Ventili
 IP15201,"VALVULA ESFERA, PALANCA 15 MM. FUND. BRONCE ROSCA",Material,General,u,5.16,5.16,5.16,5.16,1,EUR,5.16,1.0,1,1,INSTALACIONES,Baza troškova građevine Andaluzije (BCCA 2023),INSTALACIJE,Ventili
-IP15900,VÃLVULA PIE CLAPETA 80 mm željez FUND. GUAR. bronca BRIDA,Material,General,u,239.08,239.08,239.08,239.08,1,EUR,239.08,1.0,1,1,INSTALACIONES,Baza troškova građevine Andaluzije (BCCA 2023),INSTALACIJE,Ventili
+IP15900,VÁLVULA PIE CLAPETA 80 mm željez FUND. GUAR. bronca BRIDA,Material,General,u,239.08,239.08,239.08,239.08,1,EUR,239.08,1.0,1,1,INSTALACIONES,Baza troškova građevine Andaluzije (BCCA 2023),INSTALACIJE,Ventili
 IP15800,VENTIL NOGA PRIRUBNICA 65 mm LIVENO ŽELJEZO GARN. BRONČANA PRIRUBNICA,Material,General,u,182.66,182.66,182.66,182.66,1,EUR,182.66,1.0,1,1,INSTALACIONES,Baza troškova građevine Andaluzije (BCCA 2023),INSTALACIJE,Ventili
 KAE00200N,KIT VIDEO PORTORA ANTIKRAJ,Material,General,u,659.06,659.06,659.06,659.06,1,EUR,659.06,1.0,1,1,INSTALACIONES,Baza troškova građevine Andaluzije (BCCA 2023),INSTALACIJE,Protuprovalna zaštita
 IP02700,CONDUCTOR COBRE DESNUDO,Material,General,kg,3.99,3.99,3.99,3.99,1,EUR,1.78,0.445,1,1,INSTALACIONES,Baza troškova građevine Andaluzije (BCCA 2023),INSTALACIJE,Kanali
@@ -2586,7 +2586,7 @@ IC10500,kotao čelik PRES. 200000 kcal/h CONTROLES C. FLUIDO,Material,General,u,
 IC11800,KOTAO LIVENOG ŽELJEZA 100000 kcal/h SA KONTROLAMA C. ČVRSTI,Material,General,u,5467.69,5467.69,5467.69,5467.69,1,EUR,5467.69,1.0,1,1,INSTALACIONES,Baza troškova građevine Andaluzije (BCCA 2023),INSTALACIJE,Boileri
 XT19008,"LÁMINA SINTÉTICA VISOKE GUSTOĆE VIS. + FIELTRO POROSO 8,2 kg/m2",Material,General,m2,15.78,15.78,15.78,15.78,1,EUR,17.53,1.111,1,1,AISLAMIENTOS,Baza troškova građevine Andaluzije (BCCA 2023),IZOLACIJE,Podovi
 XT19007,"SINTETSKA MEMBRANA VISOKE GUSTOĆE VIS. + FLEKS POROZ 7,6 kg/m2",Material,General,m2,11.07,11.07,11.07,11.07,1,EUR,12.3,1.111,1,1,AISLAMIENTOS,Baza troškova građevine Andaluzije (BCCA 2023),IZOLACIJE,Podovi
-XT19006,"LÃMINA SINTÉTICA ALTA gustoća VIS. + FIELTRO POROSO 5,6 kg/m2",Material,General,m2,10.06,10.06,10.06,10.06,1,EUR,11.18,1.111,1,1,AISLAMIENTOS,Baza troškova građevine Andaluzije (BCCA 2023),IZOLACIJE,Podovi
+XT19006,"LÁMINA SINTÉTICA ALTA gustoća VIS. + FIELTRO POROSO 5,6 kg/m2",Material,General,m2,10.06,10.06,10.06,10.06,1,EUR,11.18,1.111,1,1,AISLAMIENTOS,Baza troškova građevine Andaluzije (BCCA 2023),IZOLACIJE,Podovi
 XT19005,"PLOČA SINTÉTICA ALTA DENSIDAD VIS. + FIELTRO POROSO 4,1 kg/m2",Material,General,m2,9.19,9.19,9.19,9.19,1,EUR,10.21,1.111,1,1,AISLAMIENTOS,Baza troškova građevine Andaluzije (BCCA 2023),IZOLACIJE,Podovi
 XT19003,VISKOELASTIČNA PLOČA VISOKE GUSTOĆE 10 kg/m2,Material,General,m2,7.92,7.92,7.92,7.92,1,EUR,8.79,1.111,1,1,AISLAMIENTOS,Baza troškova građevine Andaluzije (BCCA 2023),IZOLACIJE,Podovi
 XT19002,VISKOELASTIČNA VISKOZNA GUSTOĆA PLASTIKA 7 kg/m2,Material,General,m2,6.15,6.15,6.15,6.15,1,EUR,6.83,1.111,1,1,AISLAMIENTOS,Baza troškova građevine Andaluzije (BCCA 2023),IZOLACIJE,Podovi
@@ -2612,7 +2612,7 @@ XT11200E,Stavka 149,Material,General,m2,8.31,8.31,8.31,8.31,1,EUR,8.39,1.01,1,1,
 XT00100,PERLITA U SACOS B-10,Material,General,m3,490.68,490.68,490.68,490.68,1,EUR,54.47,0.111,1,1,AISLAMIENTOS,Baza troškova građevine Andaluzije (BCCA 2023),IZOLACIJE,Zidovi
 XT11200,PANEL vuna MINERAL 40 mm,Material,General,m2,4.5,4.5,4.5,4.5,1,EUR,4.55,1.01,1,1,AISLAMIENTOS,Baza troškova građevine Andaluzije (BCCA 2023),IZOLACIJE,Zidovi
 XT11900,Panel Rãgido Fibra Vidrio 30 Mm Densidad 38 kg/m3,Material,General,m2,3.63,3.63,3.63,3.63,1,EUR,3.66,1.01,1,1,AISLAMIENTOS,Baza troškova građevine Andaluzije (BCCA 2023),IZOLACIJE,Zidovi
-XT12500,panel SEMIRRÃGIDO FIB. VIDR. RECUBIERTO 60 mm DENS. 15 kg/m3,Material,General,m2,5.43,5.43,5.43,5.43,1,EUR,5.49,1.01,1,1,AISLAMIENTOS,Baza troškova građevine Andaluzije (BCCA 2023),IZOLACIJE,Zidovi
+XT12500,panel SEMIRRÍGIDO FIB. VIDR. RECUBIERTO 60 mm DENS. 15 kg/m3,Material,General,m2,5.43,5.43,5.43,5.43,1,EUR,5.49,1.01,1,1,AISLAMIENTOS,Baza troškova građevine Andaluzije (BCCA 2023),IZOLACIJE,Zidovi
 XT12700,Stavka 213,Material,General,m2,2.09,2.09,2.09,2.09,1,EUR,2.12,1.01,1,1,AISLAMIENTOS,Baza troškova građevine Andaluzije (BCCA 2023),IZOLACIJE,Zidovi
 XT14200,POLIURETAN GUSTOĆA 30 kg/m3,Material,General,m3,93.33,93.33,93.33,93.33,1,EUR,1.87,0.02,1,1,AISLAMIENTOS,Baza troškova građevine Andaluzije (BCCA 2023),IZOLACIJE,Zidovi
 XT80570,"Školjka debljine 19x60, temp. 150º C, aluminijski premaz",Material,General,m,6.38,6.38,6.38,6.38,1,EUR,6.45,1.01,1,1,AISLAMIENTOS,Baza troškova građevine Andaluzije (BCCA 2023),IZOLACIJE,Kanali
@@ -2670,7 +2670,7 @@ IC76700,VASO EXPANSIÓN CERRADO 80 l CHAPA ČELIK ELECTROSOLDADA,Material,Genera
 IC76600,Stavka 196,Material,General,u,77.74,77.74,77.74,77.74,1,EUR,77.74,1.0,1,1,INSTALACIONES,Baza troškova građevine Andaluzije (BCCA 2023),INSTALACIJE,Pomoćna oprema
 IC76300,EKSPANZIJSKI VASO ZATVOREN 18 l ELEKTRO-ZAVARENA ČELIČNA PLOČA,Material,General,u,42.41,42.41,42.41,42.41,1,EUR,42.41,1.0,1,1,INSTALACIONES,Baza troškova građevine Andaluzije (BCCA 2023),INSTALACIJE,Pomoćna oprema
 IF31700,AKUMULATOR ZA A.C.S. 100 l NEHRĐAJUĆI ČELIK SA TERMOSTATOM,Material,General,u,475.14,475.14,475.14,475.14,1,EUR,475.14,1.0,1,1,INSTALACIONES,Baza troškova građevine Andaluzije (BCCA 2023),INSTALACIJE,Pomoćna oprema
-IC34800,oprema SEGURIDAD akumulator COM VÃLV.SEG.RETEN.Y GRIFOS,Material,General,u,15.68,15.68,15.68,15.68,1,EUR,15.68,1.0,1,1,INSTALACIONES,Baza troškova građevine Andaluzije (BCCA 2023),INSTALACIJE,Pomoćna oprema
+IC34800,oprema SEGURIDAD akumulator COM VÁLV.SEG.RETEN.Y GRIFOS,Material,General,u,15.68,15.68,15.68,15.68,1,EUR,15.68,1.0,1,1,INSTALACIONES,Baza troškova građevine Andaluzije (BCCA 2023),INSTALACIJE,Pomoćna oprema
 RA04950,PLACA PIEDRA ARTIFICIAL DE MORT. DE CEM. BLANCO ABUJAR. 33x33 cm,Material,General,m2,55.48,55.48,55.48,55.48,1,EUR,56.59,1.02,1,1,REVESTIMIENTOS,Baza troškova građevine Andaluzije (BCCA 2023),Obloge,Umjetni kamen
 RA04940,PLACA PIEDRA ARTIFICIAL DE MORTERO DE CEM. BLANCO 33X33 cm,Material,General,m2,40.35,40.35,40.35,40.35,1,EUR,41.16,1.02,1,1,REVESTIMIENTOS,Baza troškova građevine Andaluzije (BCCA 2023),Obloge,Umjetni kamen
 RA04930,PLACA KAMEN ARTIFICIAL DE MALTER DE CEM. GRIS POLIRANA 33X33 cm,Material,General,m2,45.39,45.39,45.39,45.39,1,EUR,46.3,1.02,1,1,REVESTIMIENTOS,Baza troškova građevine Andaluzije (BCCA 2023),Obloge,Umjetni kamen
@@ -2679,7 +2679,7 @@ RA04910,PLOČA OD UMJETNOG KAMENA OD CEMENTNOG MALTERA SIVA 33x33 cm,Material,Ge
 RA04900,Placa Kamen Vještačka 40x80x2 Cm,Material,General,m2,13.85,13.85,13.85,13.85,1,EUR,14.41,1.04,1,1,REVESTIMIENTOS,Baza troškova građevine Andaluzije (BCCA 2023),Obloge,Umjetni kamen
 RA05730,PLACA GRES RÚSTICO 7x20 cm,Material,General,u,9.91,9.91,9.91,9.91,1,EUR,52.03,5.25,1,1,REVESTIMIENTOS,Baza troškova građevine Andaluzije (BCCA 2023),Obloge,Različiti
 RA05720,PLOČA GRES PORCELÁNICO 2x20cm,Material,General,u,7.94,7.94,7.94,7.94,1,EUR,41.69,5.25,1,1,REVESTIMIENTOS,Baza troškova građevine Andaluzije (BCCA 2023),Obloge,Različiti
-RA05710,PLACA gres PORCELÃNICO ESMALTADO Y PULIDO 2x20 cm,Material,General,u,11.87,11.87,11.87,11.87,1,EUR,62.34,5.25,1,1,REVESTIMIENTOS,Baza troškova građevine Andaluzije (BCCA 2023),Obloge,Različiti
+RA05710,PLACA gres PORCELÁNICO ESMALTADO Y PULIDO 2x20 cm,Material,General,u,11.87,11.87,11.87,11.87,1,EUR,62.34,5.25,1,1,REVESTIMIENTOS,Baza troškova građevine Andaluzije (BCCA 2023),Obloge,Različiti
 RA00310,Stavka 140,Material,General,u,1.27,1.27,1.27,1.27,1,EUR,33.33,26.25,1,1,REVESTIMIENTOS,Baza troškova građevine Andaluzije (BCCA 2023),Obloge,Ravan
 RA00210,AZULEJO BLANCO 20x20 cm,Material,General,u,0.98,0.98,0.98,0.98,1,EUR,25.76,26.25,1,1,REVESTIMIENTOS,Baza troškova građevine Andaluzije (BCCA 2023),Obloge,Ravan
 RA05610,PLOČA GRES RÚSTICO OD 20x20 cm,Material,General,u,6.35,6.35,6.35,6.35,1,EUR,166.66,26.25,1,1,REVESTIMIENTOS,Baza troškova građevine Andaluzije (BCCA 2023),Obloge,Specijalni radovi
@@ -2765,7 +2765,7 @@ RL00420,ČELIČNI ČELIČNI POCINČANI LIST 1 mm,Material,General,m2,18.33,18.33
 RL00430,LIMENA SAVIJENI ALUM. LAKIRAN 2 mm,Material,General,m2,30.73,30.73,30.73,30.73,1,EUR,35.34,1.15,1,1,REVESTIMIENTOS,Baza troškova građevine Andaluzije (BCCA 2023),Obloge,Metali
 RL00400,"LIM PLEGADA ALUM. LAKIRAN 1,5 mm",Material,General,m2,57.83,57.83,57.83,57.83,1,EUR,66.51,1.15,1,1,REVESTIMIENTOS,Baza troškova građevine Andaluzije (BCCA 2023),Obloge,Metali
 RL00800,"Placa Rigida Čelik Inoxid., Comp. Aisi 316, 1 Mm",Material,General,m2,96.78,96.78,96.78,96.78,1,EUR,111.29,1.15,1,1,REVESTIMIENTOS,Baza troškova građevine Andaluzije (BCCA 2023),Obloge,Metali
-IC66900,"cijev čelik GALV. SOLDADO UNE 19040 33,7x3,25 mm DIÃM. x ESP.",Material,General,m,2.04,2.04,2.04,2.04,1,EUR,2.04,1.0,1,1,INSTALACIONES,Baza troškova građevine Andaluzije (BCCA 2023),INSTALACIJE,Ventili i cijevi
+IC66900,"cijev čelik GALV. SOLDADO UNE 19040 33,7x3,25 mm DIÁM. x ESP.",Material,General,m,2.04,2.04,2.04,2.04,1,EUR,2.04,1.0,1,1,INSTALACIONES,Baza troškova građevine Andaluzije (BCCA 2023),INSTALACIJE,Ventili i cijevi
 XT07700,"Ljuska ESP. ELAST. CAUCHO/VINILO 0,028 W/mk 54x19 mm",Material,General,m,7.12,7.12,7.12,7.12,1,EUR,7.19,1.01,1,1,INSTALACIONES,Baza troškova građevine Andaluzije (BCCA 2023),INSTALACIJE,Ventili i cijevi
 RL02600,"LAME OD DM OD 1 cm, BIJELA GLEDAM, MACHIHEMBRADA",Material,General,m2,10.36,10.36,10.36,10.36,1,EUR,11.39,1.1,1,1,REVESTIMIENTOS,Baza troškova građevine Andaluzije (BCCA 2023),Obloge,Drvo
 RL02500,TABLERO CONTRACHAPADO 16 mm CHAPADO DRVO FINA UNA CARA,Material,General,m2,87.1,87.1,87.1,87.1,1,EUR,95.81,1.1,1,1,REVESTIMIENTOS,Baza troškova građevine Andaluzije (BCCA 2023),Obloge,Drvo
@@ -2915,7 +2915,7 @@ IC26700,"ploča CONTROL REMOTO sa termostat, VENTILOCONVECTOR",Material,General,
 IC26500,"DALJINSKI UPRAVLJAČ, TERMOST. 3 BRZ. VENT. VENTILOKONVEKTOR",Material,General,u,80.33,80.33,80.33,80.33,1,EUR,80.33,1.0,1,1,INSTALACIONES,Baza troškova građevine Andaluzije (BCCA 2023),INSTALACIJE,Regulacija i kontrola
 IC41200,"AUTOMATSKI PREKIDAČ ZA PROTOK ZRAKA, MOŽE SE REGULIRATI",Material,General,u,60.32,60.32,60.32,60.32,1,EUR,60.32,1.0,1,1,INSTALACIONES,Baza troškova građevine Andaluzije (BCCA 2023),INSTALACIJE,Regulacija i kontrola
 IC64000,"AUTOMATSKI TERMOSTAT 2 FAZE HLADNOĆA, TOPLINA, VENT.",Material,General,u,65.33,65.33,65.33,65.33,1,EUR,65.33,1.0,1,1,INSTALACIONES,Baza troškova građevine Andaluzije (BCCA 2023),INSTALACIJE,Regulacija i kontrola
-IC63800,"termostat AUTOMÃTICO 1 ETAPA FRIO, CALOR, VENT.",Material,General,u,55.73,55.73,55.73,55.73,1,EUR,55.73,1.0,1,1,INSTALACIONES,Baza troškova građevine Andaluzije (BCCA 2023),INSTALACIJE,Regulacija i kontrola
+IC63800,"termostat AUTOMÁTICO 1 ETAPA FRIO, CALOR, VENT.",Material,General,u,55.73,55.73,55.73,55.73,1,EUR,55.73,1.0,1,1,INSTALACIONES,Baza troškova građevine Andaluzije (BCCA 2023),INSTALACIJE,Regulacija i kontrola
 RS00400N,PLOČICA HORMIGÓN ANTIDESLIZANTE,Material,General,u,1.1,1.1,1.1,1.1,1,EUR,9.87,9.0,1,1,REVESTIMIENTOS,Baza troškova građevine Andaluzije (BCCA 2023),Obloge,Podne obloge
 RS00400,pločica HIDRAÚLICA ANTIDESLIZANTE,Material,General,u,0.24,0.24,0.24,0.24,1,EUR,6.22,26.0,1,1,REVESTIMIENTOS,Baza troškova građevine Andaluzije (BCCA 2023),Obloge,Podne obloge
 RS02600,PLOČICA HIDRAULICA 20x20 cm,Material,General,u,0.16,0.16,0.16,0.16,1,EUR,4.29,26.0,1,1,REVESTIMIENTOS,Baza troškova građevine Andaluzije (BCCA 2023),Obloge,Podne obloge
@@ -2968,7 +2968,7 @@ IC81255,VANJSKA JEDINICA DIREKTNE EKSPANZIJE ZA BATERIJU 44kW,Material,General,u
 IC81254,UNIDAD EXTERIOR EXPANSIÓN DIRECTA PARA BATERÍA 36kW,Material,General,u,2696.29,2696.29,2696.29,2696.29,1,EUR,2696.29,1.0,1,1,INSTALACIONES,Baza troškova građevine Andaluzije (BCCA 2023),INSTALACIJE,Uređaji za proizvodnju hladnoće i topline
 IC81256N,MAŠINA ZA PROTOK OD 15.000 m3/h,Material,General,u,3504.36,3504.36,3504.36,3504.36,1,EUR,3504.36,1.0,1,1,INSTALACIONES,Baza troškova građevine Andaluzije (BCCA 2023),INSTALACIJE,Uređaji za proizvodnju hladnoće i topline
 RS06000,RODAPIÉ MÁRMOL BLANCO MACAEL 40x10 cm,Material,General,u,2.94,2.94,2.94,2.94,1,EUR,7.73,2.625,1,1,REVESTIMIENTOS,Baza troškova građevine Andaluzije (BCCA 2023),Obloge,Postolje
-RS06100,RODAPIÉ MÃRMOL BLANCO MACAEL 50x10 cm,Material,General,u,2.94,2.94,2.94,2.94,1,EUR,6.18,2.1,1,1,REVESTIMIENTOS,Baza troškova građevine Andaluzije (BCCA 2023),Obloge,Postolje
+RS06100,RODAPIÉ MÁRMOL BLANCO MACAEL 50x10 cm,Material,General,u,2.94,2.94,2.94,2.94,1,EUR,6.18,2.1,1,1,REVESTIMIENTOS,Baza troškova građevine Andaluzije (BCCA 2023),Obloge,Postolje
 RS06200,SOKL MRAMOR CRVENI ALICANTE 40x10 cm,Material,General,u,2.33,2.33,2.33,2.33,1,EUR,6.13,2.625,1,1,REVESTIMIENTOS,Baza troškova građevine Andaluzije (BCCA 2023),Obloge,Postolje
 RS06300,RODAPIÉ MÁRMOL ROJO ALICANTE 50x10 cm,Material,General,u,2.33,2.33,2.33,2.33,1,EUR,4.9,2.1,1,1,REVESTIMIENTOS,Baza troškova građevine Andaluzije (BCCA 2023),Obloge,Postolje
 RS05251,TARČICA PUNOG HRASTA 129X22 mm,Material,General,m2,82.4,82.4,82.4,82.4,1,EUR,86.52,1.05,1,1,REVESTIMIENTOS,Baza troškova građevine Andaluzije (BCCA 2023),Obloge,Podne obloge
@@ -3136,7 +3136,7 @@ IC35900,EVAPOR. ACOND. AIRE. EXP. DIRECTA HOR. 6500 frg/h SIN MUEBLE,Material,Ge
 KA80210,VRATA ČETVEROKUTNOG POCINČANOG ČELIKA EPOKSI,Material,General,m2,119.97,119.97,119.97,119.97,1,EUR,119.97,1.0,1,1,CARPINTERÍA Y ELEMENTOS DE SEGURIDAD Y PROTECCIÓN,Baza troškova građevine Andaluzije (BCCA 2023),STOLARIJA I ELEMENTI SIGURNOSTI I ZAŠTITE,Preklopna
 KA80200,SIGURNOSNA VRATA ULAZA OKLAPAJUĆI ČELIK GALVANIZOVAN LAKIRAN,Material,General,m2,259.94,259.94,259.94,259.94,1,EUR,259.94,1.0,1,1,CARPINTERÍA Y ELEMENTOS DE SEGURIDAD Y PROTECCIÓN,Baza troškova građevine Andaluzije (BCCA 2023),STOLARIJA I ELEMENTI SIGURNOSTI I ZAŠTITE,Preklopna
 KW04400,ZATVARAČ VRATA HIDRAULIČNI ZA 1 KRILO,Material,General,u,73.74,73.74,73.74,73.74,1,EUR,44.24,0.6,1,1,CARPINTERÍA Y ELEMENTOS DE SEGURIDAD Y PROTECCIÓN,Baza troškova građevine Andaluzije (BCCA 2023),STOLARIJA I ELEMENTI SIGURNOSTI I ZAŠTITE,Različiti
-KW04300,BARRA ANTIPÃNICO za vrata 1 HOJA,Material,General,u,130.5,130.5,130.5,130.5,1,EUR,78.3,0.6,1,1,CARPINTERÍA Y ELEMENTOS DE SEGURIDAD Y PROTECCIÓN,Baza troškova građevine Andaluzije (BCCA 2023),STOLARIJA I ELEMENTI SIGURNOSTI I ZAŠTITE,Različiti
+KW04300,BARRA ANTIPÁNICO za vrata 1 HOJA,Material,General,u,130.5,130.5,130.5,130.5,1,EUR,78.3,0.6,1,1,CARPINTERÍA Y ELEMENTOS DE SEGURIDAD Y PROTECCIÓN,Baza troškova građevine Andaluzije (BCCA 2023),STOLARIJA I ELEMENTI SIGURNOSTI I ZAŠTITE,Različiti
 KA02600,Stavka 22,Material,General,m2,241.55,241.55,241.55,241.55,1,EUR,241.55,1.0,1,1,CARPINTERÍA Y ELEMENTOS DE SEGURIDAD Y PROTECCIÓN,Baza troškova građevine Andaluzije (BCCA 2023),STOLARIJA I ELEMENTI SIGURNOSTI I ZAŠTITE,Različiti
 KA02500,vrata CORTAFUEGO ABATIBLE 1 HOJA TIPO EI2/60,Material,General,m2,183.38,183.38,183.38,183.38,1,EUR,183.38,1.0,1,1,CARPINTERÍA Y ELEMENTOS DE SEGURIDAD Y PROTECCIÓN,Baza troškova građevine Andaluzije (BCCA 2023),STOLARIJA I ELEMENTI SIGURNOSTI I ZAŠTITE,Različiti
 KA03000,VRATA GARAŽA KLIZNA GALVANIJSKA PREŠANA LAKIRANA,Material,General,m2,233.22,233.22,233.22,233.22,1,EUR,233.22,1.0,1,1,CARPINTERÍA Y ELEMENTOS DE SEGURIDAD Y PROTECCIÓN,Baza troškova građevine Andaluzije (BCCA 2023),STOLARIJA I ELEMENTI SIGURNOSTI I ZAŠTITE,Različiti
@@ -3642,7 +3642,7 @@ VL04200,"DVOSTRUKA LUNA INCOLORA 10 mm, CÁMARA ZRAK 6 mm",Material,General,m2,7
 VL04500C,"DVOSTRUKA SIGURNOSNA LAMELA LAMINIRANA BEŠUMAR 3+3.1 mm s niskom emisijom, ZRAK KOMORA 16 mm, 3+3.1 mm",Material,General,m2,114.98,114.98,114.98,114.98,1,EUR,114.98,1.0,1,1,VIDRIERÍA Y ELABORADOS SINTÉTICOS,Baza troškova građevine Andaluzije (BCCA 2023),Staklarstvo i sintetički materijali,Termički
 11W00046N,Motor za otvaranje tipa lanac za klizni prozor,Material,General,u,77.92,77.92,77.92,77.92,1,EUR,77.92,1.0,1,1,CARPINTERÍA Y ELEMENTOS DE SEGURIDAD Y PROTECCIÓN,Baza troškova građevine Andaluzije (BCCA 2023),STOLARIJA I ELEMENTI SIGURNOSTI I ZAŠTITE,Različiti
 08CAW00002,"KABELSKA VODILA OD TRI VODOVA OD 1,5 mm2",Material,General,m,3.76,3.76,3.76,3.76,1,EUR,105.28,28.0,1,1,CARPINTERÍA Y ELEMENTOS DE SEGURIDAD Y PROTECCIÓN,Baza troškova građevine Andaluzije (BCCA 2023),STOLARIJA I ELEMENTI SIGURNOSTI I ZAŠTITE,Različiti
-KW00200N,rešetka METÃLICA L/FIJAS C/ MARCO 50x30 cm,Material,General,u,34.14,34.14,34.14,34.14,1,EUR,34.14,1.0,1,1,CARPINTERÍA Y ELEMENTOS DE SEGURIDAD Y PROTECCIÓN,Baza troškova građevine Andaluzije (BCCA 2023),STOLARIJA I ELEMENTI SIGURNOSTI I ZAŠTITE,Različiti
+KW00200N,rešetka METÁLICA L/FIJAS C/ MARCO 50x30 cm,Material,General,u,34.14,34.14,34.14,34.14,1,EUR,34.14,1.0,1,1,CARPINTERÍA Y ELEMENTOS DE SEGURIDAD Y PROTECCIÓN,Baza troškova građevine Andaluzije (BCCA 2023),STOLARIJA I ELEMENTI SIGURNOSTI I ZAŠTITE,Različiti
 KM04000,LETVA OD FLANDRIJE 50X15 mm,Material,General,m,1.95,1.95,1.95,1.95,1,EUR,1.95,1.0,1,1,CARPINTERÍA Y ELEMENTOS DE SEGURIDAD Y PROTECCIÓN,Baza troškova građevine Andaluzije (BCCA 2023),STOLARIJA I ELEMENTI SIGURNOSTI I ZAŠTITE,Različiti
 KW00100,GUMA NEGRA RAYADA 2 mm,Material,General,m2,15.78,15.78,15.78,15.78,1,EUR,15.78,1.0,1,1,CARPINTERÍA Y ELEMENTOS DE SEGURIDAD Y PROTECCIÓN,Baza troškova građevine Andaluzije (BCCA 2023),STOLARIJA I ELEMENTI SIGURNOSTI I ZAŠTITE,Različiti
 KA00300,ACERO GALVANIZADO EN PERFILES MANUFACTURADO,Material,General,kg,2.33,2.33,2.33,2.33,1,EUR,15.17,6.5,1,1,CARPINTERÍA Y ELEMENTOS DE SEGURIDAD Y PROTECCIÓN,Baza troškova građevine Andaluzije (BCCA 2023),STOLARIJA I ELEMENTI SIGURNOSTI I ZAŠTITE,Različiti
@@ -3697,7 +3697,7 @@ QL00100,"CLARABOYA CIRC. SEMIESF. PRACT. MAN. DOBLE. LAM. DIAM. 1,50 m",Material
 QL00700,ESTRUCTURA LUCERN. FIJO PERF. ACERO GALV. MAX. 3x6 m,Material,General,m2,41.51,41.51,41.51,41.51,1,EUR,41.51,1.0,1,1,CUBIERTAS,Baza troškova građevine Andaluzije (BCCA 2023),KROVOVI,Dnevni svjetlici
 QT00700V,crjep keramika CURVA ventilacija,Material,General,u,0.58,0.58,0.58,0.58,1,EUR,0.06,0.1,1,1,CUBIERTAS,Baza troškova građevine Andaluzije (BCCA 2023),KROVOVI,Različiti
 QW00300,MASTIC ASFALTICO,Material,General,kg,0.87,0.87,0.87,0.87,1,EUR,1.73,2.0,1,1,CUBIERTAS,Baza troškova građevine Andaluzije (BCCA 2023),KROVOVI,Različiti
-SW00600,rešetka H. FUNDIDO DIÃM. 25 cm DE širina,Material,General,m,37.1,37.1,37.1,37.1,1,EUR,9.28,0.25,1,1,CUBIERTAS,Baza troškova građevine Andaluzije (BCCA 2023),KROVOVI,Susreti
+SW00600,rešetka H. FUNDIDO DIÁM. 25 cm DE širina,Material,General,m,37.1,37.1,37.1,37.1,1,EUR,9.28,0.25,1,1,CUBIERTAS,Baza troškova građevine Andaluzije (BCCA 2023),KROVOVI,Susreti
 P14ESA050,"D. ostakljenje Climalit (4/10,12ó16/6)",Material,General,m2,20.61,20.61,20.61,20.61,1,EUR,20.74,1.006,1,1,VIDRIERÍA Y ELABORADOS SINTÉTICOS,Baza troškova građevine Andaluzije (BCCA 2023),Staklarstvo i sintetički materijali,Staklarstvo i sintetički materijali
 U23OV510,OPEKA CRNE BOJE PERFORIRANA,Material,General,Ml,0.47,0.47,0.47,0.47,1,EUR,3.76,8.0,1,1,VIDRIERÍA Y ELABORADOS SINTÉTICOS,Baza troškova građevine Andaluzije (BCCA 2023),Staklarstvo i sintetički materijali,Staklarstvo i sintetički materijali
 U23GC401,"Climalit 4/6,8,12/4 PLAUITHERM.",Material,General,M2,49.47,49.47,49.47,49.47,1,EUR,49.47,1.0,1,1,VIDRIERÍA Y ELABORADOS SINTÉTICOS,Baza troškova građevine Andaluzije (BCCA 2023),Staklarstvo i sintetički materijali,Staklarstvo i sintetički materijali
@@ -3799,11 +3799,11 @@ DW00900,Stavka 107,Material,General,u,17.04,17.04,17.04,17.04,1,EUR,17.04,1.0,1,
 DW00700,NATPIS IMENOVANJE KERAMI BLOK,Material,General,u,27.84,27.84,27.84,27.84,1,EUR,27.84,1.0,1,1,EQUIPAMIENTO,Baza troškova građevine Andaluzije (BCCA 2023),OPREMA,Oznake i signalizacija
 DW00800,ROTULO DENOMINADOR BLOQUE METACRILATO,Material,General,u,13.54,13.54,13.54,13.54,1,EUR,13.54,1.0,1,1,EQUIPAMIENTO,Baza troškova građevine Andaluzije (BCCA 2023),OPREMA,Oznake i signalizacija
 DW01100,ROTULO DENOMINADOR DE PLANTA EN LATÓN PULIDO,Material,General,u,19.4,19.4,19.4,19.4,1,EUR,19.4,1.0,1,1,EQUIPAMIENTO,Baza troškova građevine Andaluzije (BCCA 2023),OPREMA,Oznake i signalizacija
-DW01200,ROTULO DENOMINADOR DE PLANTA CERÃMICO,Material,General,u,35.13,35.13,35.13,35.13,1,EUR,35.13,1.0,1,1,EQUIPAMIENTO,Baza troškova građevine Andaluzije (BCCA 2023),OPREMA,Oznake i signalizacija
+DW01200,ROTULO DENOMINADOR DE PLANTA CERÁMICO,Material,General,u,35.13,35.13,35.13,35.13,1,EUR,35.13,1.0,1,1,EQUIPAMIENTO,Baza troškova građevine Andaluzije (BCCA 2023),OPREMA,Oznake i signalizacija
 DW01300,OZNAČAVA OZNAKA KATOVA METAKRILAT,Material,General,u,26.2,26.2,26.2,26.2,1,EUR,26.2,1.0,1,1,EQUIPAMIENTO,Baza troškova građevine Andaluzije (BCCA 2023),OPREMA,Oznake i signalizacija
 DW01400,OZNAKA NAZIVNIKA KERAMIČKOG PODA,Material,General,u,11.56,11.56,11.56,11.56,1,EUR,11.56,1.0,1,1,EQUIPAMIENTO,Baza troškova građevine Andaluzije (BCCA 2023),OPREMA,Oznake i signalizacija
 DW01500,ROTULO OZNAKA KATA METACRILATE,Material,General,u,9.42,9.42,9.42,9.42,1,EUR,9.42,1.0,1,1,EQUIPAMIENTO,Baza troškova građevine Andaluzije (BCCA 2023),OPREMA,Oznake i signalizacija
-DW00200,BUZÓN CARTERÃA DE VIVIENDA UNIFAMILIAR,Material,General,u,29.62,29.62,29.62,29.62,1,EUR,29.62,1.0,1,1,EQUIPAMIENTO,Baza troškova građevine Andaluzije (BCCA 2023),OPREMA,Poštanski sandučići
+DW00200,BUZÓN CARTERÍA DE VIVIENDA UNIFAMILIAR,Material,General,u,29.62,29.62,29.62,29.62,1,EUR,29.62,1.0,1,1,EQUIPAMIENTO,Baza troškova građevine Andaluzije (BCCA 2023),OPREMA,Poštanski sandučići
 DW00100,BUZÓN CARTERÍA,Material,General,u,24.3,24.3,24.3,24.3,1,EUR,24.3,1.0,1,1,EQUIPAMIENTO,Baza troškova građevine Andaluzije (BCCA 2023),OPREMA,Poštanski sandučići
 DC00300,"NAMJEŠTAJ PODPORA SLAVINE AGLOMERAT PLAST. 1,20 mm",Material,General,u,118.2,118.2,118.2,118.2,1,EUR,118.2,1.0,1,1,EQUIPAMIENTO,Baza troškova građevine Andaluzije (BCCA 2023),OPREMA,Kuhinje
 DC00200,MUEBLE SOPORTE FREGADERO AGLOM. PLAST. 1 mm,Material,General,u,107.39,107.39,107.39,107.39,1,EUR,107.39,1.0,1,1,EQUIPAMIENTO,Baza troškova građevine Andaluzije (BCCA 2023),OPREMA,Kuhinje
@@ -3832,7 +3832,7 @@ US04213,Stavka 18,Material,Pipes & Fittings,m,172.21,172.21,172.21,172.21,1,EUR,
 US04212,Tuberãa Gres Vitrificado Diam. 500 Mm.,Material,Pipes & Fittings,m,65.62,65.62,65.62,65.62,1,EUR,65.62,1.0,1,1,URBANIZACIONES,Baza troškova građevine Andaluzije (BCCA 2023),URBANIZACIJE,Različiti
 US04211,CIJEV STAKLASTOG KAMENACA PROMJERA 400 mm.,Material,Pipes & Fittings,m,41.12,41.12,41.12,41.12,1,EUR,41.12,1.0,1,1,URBANIZACIONES,Baza troškova građevine Andaluzije (BCCA 2023),URBANIZACIJE,Različiti
 US04210,TUBERÍA GRES VITRIFICADO DIAM 300mm.,Material,Pipes & Fittings,m,34.4,34.4,34.4,34.4,1,EUR,34.4,1.0,1,1,URBANIZACIONES,Baza troškova građevine Andaluzije (BCCA 2023),URBANIZACIJE,Različiti
-UA01600,TUBERÃA PVC SN4 DIÃM. 250 mm krovlje,Material,Pipes & Fittings,m,7.33,7.33,7.33,7.33,1,EUR,7.4,1.01,1,1,URBANIZACIONES,Baza troškova građevine Andaluzije (BCCA 2023),URBANIZACIJE,P.V.C.
+UA01600,TUBERÍA PVC SN4 DIÁM. 250 mm krovlje,Material,Pipes & Fittings,m,7.33,7.33,7.33,7.33,1,EUR,7.4,1.01,1,1,URBANIZACIONES,Baza troškova građevine Andaluzije (BCCA 2023),URBANIZACIJE,P.V.C.
 UA01500,CIJEV PVC SN4 PROMJERA 200 mm KROV,Material,Pipes & Fittings,m,4.82,4.82,4.82,4.82,1,EUR,4.86,1.01,1,1,URBANIZACIONES,Baza troškova građevine Andaluzije (BCCA 2023),URBANIZACIJE,P.V.C.
 UA01400,cijev PVC SN4 promjer. 160 mm crjep,Material,Pipes & Fittings,m,3.13,3.13,3.13,3.13,1,EUR,3.16,1.01,1,1,URBANIZACIONES,Baza troškova građevine Andaluzije (BCCA 2023),URBANIZACIJE,P.V.C.
 UA01300,cijev PVC SN4 promjer. 125 mm crjep,Material,Pipes & Fittings,m,2.31,2.31,2.31,2.31,1,EUR,2.33,1.01,1,1,URBANIZACIONES,Baza troškova građevine Andaluzije (BCCA 2023),URBANIZACIJE,P.V.C.
@@ -4051,7 +4051,7 @@ FS84000,CORNISA vapneni kamen LABRADA 25x25 cm,Material,General,m,90.99,90.99,90
 FS80020,PIEDRA GRANÍTICA CAREADA PARA MAMPOSTERÍA,Material,General,m3,103.85,103.85,103.85,103.85,1,EUR,124.62,1.2,1,1,ALBAÑILERÍA,Baza troškova građevine Andaluzije (BCCA 2023),ZIDARSKI RADOVI,Oštrica
 FS80030,VAPNENSKI KAMENA POSTAVLJENI ZA ZIDANJE,Material,General,m3,102.67,102.67,102.67,102.67,1,EUR,123.21,1.2,1,1,ALBAÑILERÍA,Baza troškova građevine Andaluzije (BCCA 2023),ZIDARSKI RADOVI,Oštrica
 US26015,BANDA OD SEÑALIZACIÓN,Material,General,m,0.24,0.24,0.24,0.24,1,EUR,0.24,1.01,1,1,URBANIZACIONES,Baza troškova građevine Andaluzije (BCCA 2023),URBANIZACIJE,Različiti
-US10228,"cijev PVC DIÃM. 90 mm, J/E PN-16.",Material,General,m,5.43,5.43,5.43,5.43,1,EUR,5.43,1.0,1,1,URBANIZACIONES,Baza troškova građevine Andaluzije (BCCA 2023),URBANIZACIJE,P.V.C.
+US10228,"cijev PVC DIÁM. 90 mm, J/E PN-16.",Material,General,m,5.43,5.43,5.43,5.43,1,EUR,5.43,1.0,1,1,URBANIZACIONES,Baza troškova građevine Andaluzije (BCCA 2023),URBANIZACIJE,P.V.C.
 US10202,CIJEV FIBROCEMENTO RK PROM. 250 D P.T. 10,Material,Concrete & Cement,m,21.51,21.51,21.51,21.51,1,EUR,21.73,1.01,1,1,URBANIZACIONES,Baza troškova građevine Andaluzije (BCCA 2023),URBANIZACIJE,Fibrocement
 US10199,CIJEV OD FIBROCEMENTA RK PROMJERA 200 D P.T. 10,Material,Concrete & Cement,m,16.03,16.03,16.03,16.03,1,EUR,16.19,1.01,1,1,URBANIZACIONES,Baza troškova građevine Andaluzije (BCCA 2023),URBANIZACIJE,Fibrocement
 US10190,CIJEV AZBESTNOG CEMENTA RK PROMJERA 150 A/D P.T. 10,Material,Concrete & Cement,m,10.01,10.01,10.01,10.01,1,EUR,10.11,1.01,1,1,URBANIZACIONES,Baza troškova građevine Andaluzije (BCCA 2023),URBANIZACIJE,Fibrocement
@@ -4101,7 +4101,7 @@ US12053,CODO LL PROMJER. 100 A/D,Material,General,u,16.57,16.57,16.57,16.57,1,EU
 US12050,CODO LL DIÁM. 80 A/F,Material,General,u,13.09,13.09,13.09,13.09,1,EUR,13.09,1.0,1,1,URBANIZACIONES,Baza troškova građevine Andaluzije (BCCA 2023),URBANIZACIJE,Za fibrocement
 US14409,ČEPLJENJE POLIETILENA PE50A PN-10 PROM. 125 mm,Material,General,u,29.27,29.27,29.27,29.27,1,EUR,29.27,1.0,1,1,URBANIZACIONES,Baza troškova građevine Andaluzije (BCCA 2023),URBANIZACIJE,Za polietilen
 US14406,TAPÓN POLIETILEN PE50A PN-10 PREČNIK. 110 mm,Material,General,u,26.67,26.67,26.67,26.67,1,EUR,26.67,1.0,1,1,URBANIZACIONES,Baza troškova građevine Andaluzije (BCCA 2023),URBANIZACIJE,Za polietilen
-US14403,TAPÓN POLIETILENO PE50A PN-10 DIÃM. 90 mm,Material,General,u,19.57,19.57,19.57,19.57,1,EUR,19.57,1.0,1,1,URBANIZACIONES,Baza troškova građevine Andaluzije (BCCA 2023),URBANIZACIJE,Za polietilen
+US14403,TAPÓN POLIETILENO PE50A PN-10 DIÁM. 90 mm,Material,General,u,19.57,19.57,19.57,19.57,1,EUR,19.57,1.0,1,1,URBANIZACIONES,Baza troškova građevine Andaluzije (BCCA 2023),URBANIZACIJE,Za polietilen
 US14400,ČEPIĆ POLIETILEN PE50A PN-10 DIÁM. 75 mm,Material,General,u,13.33,13.33,13.33,13.33,1,EUR,13.33,1.0,1,1,URBANIZACIONES,Baza troškova građevine Andaluzije (BCCA 2023),URBANIZACIJE,Za polietilen
 US14200,"""T"" POLIETILEN PE50A PN-10 75x75 mm",Material,General,u,17.92,17.92,17.92,17.92,1,EUR,17.92,1.0,1,1,URBANIZACIONES,Baza troškova građevine Andaluzije (BCCA 2023),URBANIZACIJE,Za polietilen
 US14059,RED. POLIETILENO PE50A PN-10 125x75/110 mm,Material,General,u,23.0,23.0,23.0,23.0,1,EUR,23.0,1.0,1,1,URBANIZACIONES,Baza troškova građevine Andaluzije (BCCA 2023),URBANIZACIJE,Za polietilen
@@ -4359,7 +4359,7 @@ CH03100,"HORMIGÓN HA-30/B/20/XC4, SUMINISTRADO",Material,General,m3,84.76,84.76
 18CEE000801,Ensayo en laboratorio de estabilidad frente a la acción de desmoronamiento en agua,Material,General,u,68.71,68.71,68.71,68.71,1,EUR,68.71,1.0,1,1,"CONTROL DE CALIDAD, PRUEBAS Y ENSAYOS",Baza troškova građevine Andaluzije (BCCA 2023),"KONTROLA KVALITETE, ISPITIVANJA I TESTIRANJA",Ograde za odvodnjavanje
 18CEE000701,Test u laboratoriju uniaksijalne kompresivne otpornosti,Material,General,u,51.12,51.12,51.12,51.12,1,EUR,51.12,1.0,1,1,"CONTROL DE CALIDAD, PRUEBAS Y ENSAYOS",Baza troškova građevine Andaluzije (BCCA 2023),"KONTROLA KVALITETE, ISPITIVANJA I TESTIRANJA",Ograde za odvodnjavanje
 18CEE000601,Test en laboratorio de deteminación de gustoća de particulas y apsorpcija de vode,Material,General,u,43.6,43.6,43.6,43.6,1,EUR,43.6,1.0,1,1,"CONTROL DE CALIDAD, PRUEBAS Y ENSAYOS",Baza troškova građevine Andaluzije (BCCA 2023),"KONTROLA KVALITETE, ISPITIVANJA I TESTIRANJA",Ograde za odvodnjavanje
-18CEE000501,ispitivanje en laboratorio de desgaste Los Ãngeles1,Material,General,u,75.86,75.86,75.86,75.86,1,EUR,75.86,1.0,1,1,"CONTROL DE CALIDAD, PRUEBAS Y ENSAYOS",Baza troškova građevine Andaluzije (BCCA 2023),"KONTROLA KVALITETE, ISPITIVANJA I TESTIRANJA",Ograde za odvodnjavanje
+18CEE000501,ispitivanje en laboratorio de desgaste Los Ángeles1,Material,General,u,75.86,75.86,75.86,75.86,1,EUR,75.86,1.0,1,1,"CONTROL DE CALIDAD, PRUEBAS Y ENSAYOS",Baza troškova građevine Andaluzije (BCCA 2023),"KONTROLA KVALITETE, ISPITIVANJA I TESTIRANJA",Ograde za odvodnjavanje
 18CEE000401,Stavka 223,Material,General,u,118.74,118.74,118.74,118.74,1,EUR,118.74,1.0,1,1,"CONTROL DE CALIDAD, PRUEBAS Y ENSAYOS",Baza troškova građevine Andaluzije (BCCA 2023),"KONTROLA KVALITETE, ISPITIVANJA I TESTIRANJA",Ograde za odvodnjavanje
 18CEE000301,Ispitivanje en laboratorio de forma de particulas en escollera,Material,General,u,123.68,123.68,123.68,123.68,1,EUR,123.68,1.0,1,1,"CONTROL DE CALIDAD, PRUEBAS Y ENSAYOS",Baza troškova građevine Andaluzije (BCCA 2023),"KONTROLA KVALITETE, ISPITIVANJA I TESTIRANJA",Ograde za odvodnjavanje
 18CEE000201,Stavka 245,Material,General,u,288.59,288.59,288.59,288.59,1,EUR,288.59,1.0,1,1,"CONTROL DE CALIDAD, PRUEBAS Y ENSAYOS",Baza troškova građevine Andaluzije (BCCA 2023),"KONTROLA KVALITETE, ISPITIVANJA I TESTIRANJA",Ograde za odvodnjavanje
@@ -4565,7 +4565,7 @@ ASC00100,"ZAKOPANA KANALIZACIJA OD BETONA, OD 200 mm",Material,General,m,17.87,1
 04CCP00002,PVC viseći kolektor promjera 200 mm,Material,General,m,30.98,30.98,30.98,30.98,1,EUR,30.98,1.0,1,1,SANEAMIENTO,Baza troškova građevine Andaluzije (BCCA 2023),ODVOZ OTPADNIH VODA,ODVOZ OTPADNIH VODA
 SS00300,SUMIDERO SIFÓNICO PVC DIÁM. 110 mm,Material,General,u,32.93,32.93,32.93,32.93,1,EUR,32.93,1.0,1,1,SANEAMIENTO,Baza troškova građevine Andaluzije (BCCA 2023),ODVOZ OTPADNIH VODA,Dodatni elementi
 SW01100,priključak kanalizacija S/NORMAS,Material,General,u,1319.74,1319.74,1319.74,1319.74,1,EUR,1319.74,1.0,1,1,SANEAMIENTO,Baza troškova građevine Andaluzije (BCCA 2023),ODVOZ OTPADNIH VODA,Priključci
-SW00500,rešetka DE FUNDICION DE DIÃM. 150 mm,Material,General,u,10.26,10.26,10.26,10.26,1,EUR,10.26,1.0,1,1,SANEAMIENTO,Baza troškova građevine Andaluzije (BCCA 2023),ODVOZ OTPADNIH VODA,Kozlice
+SW00500,rešetka DE FUNDICION DE DIÁM. 150 mm,Material,General,u,10.26,10.26,10.26,10.26,1,EUR,10.26,1.0,1,1,SANEAMIENTO,Baza troškova građevine Andaluzije (BCCA 2023),ODVOZ OTPADNIH VODA,Kozlice
 SB01100,OLUK PVC DIAM. 160 mm,Material,General,m,5.61,5.61,5.61,5.61,1,EUR,5.66,1.01,1,1,SANEAMIENTO,Baza troškova građevine Andaluzije (BCCA 2023),ODVOZ OTPADNIH VODA,P.V.C.
 SB00900,Stavka 116,Material,General,m,3.67,3.67,3.67,3.67,1,EUR,3.71,1.01,1,1,SANEAMIENTO,Baza troškova građevine Andaluzije (BCCA 2023),ODVOZ OTPADNIH VODA,P.V.C.
 SB00100,SILAZNA CIJEV POCINČANI LIM PREČNIK 75/3 mm,Material,General,m,11.2,11.2,11.2,11.2,1,EUR,11.2,1.0,1,1,SANEAMIENTO,Baza troškova građevine Andaluzije (BCCA 2023),ODVOZ OTPADNIH VODA,Metalni
