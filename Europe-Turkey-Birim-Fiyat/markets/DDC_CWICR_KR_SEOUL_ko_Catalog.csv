@@ -115,7 +115,7 @@ V.0107,600 다우즈 시멘트 셔베티,Material,General,M³,94133.95,94133.95,
 04.V38,순수수,Material,General,LT,1108.35,1108.35,1108.35,1108.35,1,KRW,1520.1,1.3715,68,9,RESTORATION/HERITAGE WORK,?????(???? / ??),?????(???? / ??),
 41.600.1102,현장 비용,Material,General,SA,36704.93,36704.93,36704.93,36704.93,1,KRW,62165.56,1.6937,66,66,DRILLING/WELL WORK,"??/???? ??, ?? ??, ?? ??/??","??/???? ??, ?? ??, ?? ??/??",
 41.600.1101,인건비,Material,General,SA,229226.36,229226.36,229226.36,229226.36,1,KRW,388230.96,1.6937,66,66,DRILLING/WELL WORK,"??/???? ??, ?? ??, ?? ??/??","??/???? ??, ?? ??, ?? ??/??",
-10.130.1241,"SÜLFATA 내구성 포틀랜드 시멘트 (TORBALI) (TS EN 197-1 CEM I 42,5 R SR5)",Material,General,TON,0.0,0.0,0.0,0.0,0,KRW,0.0,2700.0,66,52,PORT/MARINE WORK,AYGM ?? ? ?? ??,AYGM ?? ? ?? ??,
+10.130.1241,"SÜLFATA 내구성 포틀랜드 시멘트 (가방에 담긴) (TS EN 197-1 CEM I 42,5 R SR5)",Material,General,TON,0.0,0.0,0.0,0.0,0,KRW,0.0,2700.0,66,52,PORT/MARINE WORK,AYGM ?? ? ?? ??,AYGM ?? ? ?? ??,
 10.130.1227,"포틀랜드 시멘트 (토르발리) (TS EN 197-1 CEM III/A 32,5 N)",Material,General,TON,136024.43,136024.43,136024.43,136024.43,1,KRW,28564.59,0.21,66,6,PORT/MARINE WORK,AYGM ?? ? ?? ??,AYGM ?? ? ?? ??,
 40.110.3124,PE100 관용 (Ø50 mm - Ø315 mm) 용접기,Material,General,SA,11162.06,11162.06,11162.06,11162.06,1,KRW,5733.84,0.5137,64,64,INFRASTRUCTURE WORK,????(???/???/??),????(???/???/??),
 04.V030/01,경질 목재 (1등급 참나무) 목재 습기 15도 이하,Material,Pipes & Fittings,M³,3526559.38,3526559.38,3526559.38,3526559.38,1,KRW,635023.14,0.1801,64,46,RESTORATION/HERITAGE WORK,?????(???? / ??),?????(???? / ??),
@@ -333,7 +333,7 @@ V.0131/C,수압 석회 결합 호라산 모르타르 (상층용),Material,Genera
 10.100.1027,타르공 작업자,Labor,Labor,SA,12292.58,9572.09,12594.85,12594.85,2,KRW,11868.13,0.9495,20,10,INFRASTRUCTURE WORK,????(???/???/??),????(???/???/??),
 19.100.2017,석재 콘크리트로 부서지고 체로 쳐서 30 mm까지 분쇄된 자갈 준비,Material,General,m³,18462.04,18462.04,18462.04,18462.04,1,KRW,2818.33,0.1526,20,1,AIRPORT WORK,AYGM ?? ??,AYGM ?? ??,
 10.130.1001,자갈 (선별이 필요 없는 굵은 골재),Material,General,m³,6300.08,5440.98,6801.22,6801.22,2,KRW,4266.59,0.6664,20,14,CONSTRUCTION WORK,??,??,
-10.130.2955,Bimsbeton 접착제,Material,General,Kg,247.87,247.87,247.87,247.87,1,KRW,769.77,3.1055,20,20,CONSTRUCTION WORK,??,??,
+10.130.2955,펌라이트 콘크리트 접착제,Material,General,Kg,247.87,247.87,247.87,247.87,1,KRW,769.77,3.1055,20,20,CONSTRUCTION WORK,??,??,
 10.200.1601,1.4301 (304) 스테인리스 강봉 품질 (TS EN 10088-1),Material,General,KG,4624.83,4282.25,4710.48,4710.48,2,KRW,5076.95,1.0842,20,6,INFRASTRUCTURE WORK,????(???/???/??),????(???/???/??),
 10.200.1301,온수 침지 아연도금 평판 강판,Material,General,Kg,1848.92,1848.92,1848.92,1848.92,1,KRW,8085.37,4.373,20,19,CONSTRUCTION WORK,??,??,"배관 단열재 위에 아연도금 강판 (0,5 mm) 피복을 실시합니다."
 10.240.2300,"모든 종류의 표면 처리(연마 및 광택 제외; 태우기, 에스키스,",Material,General,m²,5289.84,5289.84,5289.84,5289.84,1,KRW,5279.26,0.998,20,20,CONSTRUCTION WORK,??,??,
@@ -6038,11 +6038,11 @@ V.0153,진공 압력 침투 설비의 1시간 요금,Material,General,SA,47553.1
 20.625.3205,200 mm 충전 / 양면 PVC 라미네이트 강판으로 마감된 폴리이소시아누레이트 (PIR) 단열 냉동실 패널 (TS EN 14509),Material,General,m²,149778.01,149778.01,149778.01,149778.01,1,KRW,149778.01,1.0,1,1,EQUIPMENT INSTALLATION,?? ??,?? ??,양면 PVC 라미네이트 강판 표면
 20.625.3301,80 mm 충전 / 양면 크롬 도금 / 폴리이소시아네이트(PIR) 단열 냉동실 패널 (TS EN 14509),Material,General,m²,168166.5,168166.5,168166.5,168166.5,1,KRW,168166.5,1.0,1,1,EQUIPMENT INSTALLATION,?? ??,?? ??,양면 모두 304 등급 18/8 크롬 도금
 20.625.3302,100 mm 충전 / 양면 크롬 도금 / 폴리이소시아누레이트 (PIR) 단열 냉장고 패널 (TS EN 14509),Material,General,m²,176327.97,176327.97,176327.97,176327.97,1,KRW,176327.97,1.0,1,1,EQUIPMENT INSTALLATION,?? ??,?? ??,양면 모두 304 등급 18/8 크롬 도금
-20.625.3303,120 mm dolgulu / 양면 크롬 도금 / 폴리이소시아누레이트 (PIR) 단열 냉장고 패널 (TS EN 14509),Material,General,m²,191492.17,191492.17,191492.17,191492.17,1,KRW,191492.17,1.0,1,1,EQUIPMENT INSTALLATION,?? ??,?? ??,양면 모두 304 등급 18/8 크롬 도금
+20.625.3303,120 mm 채운 / 양면 크롬 도금 / 폴리이소시아누레이트 (PIR) 단열 냉장고 패널 (TS EN 14509),Material,General,m²,191492.17,191492.17,191492.17,191492.17,1,KRW,191492.17,1.0,1,1,EQUIPMENT INSTALLATION,?? ??,?? ??,양면 모두 304 등급 18/8 크롬 도금
 20.625.3304,150 mm 충전 / 양면 크롬 도금 / 폴리이소시아누레이트 (PIR) 단열 냉장고 패널 (TS EN 14509),Material,General,m²,201265.78,201265.78,201265.78,201265.78,1,KRW,201265.78,1.0,1,1,EQUIPMENT INSTALLATION,?? ??,?? ??,양면 모두 304 등급 18/8 크롬 도금
 20.625.3305,200 mm 충전 / 양면 크롬 도금 / 폴리이소시아네이트 (PIR) 단열 냉장고 패널 (TS EN 14509),Material,General,m²,220258.82,220258.82,220258.82,220258.82,1,KRW,220258.82,1.0,1,1,EQUIPMENT INSTALLATION,?? ??,?? ??,양면 모두 304 등급 18/8 크롬 도금
 20.625.3401,"80 mm 충전 / 한쪽은 폴리에스터 도장, 다른 쪽은 크롬 도금된 폴리이소시아누레이트 (PIR) 단열 냉동실 패널 (TS EN 14509)",Material,General,m²,124286.03,124286.03,124286.03,124286.03,1,KRW,124286.03,1.0,1,1,EQUIPMENT INSTALLATION,?? ??,?? ??,"한쪽은 폴리에스터 도장, 다른 쪽은 크롬 도금"
-20.625.3402,"100 mm dolgulu / Bir yüzü Polyester boyalı, diğer yüzü Krom kaplı Poliizosiyanurat (Pır) Yalıtımlı Soğuk Oda Paneli (TS EN 14509)",Material,General,m²,147208.66,147208.66,147208.66,147208.66,1,KRW,147208.66,1.0,1,1,EQUIPMENT INSTALLATION,?? ??,?? ??,"한쪽은 폴리에스터 도장, 다른 쪽은 크롬 도금"
+20.625.3402,"100 mm 채운 / 한 면은 폴리에스터 도장, 다른 면은 크롬 도금 폴리이소시아누레이트 (PIR) 단열 냉동실 패널 (TS EN 14509)",Material,General,m²,147208.66,147208.66,147208.66,147208.66,1,KRW,147208.66,1.0,1,1,EQUIPMENT INSTALLATION,?? ??,?? ??,"한쪽은 폴리에스터 도장, 다른 쪽은 크롬 도금"
 20.625.3403,"120 mm 충전 / 한쪽은 폴리에스터 도장, 다른 쪽은 크롬 도금된 폴리이소시아누레이트 (PIR) 단열 냉장고 패널 (TS EN 14509)",Material,General,m²,156931.89,156931.89,156931.89,156931.89,1,KRW,156931.89,1.0,1,1,EQUIPMENT INSTALLATION,?? ??,?? ??,"한쪽은 폴리에스터 도장, 다른 쪽은 크롬 도금"
 20.625.3404,"150 mm 충전 / 한 면은 폴리에스터 도장, 다른 면은 크롬 도금된 폴리이소시아누레이트 (PIR) 단열 냉동실 패널 (TS EN 14509)",Material,General,m²,168468.78,168468.78,168468.78,168468.78,1,KRW,168468.78,1.0,1,1,EQUIPMENT INSTALLATION,?? ??,?? ??,"한쪽은 폴리에스터 도장, 다른 쪽은 크롬 도금"
 20.625.3405,"200 mm 충전 / 한쪽은 폴리에스터 도장, 다른 쪽은 크롬 도금된 폴리이소시아누레이트 (PIR) 단열 냉장고 패널 (TS EN 14509)",Material,General,m²,174463.93,174463.93,174463.93,174463.93,1,KRW,174463.93,1.0,1,1,EQUIPMENT INSTALLATION,?? ??,?? ??,"한쪽은 폴리에스터 도장, 다른 쪽은 크롬 도금"
@@ -6052,7 +6052,7 @@ V.0153,진공 압력 침투 설비의 1시간 요금,Material,General,SA,47553.1
 20.625.3504,"150 mm 충전 / 한쪽은 폴리에스터 도장, 다른 쪽은 PVC 코팅된 폴리이소시아누레이트 (PIR) 단열 냉동실 패널 (TS EN 14509)",Material,General,m²,133102.43,133102.43,133102.43,133102.43,1,KRW,133102.43,1.0,1,1,EQUIPMENT INSTALLATION,?? ??,?? ??,"한쪽은 폴리에스터 도장, 다른 쪽은 PVC 코팅"
 20.625.3505,"200 mm 충전 / 한쪽은 폴리에스터 도장, 다른 쪽은 PVC 코팅된 폴리이소시아누레이트 (PIR) 단열 냉동실 패널 (TS EN 14509)",Material,General,m²,134815.33,134815.33,134815.33,134815.33,1,KRW,134815.33,1.0,1,1,EQUIPMENT INSTALLATION,?? ??,?? ??,"한쪽은 폴리에스터 도장, 다른 쪽은 PVC 코팅"
 20.625.3601,"80 mm 충전 / 한 면은 크롬 도금, 다른 면은 PVC 도금된 폴리이소시아누레이트(PIR) 단열 냉동실 패널(TS EN 14509)",Material,General,m²,123731.85,123731.85,123731.85,123731.85,1,KRW,123731.85,1.0,1,1,EQUIPMENT INSTALLATION,?? ??,?? ??,"한 면은 304 등급 18/8 크롬 도금, 다른 면은 PVC 도금"
-20.625.3602,"100 mm dolgulu / Bir yüzü Krom kaplı ,diğer yüzü Pvc kaplı Poliizosiyanurat (Pır) Yalıtımlı Soğuk Oda Paneli (TS EN 14509)",Material,General,m²,146654.49,146654.49,146654.49,146654.49,1,KRW,146654.49,1.0,1,1,EQUIPMENT INSTALLATION,?? ??,?? ??,"한 면은 304 등급 18/8 크롬 도금, 다른 면은 PVC 도금"
+20.625.3602,"100 mm 채운 / 한 면은 크롬 도금, 다른 면은 PVC 도금 폴리이소시아누레이트 (PIR) 단열 냉동실 패널 (TS EN 14509)",Material,General,m²,146654.49,146654.49,146654.49,146654.49,1,KRW,146654.49,1.0,1,1,EQUIPMENT INSTALLATION,?? ??,?? ??,"한 면은 304 등급 18/8 크롬 도금, 다른 면은 PVC 도금"
 20.625.3603,"120 mm 충전 / 한쪽은 크롬 도금, 다른 쪽은 PVC 도금된 폴리이소시아누레이트(PIR) 단열 냉동실 패널 (TS EN 14509)",Material,General,m²,156025.06,156025.06,156025.06,156025.06,1,KRW,156025.06,1.0,1,1,EQUIPMENT INSTALLATION,?? ??,?? ??,"한 면은 304 등급 18/8 크롬 도금, 다른 면은 PVC 도금"
 20.625.3604,"150 mm 충전 / 한쪽은 크롬 도금, 다른 쪽은 PVC 도금된 폴리이소시아누레이트(PIR) 단열 냉동실 패널 (TS EN 14509)",Material,General,m²,167964.99,167964.99,167964.99,167964.99,1,KRW,167964.99,1.0,1,1,EQUIPMENT INSTALLATION,?? ??,?? ??,"한 면은 304 등급 18/8 크롬 도금, 다른 면은 PVC 도금"
 20.625.3605,"200 mm 충전 / 한 면은 크롬 도금, 다른 면은 PVC 도금된 폴리이소시아누레이트 (PIR) 단열 냉동실 패널 (TS EN 14509)",Material,General,m²,173204.44,173204.44,173204.44,173204.44,1,KRW,173204.44,1.0,1,1,EQUIPMENT INSTALLATION,?? ??,?? ??,"한 면은 304 등급 18/8 크롬 도금, 다른 면은 PVC 도금"
@@ -13106,13 +13106,13 @@ V.0153,진공 압력 침투 설비의 1시간 요금,Material,General,SA,47553.1
 10.420.1403,단단한 PVC 배관 우수 배관 (실 포함),Material,General,m,4282.25,4282.25,4282.25,4282.25,1,KRW,4496.36,1.05,1,1,CONSTRUCTION WORK,??,??,
 19.100.1095,절단형 홈파이프 기계,Equipment,General,Sa,18793.54,18793.54,18793.54,18793.54,1,KRW,187.92,0.01,1,1,CONSTRUCTION WORK,??,??,
 10.330.2602,50 mm 폴리우레탄 충전 지붕 패널,Material,General,m²,28716.27,28716.27,28716.27,28716.27,1,KRW,34459.52,1.2,1,1,CONSTRUCTION WORK,??,??,
-10.330.2652,"1,20 + 0,60 + (50mm dolgulu)",Material,General,m²,42066.82,42066.82,42066.82,42066.82,1,KRW,50480.18,1.2,1,1,CONSTRUCTION WORK,??,??,
-10.330.2677,"1,20 + 0,60 + (50mm dolgulu)",Material,General,m²,43578.2,43578.2,43578.2,43578.2,1,KRW,52293.84,1.2,1,1,CONSTRUCTION WORK,??,??,
+10.330.2652,"1,20 + 0,60 + (50mm 채운)",Material,General,m²,42066.82,42066.82,42066.82,42066.82,1,KRW,50480.18,1.2,1,1,CONSTRUCTION WORK,??,??,
+10.330.2677,"1,20 + 0,60 + (50mm 채운)",Material,General,m²,43578.2,43578.2,43578.2,43578.2,1,KRW,52293.84,1.2,1,1,CONSTRUCTION WORK,??,??,
 10.100.1067,터널 내 배수관,Labor,Labor,SA,12091.06,12091.06,12091.06,12091.06,1,KRW,2418.21,0.2,1,1,INFRASTRUCTURE WORK,????(???/???/??),????(???/???/??),
 10.330.2702,50 mm 폴리이소시아누레이트 충전 지붕 패널,Material,General,m²,31487.14,31487.14,31487.14,31487.14,1,KRW,37784.56,1.2,1,1,CONSTRUCTION WORK,??,??,
 43.630.1002,"모든 종류의 지반에서 단면 6 m² 미만의 배수, 배수구 및 유사 갤러리 굴착 작업",Abstract Material,General,M3,290756.26,290756.26,290756.26,290756.26,1,KRW,29075.47,0.1,1,1,INFRASTRUCTURE WORK,????(???/???/??),????(???/???/??),
-10.330.2752,"1,20 + 0,60 + (50mm dolgulu)",Material,General,m²,45341.48,45341.48,45341.48,45341.48,1,KRW,54409.77,1.2,1,1,CONSTRUCTION WORK,??,??,
-10.330.2777,"1,20 + 0,60 + (50mm dolgulu)",Material,General,m²,46097.17,46097.17,46097.17,46097.17,1,KRW,55316.6,1.2,1,1,CONSTRUCTION WORK,??,??,
+10.330.2752,"1,20 + 0,60 + (50mm 채운)",Material,General,m²,45341.48,45341.48,45341.48,45341.48,1,KRW,54409.77,1.2,1,1,CONSTRUCTION WORK,??,??,
+10.330.2777,"1,20 + 0,60 + (50mm 채운)",Material,General,m²,46097.17,46097.17,46097.17,46097.17,1,KRW,55316.6,1.2,1,1,CONSTRUCTION WORK,??,??,
 10.330.2803,60 mm 폴리스트렌 충전 지붕 패널,Material,General,m²,36273.18,36273.18,36273.18,36273.18,1,KRW,43527.82,1.2,1,1,CONSTRUCTION WORK,??,??,
 10.330.2828,60 mm 폴리스트렌 충전 지붕 패널,Material,General,m²,29471.96,29471.96,29471.96,29471.96,1,KRW,35366.35,1.2,1,1,CONSTRUCTION WORK,??,??,
 19.100.2407,350 KG 시멘트 도포용 모르타르 제작,Material,General,M3,87354.39,87354.39,87354.39,87354.39,1,KRW,3494.32,0.04,1,1,INFRASTRUCTURE WORK,????(???/???/??),????(???/???/??),
@@ -13121,9 +13121,9 @@ V.0153,진공 압력 침투 설비의 1시간 요금,Material,General,SA,47553.1
 40.149.1011,"심해 방류선에서, 수중에서, 모든 깊이에서 영상 촬영 및 영상 촬영",Material,General,MT,34348.69,34348.69,34348.69,34348.69,1,KRW,34348.69,1.0,1,1,INFRASTRUCTURE WORK,????(???/???/??),????(???/???/??),
 40.149.1101,"울타리 철망 가비온 바구니 (바구니 높이 h>=50 cm, %95 아연 + %5 알루미늄 합금 갈판 도금, 구멍 크기 80 x 100 mm, 구멍 철사 Ø2,7 mm, 가장자리 철사 Ø3,4 mm)",Material,General,M3,66551.21,66551.21,66551.21,66551.21,1,KRW,66551.21,1.0,1,1,INFRASTRUCTURE WORK,????(???/???/??),????(???/???/??),
 10.330.2902,60 mm 타쉬유니 덩굴루 츠티 판넬,Material,General,m²,36273.18,36273.18,36273.18,36273.18,1,KRW,43527.82,1.2,1,1,CONSTRUCTION WORK,??,??,
-10.330.2952,"1,20 + 0,60 + (60mm dolgulu)",Material,General,m²,49119.93,49119.93,49119.93,49119.93,1,KRW,58943.92,1.2,1,1,CONSTRUCTION WORK,??,??,
-10.330.2962,"1,20 + 0,60 + (60mm dolgulu)",Material,General,m²,51135.11,51135.11,51135.11,51135.11,1,KRW,61362.13,1.2,1,1,CONSTRUCTION WORK,??,??,
-10.330.2972,"1,50 + 0,60 + (60mm dolgulu)",Material,General,m²,52142.7,52142.7,52142.7,52142.7,1,KRW,62571.24,1.2,1,1,CONSTRUCTION WORK,??,??,
+10.330.2952,"1,20 + 0,60 + (60mm 채운)",Material,General,m²,49119.93,49119.93,49119.93,49119.93,1,KRW,58943.92,1.2,1,1,CONSTRUCTION WORK,??,??,
+10.330.2962,"1,20 + 0,60 + (60mm 채운)",Material,General,m²,51135.11,51135.11,51135.11,51135.11,1,KRW,61362.13,1.2,1,1,CONSTRUCTION WORK,??,??,
+10.330.2972,"1,50 + 0,60 + (60mm 채운)",Material,General,m²,52142.7,52142.7,52142.7,52142.7,1,KRW,62571.24,1.2,1,1,CONSTRUCTION WORK,??,??,
 40.149.1102,"가드레일 가비온 바구니 (바구니 높이 h>=50 cm, %95 아연 + %5 알루미늄 합금 갈판 및 PVC 코팅, 구멍 크기 80 x 100 mm, 구멍 철사 Ø2,7 mm +1 mm PVC (총: 3,7 mm), 가장자리 철사 Ø3,4 mm +1 mm PVC (총: 4,4 mm))",Material,General,M3,94914.83,94914.83,94914.83,94914.83,1,KRW,94914.83,1.0,1,1,INFRASTRUCTURE WORK,????(???/???/??),????(???/???/??),
 40.149.1111,"케이지 철망 가비온 시트 (시트 높이 h<50 cm, %95 아연 + %5 알루미늄 합금 갈판 도금, 구멍 크기 60 x 80 mm, 구멍 철망 Ø2,2 mm, 가장자리 철망 Ø2,7 mm)",Material,General,M3,117635.94,117635.94,117635.94,117635.94,1,KRW,117635.94,1.0,1,1,INFRASTRUCTURE WORK,????(???/???/??),????(???/???/??),
 40.149.1112,"케이지 철망 가비온 매트 (매트 높이 h<50 cm, %95 아연 + %5 알루미늄 합금 갈판 및 PVC 코팅, 구멍 크기 60 x 80 mm, 구멍 철망 Ø2,2 mm +1 mm PVC (총: 3,2 mm), 가장자리 철망 Ø2,7 mm +1 mm PVC (총: 3,7 mm))",Material,General,M3,157032.65,157032.65,157032.65,157032.65,1,KRW,157032.65,1.0,1,1,INFRASTRUCTURE WORK,????(???/???/??),????(???/???/??),
@@ -14011,17 +14011,17 @@ V.0153,진공 압력 침투 설비의 1시간 요금,Material,General,SA,47553.1
 10.130.1212,"포틀랜드 플라이 애쉬 시멘트 (타설) (TS EN 197-1 CEM II/A-LL 42,5R)",Material,General,TON,0.0,0.0,0.0,0.0,0,KRW,0.0,0.0,1,1,PORT/MARINE WORK,AYGM ?? ? ?? ??,AYGM ?? ? ?? ??,
 10.130.1213,"PORTLAND 칼커리 시멘트 (토르발리) TS EN 197-1 CEM II/B-LL 32,5 N",Material,General,TON,0.0,0.0,0.0,0.0,0,KRW,0.0,0.0,1,1,PORT/MARINE WORK,AYGM ?? ? ?? ??,AYGM ?? ? ?? ??,
 10.130.1214,"포틀랜드 칼커리 시멘트 (주조) TS EN 197-1 CEM II/B-LL 32,5 N",Material,General,TON,0.0,0.0,0.0,0.0,0,KRW,0.0,0.0,1,1,PORT/MARINE WORK,AYGM ?? ? ?? ??,AYGM ?? ? ?? ??,
-10.130.1215,"PORTLAND 칼커리 시멘트 (TORBALI) (TS EN 197-1 CEM II/B-LL 32,5 R)",Material,General,TON,0.0,0.0,0.0,0.0,0,KRW,0.0,0.0,1,1,PORT/MARINE WORK,AYGM ?? ? ?? ??,AYGM ?? ? ?? ??,
+10.130.1215,"포틀랜드 석회 시멘트 (가방에 담긴) (TS EN 197-1 CEM II/B-LL 32,5 R)",Material,General,TON,0.0,0.0,0.0,0.0,0,KRW,0.0,0.0,1,1,PORT/MARINE WORK,AYGM ?? ? ?? ??,AYGM ?? ? ?? ??,
 10.130.1216,"포틀랜드 플라이 애쉬 시멘트 (분말) (TS EN 197-1 CEM II/B-LL 32,5 R)",Material,General,TON,0.0,0.0,0.0,0.0,0,KRW,0.0,0.0,1,1,PORT/MARINE WORK,AYGM ?? ? ?? ??,AYGM ?? ? ?? ??,
-10.130.1217,"PORTLAND KOMPOZE 시멘트 (TORBALI) (TS EN 197-1 CEM II/A-M 42,5 N)",Material,General,TON,0.0,0.0,0.0,0.0,0,KRW,0.0,0.0,1,1,PORT/MARINE WORK,AYGM ?? ? ?? ??,AYGM ?? ? ?? ??,
+10.130.1217,"포틀랜드 복합 시멘트 (봉지) (TS EN 197-1 CEM II/A-M 42,5 N)",Material,General,TON,0.0,0.0,0.0,0.0,0,KRW,0.0,0.0,1,1,PORT/MARINE WORK,AYGM ?? ? ?? ??,AYGM ?? ? ?? ??,
 10.130.1218,포틀랜드 복합 시멘트 (타설) (TS EN 197-1 CEM II/A-M 42.5 N),Material,General,TON,0.0,0.0,0.0,0.0,0,KRW,0.0,0.0,1,1,PORT/MARINE WORK,AYGM ?? ? ?? ??,AYGM ?? ? ?? ??,
-10.130.1219,"PORTLAND KOMPOZE 시멘트 (TORBALI) (TS EN 197-1 CEM II/A-M 42,5 R)",Material,General,TON,0.0,0.0,0.0,0.0,0,KRW,0.0,0.0,1,1,PORT/MARINE WORK,AYGM ?? ? ?? ??,AYGM ?? ? ?? ??,
+10.130.1219,"포틀랜드 복합 시멘트 (봉투) (TS EN 197-1 CEM II/A-M 42,5 R)",Material,General,TON,0.0,0.0,0.0,0.0,0,KRW,0.0,0.0,1,1,PORT/MARINE WORK,AYGM ?? ? ?? ??,AYGM ?? ? ?? ??,
 10.130.1220,"PORTLAND KOMPOZE 시멘트 (주입) (TS EN 197-1 CEM II/A-M 42,5 R)",Material,General,TON,0.0,0.0,0.0,0.0,0,KRW,0.0,0.0,1,1,PORT/MARINE WORK,AYGM ?? ? ?? ??,AYGM ?? ? ?? ??,
-10.130.1221,"PORTLAND KOMPOZE 시멘트 (TORBALI) (TS EN 197-1 CEM II/B-M 32,5 N)",Material,General,TON,0.0,0.0,0.0,0.0,0,KRW,0.0,0.0,1,1,PORT/MARINE WORK,AYGM ?? ? ?? ??,AYGM ?? ? ?? ??,
+10.130.1221,"포틀랜드 복합 시멘트 (가방에 담긴) (TS EN 197-1 CEM II/B-M 32,5 N)",Material,General,TON,0.0,0.0,0.0,0.0,0,KRW,0.0,0.0,1,1,PORT/MARINE WORK,AYGM ?? ? ?? ??,AYGM ?? ? ?? ??,
 10.130.1222,"포틀랜드 혼합 시멘트 (타설) (TS EN 197-1 CEM II/B-M 32,5 N)",Material,General,TON,0.0,0.0,0.0,0.0,0,KRW,0.0,0.0,1,1,PORT/MARINE WORK,AYGM ?? ? ?? ??,AYGM ?? ? ?? ??,
 10.130.1223,포틀랜드 컴포즈 시멘트 (토르발리) (TS EN 197-1 CEM II/B-M 32.5 R),Material,General,TON,0.0,0.0,0.0,0.0,0,KRW,0.0,0.0,1,1,PORT/MARINE WORK,AYGM ?? ? ?? ??,AYGM ?? ? ?? ??,
 10.130.1224,"포틀랜드 혼합 시멘트 (타설) (TS EN 197-1 CEM II/B-M 32,5 R)",Material,General,TON,0.0,0.0,0.0,0.0,0,KRW,0.0,0.0,1,1,PORT/MARINE WORK,AYGM ?? ? ?? ??,AYGM ?? ? ?? ??,
-10.130.1225,"PORTLAND KOMPOZE 시멘트 (TORBALI) (TS EN 197-1 CEM II/B-M 42,5 R)",Material,General,TON,0.0,0.0,0.0,0.0,0,KRW,0.0,0.0,1,1,PORT/MARINE WORK,AYGM ?? ? ?? ??,AYGM ?? ? ?? ??,
+10.130.1225,"포틀랜드 복합 시멘트 (봉투) (TS EN 197-1 CEM II/B-M 42,5 R)",Material,General,TON,0.0,0.0,0.0,0.0,0,KRW,0.0,0.0,1,1,PORT/MARINE WORK,AYGM ?? ? ?? ??,AYGM ?? ? ?? ??,
 10.130.1226,"포틀랜드 복합 시멘트 (주조) (TS EN 197-1 CEM II/B-M 42,5 R)",Material,General,TON,0.0,0.0,0.0,0.0,0,KRW,0.0,0.0,1,1,PORT/MARINE WORK,AYGM ?? ? ?? ??,AYGM ?? ? ?? ??,
 20.104.1001,약 40x50 cm. / 크리스탈 유리 / 거울 (TS EN – 1036),Material,General,Ad,22166.94,22166.94,22166.94,22166.94,1,KRW,22166.94,1.0,1,1,EQUIPMENT INSTALLATION,?? ??,?? ??,
 10.130.1228,"포틀랜드 콘크리트 (주입) (TS EN 197-1 CEM III/A 32,5 N)",Material,General,TON,0.0,0.0,0.0,0.0,0,KRW,0.0,0.0,1,1,PORT/MARINE WORK,AYGM ?? ? ?? ??,AYGM ?? ? ?? ??,
@@ -14033,7 +14033,7 @@ V.0153,진공 압력 침투 설비의 1시간 요금,Material,General,SA,47553.1
 10.130.1234,"백색 포틀랜드 시멘트 (분말) (TS EN 197-1 CEM-I 52,5 R)",Material,General,TON,0.0,0.0,0.0,0.0,0,KRW,0.0,0.0,1,1,PORT/MARINE WORK,AYGM ?? ? ?? ??,AYGM ?? ? ?? ??,
 10.130.1236,"백색 포틀랜드 플라이 애시 시멘트 (주입식) (TS EN 197-1 CEM II /B-LL 42,5 R)",Material,General,TON,0.0,0.0,0.0,0.0,0,KRW,0.0,0.0,1,1,PORT/MARINE WORK,AYGM ?? ? ?? ??,AYGM ?? ? ?? ??,
 10.130.1238,"SULFATA 내구성 포졸란 시멘트 (주조) (TS EN 197-1 CEM IV/B 32,5 R-SR)",Material,General,TON,0.0,0.0,0.0,0.0,0,KRW,0.0,0.0,1,1,PORT/MARINE WORK,AYGM ?? ? ?? ??,AYGM ?? ? ?? ??,
-10.130.1239,"SÜLFATA 내구성 포틀랜드 시멘트 (TORBALI) (TS EN 197-1 CEM I 42,5 R-SR)",Material,General,TON,0.0,0.0,0.0,0.0,0,KRW,0.0,0.0,1,1,PORT/MARINE WORK,AYGM ?? ? ?? ??,AYGM ?? ? ?? ??,
+10.130.1239,"SÜLFATA 내구성 포틀랜드 시멘트 (가방에 담긴) (TS EN 197-1 CEM I 42,5 R-SR)",Material,General,TON,0.0,0.0,0.0,0.0,0,KRW,0.0,0.0,1,1,PORT/MARINE WORK,AYGM ?? ? ?? ??,AYGM ?? ? ?? ??,
 10.130.1240,"SULFATA 내구성 포틀랜드 시멘트 (주입형) (TS EN 197-1 CEM I 42,5 R-SR)",Material,General,TON,0.0,0.0,0.0,0.0,0,KRW,0.0,0.0,1,1,PORT/MARINE WORK,AYGM ?? ? ?? ??,AYGM ?? ? ?? ??,
 20.104.1003,장애인용으로 적합한 약 50x70 cm 거울,Material,General,Ad,70934.22,70934.22,70934.22,70934.22,1,KRW,70934.22,1.0,1,1,EQUIPMENT INSTALLATION,?? ??,?? ??,
 10.130.1242,"SÜLFATA 내구성 포틀랜드 시멘트 (주조) (TS EN 197-1 CEM I 42,5 R SR5)",Material,General,TON,0.0,0.0,0.0,0.0,0,KRW,0.0,0.0,1,1,PORT/MARINE WORK,AYGM ?? ? ?? ??,AYGM ?? ? ?? ??,
